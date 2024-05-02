@@ -1,0 +1,64 @@
+---
+- name: Get start time
+  # shell: "date"
+  shell: 'date +"%Y-%m-%d_%H-%M"'
+  delegate_to: localhost
+  run_once: true
+  register: tstamp
+
+- name: Set a folder name for outputs
+  ansible.builtin.set_fact:
+    folder_name: "./outputs/{{ tstamp.stdout }}"
+  delegate_to: localhost
+  run_once: true
+
+- name: Create a folder for command outputs
+  ansible.builtin.file:
+    path: "{{ folder_name }}/command_outputs"
+    state: directory
+    # mode: '0755'
+  delegate_to: localhost
+  run_once: true
+
+- name: Test
+  ansible.builtin.debug:
+    msg: "{{ tstamp.stdout }}, {{ inventory_hostname }}"
+  delegate_to: localhost
+
+- name: Get show interface status command outputs in XML format
+  cisco.nxos.nxos_command:
+    commands:
+      - show interface status | xml
+  register: outputs_int_status_xml
+
+- name: Copy show interface status outputs to a file
+  ansible.builtin.lineinfile:
+    path: "{{ folder_name }}/command_outputs/{{ inventory_hostname }}_show_interface_status.xml"
+    line: |
+      {{ outputs_int_status_xml.stdout | join('\n') }}
+    state: present
+    create: true
+  # loop: "{{ range(0,commands_a | length,1) | list }}"
+
+# - name: Convert XML outputs to CSV
+#   ansible.builtin.command:
+#     cmd: "roles/get_interface_status/library/xml2csv_output.py"
+#     # cmd: /Users/timkinv0815/Documents/github_repos/ansible-n7k-port-audit/roles/get_interface_status/library/xml2csv_output.py
+#     # cmd: roles/get_interface_status/library/xml2csv_output.py
+#     executable: /Users/timkinv0815/Documents/venv3106/bin/python3
+#     # args:
+#       # stdin: "{{ script_input | to_json }}"
+#     stdin: |
+#       {{ tstamp.stdout }},{{ inventory_hostname }}
+#   # vars:
+#   #   script_input:
+#   #     - "{{ folder_name }}"
+#   #     - "{{ inventory_hostname }}"
+#   delegate_to: localhost
+#   register: xml2csv_output
+
+- name: Print xml2csv_output
+  ansible.builtin.debug:
+    msg: "{{ xml2csv_output.stdout }}"
+  delegate_to: localhost
+...

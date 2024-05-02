@@ -1,0 +1,68 @@
+---
+- name: Get start time
+  shell: "date"
+  delegate_to: localhost
+  run_once: true
+  register: tstamp_start
+
+### The option of using cisco.asa.asa_config took about 5 hours to configure about 13k lines
+### But it failed after 14k lines. That's why I switched to using cisco.asa.asa_config with 'src'
+# - name: Import role vars
+#   ansible.builtin.include_vars:
+#     # file: ./vars/object-groups/test_object-group.yml
+#     file: ./vars/object-groups/object-group.yml
+#   run_once: true
+
+# - name: Configure an object group via commands
+#   cisco.asa.asa_config:
+#     lines:
+#       - network-object {{ (item.type == 'host') | ternary('host ' ~ item.value, item.value) }}
+#     parents: object-group network {{ objectgroup.name }}
+#   loop: "{{ objectgroup.objects }}"
+###
+
+- name: Configure an object group via src
+  cisco.asa.asa_config:
+    # src: ./vars/object-groups/test_object-group.cisco
+    src: ./vars/object-groups/object-group.cisco
+    match: line
+  register: input_data
+
+- name: Set the object-group name
+  ansible.builtin.set_fact:
+    # objectgroup_name: TEST_OG-INFOSEC-IP-BLOCKS
+    objectgroup_name: OG-INFOSEC-IP-BLOCKS
+
+- name: Get end time
+  shell: "date"
+  delegate_to: localhost
+  run_once: true
+  register: tstamp_end
+
+- name: Verify the object group
+  cisco.asa.asa_command:
+    commands:
+      - show object-group id {{ objectgroup_name }}
+  register: output_data
+
+- name: Show the difference between input and output data
+  ansible.builtin.debug:
+    msg: "{{ input_data.updates | difference(output_data.stdout_lines[0] | map('trim') | list) }}"
+
+- name: Check number of lines in the configured object group
+  cisco.asa.asa_command:
+    commands:
+      - show object-group id {{ objectgroup_name }} | count
+      - show clock
+  register: output_og_lines
+  ignore_errors: true
+
+- name: Print start and end time
+  ansible.builtin.debug:
+    msg:
+    - "{{ objectgroup_name }}: {{ output_og_lines.stdout[0] }}"
+    - "Start time: {{ tstamp_start.stdout }}"
+    - "  End time: {{ tstamp_end.stdout }}"
+  # run_once: true
+  when: output_og_lines is defined
+...

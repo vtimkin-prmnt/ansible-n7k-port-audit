@@ -1,0 +1,5 @@
+snmp_location: QA, CML Lab
+snmp_src_interface: mgmt0
+
+tacacs_vrf: management
+tacacs_src_interface: mgmt0

@@ -1,0 +1,34 @@
+---
+- name: Get command outputs
+  # connection: local
+  hosts: all
+  gather_facts: false
+  # no_log: true
+  # vars_files:
+  #   - ./vars/vault/netbox_api.yml
+  #   - ./vars/devices/devices.yml
+  roles:
+    - role: get_interface_status
+      tags: role_get_interface_status
+      # vars:
+      #   commands_a:
+      #     # - terminal pager 0
+      #     - show clock
+      #     - show memory
+      #     - show memory detail 
+      #     - show cpu
+      #     - show cpu usage detailed 
+      #     - show object-group id OG-INFOSEC-IP-BLOCKS | count network-object 
+      #     - show run access-group
+      #     - show run access-list acl-outside
+      #     - show access-list acl-outside
+      #     - clear access-list acl-outside counters
+
+      #   commands_b:
+      #     - show clock
+      #     - show memory
+      #     - show memory detail 
+      #     - show cpu
+      #     - show cpu usage detailed 
+      #     - show access-list acl-outside | exclude (hitcnt=0)
+...

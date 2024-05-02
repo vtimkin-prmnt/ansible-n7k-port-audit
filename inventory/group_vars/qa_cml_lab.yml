@@ -1,0 +1,3 @@
+ansible_user: admin
+ansible_password: Temp$321
+ansible_become_password: Temp$321
