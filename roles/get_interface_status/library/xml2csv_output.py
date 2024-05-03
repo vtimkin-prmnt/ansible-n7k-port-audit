@@ -59,46 +59,26 @@ def main():
             "Type": type
         })
 
-    df = pd.DataFrame(output_rows, columns=output_header)
+    # output_header = ["Hostname", "Port", "Name", "Status", "Vlan", "Duplex", "Speed", "Type"]
+    # df = pd.DataFrame(output_rows, columns=output_header)
+    df = pd.DataFrame(output_rows)
     df.index += 1
 
     df.to_csv(output_csv)
     df.to_excel(output_excel)
 
-
 if __name__ == "__main__":
-    # input_xml = "./input/xml_file.xml"
-    input_vars = sys.stdin.readlines()
-    # input_vars = json.loads(stdin_vars)
-    # print(input_vars)
-    # input_folder = input_vars["input_folder"]
-    # device_hostname = input_vars["hostname"]
+    stdin_read = sys.stdin.readlines()
+    input_vars = stdin_read[0].rstrip('\n')
     print(input_vars)
     input_folder,device_hostname = input_vars.split(',')
-    input_xml = "./outputs/" + input_folder + "/command_outputs/" + device_hostname + "_show_interface_status.xml"
-    output_dir = "./outputs/" + input_folder + "/xml2csv_outputs/"
+    input_xml = "../../../outputs/" + input_folder + "/command_outputs/" + device_hostname + "_show_interface_status.xml"
+    output_dir = "../../../outputs/" + input_folder + "/xml2csv_outputs/"
     output_json = output_dir + device_hostname + ".json"
     output_csv = output_dir + device_hostname + ".csv"
     output_excel = output_dir + device_hostname + ".xlsx"
-    output_header = ["Hostname", "Port", "Name", "Status", "Vlan", "Duplex", "Speed", "Type"]
     output_rows = []
     list_if = []
-
-    path_output_dir = os.path.join("./outputs/",input_folder,"xml2csv_outputs")
-
-    # device_hostname = str(sys.argv[2])
-    # input_xml = "./outputs/" + str(sys.argv[1]) + "/command_outputs/" + str(sys.argv[2]) + "_show_interface_status.xml"
-    # output_dir = "./outputs/" + str(sys.argv[1]) + "/xml2csv_outputs/"
-    # output_json = output_dir + str(sys.argv[2]) + ".json"
-    # output_csv = output_dir + str(sys.argv[2]) + ".csv"
-    # output_excel = output_dir + str(sys.argv[2]) + ".xlsx"
-    # output_header = ["Hostname", "Port", "Name", "Status", "Vlan", "Duplex", "Speed", "Type"]
-    # output_rows = []
-    # list_if = []
-
-    # DIRNAME = os.path.dirname(__file__)
-    # OG_FOLDER_INPUT = os.path.join(DIRNAME, './object-groups-to-merge/input')
-    # OG_FOLDER_OUTPUT = os.path.join(DIRNAME, './object-groups-to-merge/output/merged-list.txt')
-    # OG_FOLDER_FORMATTED_OUTPUT = os.path.join(DIRNAME, './object-groups-to-merge/output/merged-list-ipformatted.txt')
+    path_output_dir = os.path.join("../../../outputs/",input_folder,"xml2csv_outputs")
     main()
 
