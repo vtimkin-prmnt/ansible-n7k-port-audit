@@ -39,13 +39,16 @@ def main():
         vlan = i["vlan"]
         duplex = i["duplex"]
         speed = i["speed"]
-        type = i["type"]
-
 
         if "name" in i.keys():
             name = i["name"]
         else:
             name = "--"
+
+        if "type" in i.keys():
+            type = i["type"]
+        else:
+            type = "--"
 
         output_rows.append({
             "Hostname": device_hostname,
@@ -78,7 +81,7 @@ if __name__ == "__main__":
     output_json = output_dir + device_hostname + ".json"
     output_csv = output_dir + device_hostname + ".csv"
     output_excel = output_dir + device_hostname + ".xlsx"
-    
+
     output_rows = []
     list_if = []
     path_output_dir = os.path.join("../../../outputs/",input_folder,"xml2csv_outputs")

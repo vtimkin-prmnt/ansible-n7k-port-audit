@@ -65,7 +65,7 @@
     stdin: |
       {{ tstamp.stdout }},{{ inventory_hostname }}
   delegate_to: localhost
-  register: xml2csv_output
+  register: output_xml2csv
   ignore_errors: true
 
 # - name: Convert XML outputs to CSV
@@ -84,8 +84,8 @@
 #   register: xml2csv_output
 #   ignore_errors: true
 
-- name: Print xml2csv_output
+- name: Print output_xml2csv
   ansible.builtin.debug:
-    msg: "{{ xml2csv_output.stdout }}"
+    msg: "{{ output_xml2csv.stdout }}"
   delegate_to: localhost
 ...
