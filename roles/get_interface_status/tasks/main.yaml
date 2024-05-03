@@ -20,10 +20,10 @@
   delegate_to: localhost
   run_once: true
 
-- name: Test
-  ansible.builtin.debug:
-    msg: "{{ tstamp.stdout }}, {{ inventory_hostname }}"
-  delegate_to: localhost
+# - name: Test
+#   ansible.builtin.debug:
+#     msg: "{{ tstamp.stdout }}, {{ inventory_hostname }}"
+#   delegate_to: localhost
 
 - name: Get show interface status command outputs in XML format
   cisco.nxos.nxos_command:
@@ -38,24 +38,6 @@
       {{ outputs_int_status_xml.stdout | join('\n') }}
     state: present
     create: true
-  # loop: "{{ range(0,commands_a | length,1) | list }}"
-
-# - name: Convert XML outputs to CSV
-#   ansible.builtin.command:
-#     cmd: "roles/get_interface_status/library/xml2csv_output.py"
-#     # cmd: /Users/timkinv0815/Documents/github_repos/ansible-n7k-port-audit/roles/get_interface_status/library/xml2csv_output.py
-#     # cmd: roles/get_interface_status/library/xml2csv_output.py
-#     executable: /Users/timkinv0815/Documents/venv3106/bin/python3
-#     # args:
-#       # stdin: "{{ script_input | to_json }}"
-#     stdin: |
-#       {{ tstamp.stdout }},{{ inventory_hostname }}
-#   # vars:
-#   #   script_input:
-#   #     - "{{ folder_name }}"
-#   #     - "{{ inventory_hostname }}"
-#   delegate_to: localhost
-#   register: xml2csv_output
 
 - name: Convert XML outputs to CSV
   ansible.builtin.command:
@@ -66,26 +48,4 @@
       {{ tstamp.stdout }},{{ inventory_hostname }}
   delegate_to: localhost
   register: output_xml2csv
-  ignore_errors: true
-
-# - name: Convert XML outputs to CSV
-#   ansible.builtin.command:
-#     cmd: "python3 xml2csv_output.py"
-#     # cmd: /Users/timkinv0815/Documents/github_repos/ansible-n7k-port-audit/roles/get_interface_status/library/xml2csv_output.py
-#     # cmd: roles/get_interface_status/library/xml2csv_output.py
-#     executable: /Users/timkinv0815/Documents/venv3106/bin/python3
-#     chdir: ./roles/get_interface_status/library
-#     stdin: "{{ script_input | to_json }}"
-#   vars:
-#     script_input:
-#       - "{{ folder_name }}"
-#       - "{{ inventory_hostname }}"
-#   delegate_to: localhost
-#   register: xml2csv_output
-#   ignore_errors: true
-
-- name: Print output_xml2csv
-  ansible.builtin.debug:
-    msg: "{{ output_xml2csv.stdout }}"
-  delegate_to: localhost
 ...
