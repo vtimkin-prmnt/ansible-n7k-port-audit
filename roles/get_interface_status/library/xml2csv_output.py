@@ -8,7 +8,6 @@ import sys
 import os
 
 
-
 # xmlparse = ET.parse(input_xml)
 # xmlroot = xmlparse.getroot()
 def main():
@@ -70,15 +69,17 @@ def main():
 if __name__ == "__main__":
     stdin_read = sys.stdin.readlines()
     input_vars = stdin_read[0].rstrip('\n')
-    print(input_vars)
     input_folder,device_hostname = input_vars.split(',')
+
     input_xml = "../../../outputs/" + input_folder + "/command_outputs/" + device_hostname + "_show_interface_status.xml"
+
     output_dir = "../../../outputs/" + input_folder + "/xml2csv_outputs/"
+
     output_json = output_dir + device_hostname + ".json"
     output_csv = output_dir + device_hostname + ".csv"
     output_excel = output_dir + device_hostname + ".xlsx"
+    
     output_rows = []
     list_if = []
     path_output_dir = os.path.join("../../../outputs/",input_folder,"xml2csv_outputs")
     main()
-
