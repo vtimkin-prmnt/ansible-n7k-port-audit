@@ -41,7 +41,7 @@
 
 - name: Convert XML outputs to CSV
   ansible.builtin.command:
-    cmd: "python3 xml2csv_output.py"
+    cmd: "python3 xml2csv_interface_output.py"
     executable: /Users/timkinv0815/Documents/venv3106/bin/python3
     chdir: ./roles/get_interface_status/library
     stdin: |

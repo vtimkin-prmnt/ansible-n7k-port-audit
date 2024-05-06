@@ -1,0 +1,333 @@
+,Hostname,Port,Name,Status,Vlan,Duplex,Speed,Type
+1,DC-DIST7-2,Ethernet1/1,vPC Keep-alive Ports,notconnect,routed,auto,auto,10/100/1000BaseT
+2,DC-DIST7-2,Ethernet1/2,vPC Keep-alive Ports,notconnect,routed,auto,auto,10/100/1000BaseT
+3,DC-DIST7-2,Ethernet1/3,Netscaler-DMZ-Secondary-MGMT,notconnect,500,auto,auto,10/100/1000BaseT
+4,DC-DIST7-2,Ethernet1/4,--,notconnect,500,auto,auto,10/100/1000BaseT
+5,DC-DIST7-2,Ethernet1/5,CALA-MOB-VIA-CORP-FW1-2 MGMT,notconnect,500,auto,auto,10/100/1000BaseT
+6,DC-DIST7-2,Ethernet1/6,Firepower-2_R9-11,notconnect,500,auto,auto,10/100/1000BaseT
+7,DC-DIST7-2,Ethernet1/7,DC-ACE2 Eth3 (Failover Int),disabled,trunk,auto,auto,10/100/1000BaseT
+8,DC-DIST7-2,Ethernet1/8,DC-ACE2 Eth4 (Mgmt Int),disabled,200,auto,auto,10/100/1000BaseT
+9,DC-DIST7-2,Ethernet1/9,ACEDMZ02-Gig1/1 (Server Subnet),notconnect,706,auto,auto,10/100/1000BaseT
+10,DC-DIST7-2,Ethernet1/10,ACEDMZ02-Gig1/3 (Failover),notconnect,trunk,auto,auto,10/100/1000BaseT
+11,DC-DIST7-2,Ethernet1/11,ACEDMZ02-Gig1/4 (Mgmt),notconnect,200,auto,auto,10/100/1000BaseT
+12,DC-DIST7-2,Ethernet1/12,CALAX04-DC1AS-02A_mgmt0,notconnect,500,auto,auto,10/100/1000BaseT
+13,DC-DIST7-2,Ethernet1/13,CALAX04-EM1PS-01B HW MGMT,notconnect,trunk,auto,auto,10/100/1000BaseT
+14,DC-DIST7-2,Ethernet1/14,CALAX04-EM1ED-02B MGMT,notconnect,trunk,auto,auto,10/100/1000BaseT
+15,DC-DIST7-2,Ethernet1/15,CALAX04-EM1DS-01B MGMT-VPC-KL,notconnect,trunk,auto,auto,10/100/1000BaseT
+16,DC-DIST7-2,Ethernet1/18,VNS 5700 Control Station 2,notconnect,850,auto,auto,10/100/1000BaseT
+17,DC-DIST7-2,Ethernet1/19,WWTO-MOB-N5K-2 (Mgmt),connected,500,full,a-1000,10/100/1000BaseT
+18,DC-DIST7-2,Ethernet1/20,VNS 5700 DM4 PASSIVE DO NOT DISCONN,notconnect,851,auto,auto,10/100/1000BaseT
+19,DC-DIST7-2,Ethernet1/21,VNS 5700 DM3,channelDown,851,auto,auto,10/100/1000BaseT
+20,DC-DIST7-2,Ethernet1/24,VNS 5700 DM2,channelDown,851,auto,auto,10/100/1000BaseT
+21,DC-DIST7-2,Ethernet1/34,CALAX04-MOBCS-01B,notconnect,500,auto,auto,10/100/1000BaseT
+22,DC-DIST7-2,Ethernet1/35,BL-582R,notconnect,trunk,auto,auto,10/100/1000BaseT
+23,DC-DIST7-2,Ethernet1/42,BL-1152R(Speed/duplex should be hard coded on both sides),notconnect,trunk,full,1000,10/100/1000BaseT
+24,DC-DIST7-2,Ethernet1/43,CALAX04-DC1AS-01B_mgmt0,notconnect,500,auto,auto,10/100/1000BaseT
+25,DC-DIST7-2,Ethernet1/44,BL-1412R,disabled,trunk,auto,auto,10/100/1000BaseT
+26,DC-DIST7-2,Ethernet1/45,CALAX04-EM1FW-01B-Container MGMT,notconnect,500,auto,auto,10/100/1000BaseT
+27,DC-DIST7-2,Ethernet1/46,CALAX04-EM1ED-01B MGMT,notconnect,500,auto,auto,10/100/1000BaseT
+28,DC-DIST7-2,Ethernet1/47,nuc-paramountlot-mob (ThousandEyes),notconnect,808,auto,auto,10/100/1000BaseT
+29,DC-DIST7-2,Ethernet1/48,BL-451R,notconnect,trunk,auto,auto,10/100/1000BaseT
+30,DC-DIST7-2,Ethernet2/1,CALAX04-EM1PE-01B,connected,routed,full,10G,10Gbase-SR
+31,DC-DIST7-2,Ethernet2/2,ql-us-laqum02-sw2,connected,trunk,full,10G,10Gbase-SR
+32,DC-DIST7-2,Ethernet2/3,***DO NOT USE - Port group RSRVD***,sfpAbsent,routed,auto,auto,--
+33,DC-DIST7-2,Ethernet2/4,***DO NOT USE - Port group RSRVD***,sfpAbsent,routed,auto,auto,--
+34,DC-DIST7-2,Ethernet2/5,***DO NOT USE - Port group RSRVD***,disabled,routed,auto,auto,10Gbase-SR
+35,DC-DIST7-2,Ethernet2/6,***DO NOT USE - Port group RSRVD***,sfpAbsent,routed,auto,auto,--
+36,DC-DIST7-2,Ethernet2/7,***DO NOT USE - Port group RSRVD***,sfpAbsent,routed,auto,auto,--
+37,DC-DIST7-2,Ethernet2/8,***DO NOT USE - Port group RSRVD***,disabled,routed,auto,auto,10Gbase-SR
+38,DC-DIST7-2,Ethernet2/17,--,sfpAbsent,routed,auto,auto,--
+39,DC-DIST7-2,Ethernet2/18,us-west-1b-ucs-esx1-A,connected,trunk,full,10G,10Gbase-SR
+40,DC-DIST7-2,Ethernet2/19,MARKED FOR MIGRATION PATH,connected,trunk,full,10G,10Gbase-SR
+41,DC-DIST7-2,Ethernet2/20,us-west-1b-ucs-esx1-A,connected,trunk,full,10G,10Gbase-SR
+42,DC-DIST7-2,Ethernet2/21,MARKED FOR MIGRATION PATH,sfpAbsent,routed,auto,auto,--
+43,DC-DIST7-2,Ethernet2/22,***DO NOT USE - Port group RSRVD***,sfpAbsent,routed,auto,auto,--
+44,DC-DIST7-2,Ethernet2/23,MARKED FOR MIGRATION PATH,sfpAbsent,routed,auto,auto,--
+45,DC-DIST7-2,Ethernet2/24,***DO NOT USE - Port group RSRVD***,sfpAbsent,routed,auto,auto,--
+46,DC-DIST7-2,Ethernet2/25,vPC Peer Link Ports to DC-Dist7-1,connected,trunk,full,10G,10Gbase-LR
+47,DC-DIST7-2,Ethernet2/26,*** Connection to UCS 6120 ***,sfpAbsent,trunk,auto,auto,--
+48,DC-DIST7-2,Ethernet2/27,DEDICATED ETH2/25,sfpAbsent,routed,auto,auto,--
+49,DC-DIST7-2,Ethernet2/28,*** Connection to UCS 6120 ***,notconnect,trunk,auto,auto,10Gbase-SR
+50,DC-DIST7-2,Ethernet2/29,DEDICATED ETH2/25,sfpAbsent,routed,auto,auto,--
+51,DC-DIST7-2,Ethernet2/30,tac,connected,routed,full,10G,10Gbase-SR
+52,DC-DIST7-2,Ethernet2/31,DEDICATED ETH2/25,sfpAbsent,routed,auto,auto,--
+53,DC-DIST7-2,Ethernet2/32,*** Routed link to DC-Core7-2 Port E2/10 ***,connected,routed,full,10G,10Gbase-SR
+54,DC-DIST7-2,Ethernet3/26,ql-us-laqum02-sw1,connected,trunk,full,10G,10Gbase-SR
+55,DC-DIST7-2,Ethernet3/28,*CHG01080142: Moved to Eth2/2*,sfpAbsent,routed,auto,auto,--
+56,DC-DIST7-2,Ethernet3/30,--,sfpAbsent,routed,auto,auto,--
+57,DC-DIST7-2,Ethernet3/32,--,sfpAbsent,routed,auto,auto,--
+58,DC-DIST7-2,Ethernet4/1,FAULTY,sfpAbsent,routed,auto,auto,--
+59,DC-DIST7-2,Ethernet4/2,--,connected,trunk,full,10G,10Gbase-SR
+60,DC-DIST7-2,Ethernet4/3,FAULTY,sfpAbsent,routed,auto,auto,--
+61,DC-DIST7-2,Ethernet4/4,--,connected,trunk,full,10G,10Gbase-SR
+62,DC-DIST7-2,Ethernet4/5,CALA-MOB-NetScaler-Internal-8-13-1,connected,trunk,full,10G,10Gbase-SR
+63,DC-DIST7-2,Ethernet4/6,--,sfpAbsent,routed,auto,auto,--
+64,DC-DIST7-2,Ethernet4/7,CALA-MOB-NetScaler-Internal-8-13-2,connected,trunk,full,10G,10Gbase-SR
+65,DC-DIST7-2,Ethernet4/8,--,sfpAbsent,routed,auto,auto,--
+66,DC-DIST7-2,Ethernet4/17,--,connected,trunk,full,10G,10Gbase-SR
+67,DC-DIST7-2,Ethernet4/18,NO-L2-PASS DO NOT USE,sfpAbsent,682,auto,auto,--
+68,DC-DIST7-2,Ethernet4/19,--,sfpAbsent,routed,auto,auto,--
+69,DC-DIST7-2,Ethernet4/20,NO-L2-PASS DO NOT USE,sfpAbsent,routed,auto,auto,--
+70,DC-DIST7-2,Ethernet4/21,--,sfpAbsent,routed,auto,auto,--
+71,DC-DIST7-2,Ethernet4/22,NO-L2-PASS DO NOT USE,sfpAbsent,routed,auto,auto,--
+72,DC-DIST7-2,Ethernet4/23,--,sfpAbsent,routed,auto,auto,--
+73,DC-DIST7-2,Ethernet4/24,NO-L2-PASS DO NOT USE,sfpAbsent,routed,auto,auto,--
+74,DC-DIST7-2,Ethernet7/1,vPC Keep-alive Ports,connected,routed,full,a-1000,1000base-T
+75,DC-DIST7-2,Ethernet7/2,vPC Keep-alive Ports,connected,routed,full,a-1000,1000base-T
+76,DC-DIST7-2,Ethernet7/3,Netscaler-DMZ-Secondary-MGMT,connected,500,full,a-1000,1000base-T
+77,DC-DIST7-2,Ethernet7/4,--,connected,500,full,a-1000,1000base-T
+78,DC-DIST7-2,Ethernet7/5,CALA-MOB-VIA-CORP-FW1-2 MGMT,connected,500,full,a-1000,1000base-T
+79,DC-DIST7-2,Ethernet7/6,Firepower-2_R9-11,connected,500,full,a-1000,1000base-T
+80,DC-DIST7-2,Ethernet7/9,CALAX04-DC1AS-02A_mgmt0,connected,500,full,a-1000,1000base-T
+81,DC-DIST7-2,Ethernet7/11,CALAX04-EM1PS-01B HW MGMT,connected,trunk,full,a-1000,1000base-T
+82,DC-DIST7-2,Ethernet7/12,CALAX04-EM1ED-02B MGMT,connected,trunk,full,a-1000,1000base-T
+83,DC-DIST7-2,Ethernet7/13,CALAX04-EM1DS-01B MGMT-VPC-KL,connected,trunk,full,a-1000,1000base-T
+84,DC-DIST7-2,Ethernet7/14,--,connected,trunk,full,a-1000,1000base-SX
+85,DC-DIST7-2,Ethernet7/15,--,connected,500,full,a-1000,1000base-T
+86,DC-DIST7-2,Ethernet7/17,DC-ACS5-2 MGMT,connected,routed,full,a-1000,1000base-T
+87,DC-DIST7-2,Ethernet7/25,BL-452R,connected,trunk,full,a-1000,1000base-T
+88,DC-DIST7-2,Ethernet7/27,downlink to MOB-PDU-MON-SW1,connected,trunk,full,a-1000,1000base-SX
+89,DC-DIST7-2,Ethernet7/28,LAB-SW2 - N7K-1 7/32,notconnect,routed,auto,auto,1000base-T
+90,DC-DIST7-2,Ethernet7/33,CALAX04-MOBCS-01B,connected,500,full,a-1000,1000base-T
+91,DC-DIST7-2,Ethernet7/34,BL-582R,connected,trunk,full,a-1000,1000base-T
+92,DC-DIST7-2,Ethernet7/39,CALAX04-DC1AS-01B_mgmt0,connected,500,full,a-1000,1000base-T
+93,DC-DIST7-2,Ethernet7/40,CALAX04-EM1FW-01B-Container MGMT,connected,500,full,a-1000,1000base-T
+94,DC-DIST7-2,Ethernet7/41,CALAX04-EM1ED-01B MGMT,connected,500,full,a-1000,1000base-T
+95,DC-DIST7-2,Ethernet7/42,nuc-paramountlot-mob (ThousandEyes),connected,808,full,a-1000,1000base-T
+96,DC-DIST7-2,Ethernet8/1,us-west-1b-ucs-mtl1 FI-A,connected,trunk,full,10G,10Gbase-SR
+97,DC-DIST7-2,Ethernet8/2,us-west-1b-ucs-mtl1 FI-B,connected,trunk,full,10G,10Gbase-SR
+98,DC-DIST7-2,Ethernet8/3,us-west-1b-ucs-mtl1 FI-A,connected,trunk,full,10G,10Gbase-SR
+99,DC-DIST7-2,Ethernet8/4,us-west-1b-ucs-mtl1 FI-B,connected,trunk,full,10G,10Gbase-SR
+100,DC-DIST7-2,Ethernet8/5,--,sfpAbsent,routed,auto,auto,--
+101,DC-DIST7-2,Ethernet8/6,CALAX04-EM1PS-01B-FTD-MGMT,connected,500,full,10G,10Gbase-SR
+102,DC-DIST7-2,Ethernet8/7,--,sfpAbsent,routed,auto,auto,--
+103,DC-DIST7-2,Ethernet8/8,CALA-MOB-VIA-FTD-FW1-2-MGMT,connected,500,full,10G,10Gbase-SR
+104,DC-DIST7-2,Ethernet8/9,CALAX04-DC1AS-02A,connected,trunk,full,10G,10Gbase-SR
+105,DC-DIST7-2,Ethernet8/11,CALAX04-DC1AS-02B,connected,trunk,full,10G,10Gbase-SR
+106,DC-DIST7-2,Ethernet8/13,--,sfpAbsent,routed,auto,auto,--
+107,DC-DIST7-2,Ethernet8/15,--,sfpAbsent,routed,auto,auto,--
+108,DC-DIST7-2,Ethernet9/1,VNS 5700 DM4,notconnect,851,auto,auto,10Gbase-SR
+109,DC-DIST7-2,Ethernet9/2,VNS 5700 SPB,notconnect,857,auto,auto,10Gbase-SR
+110,DC-DIST7-2,Ethernet9/3,*** Connection to US-WEST-1A-UCS1 ***,connected,trunk,full,10G,10Gbase-SR
+111,DC-DIST7-2,Ethernet9/4,--,connected,trunk,full,10G,10Gbase-LR
+112,DC-DIST7-2,Ethernet9/5,--,connected,trunk,full,10G,10Gbase-SR
+113,DC-DIST7-2,Ethernet9/6,--,connected,trunk,full,10G,10Gbase-SR
+114,DC-DIST7-2,Ethernet9/7,--,sfpAbsent,routed,auto,auto,--
+115,DC-DIST7-2,Ethernet9/8,--,sfpAbsent,routed,auto,auto,--
+116,DC-DIST7-2,Ethernet9/10,--,sfpAbsent,routed,auto,auto,--
+117,DC-DIST7-2,Ethernet9/12,MARKED FOR MIGRATION PATH,connected,trunk,full,10G,10Gbase-SR
+118,DC-DIST7-2,Ethernet9/14,MARKED FOR MIGRATION PATH,sfpAbsent,routed,auto,auto,--
+119,DC-DIST7-2,Ethernet9/16,MARKED FOR MIGRATION PATH,sfpAbsent,routed,auto,auto,--
+120,DC-DIST7-2,Ethernet9/17,--,sfpAbsent,routed,auto,auto,--
+121,DC-DIST7-2,Ethernet9/18,CALAX04-EM1DL-01A,connected,trunk,full,10G,10Gbase-SR
+122,DC-DIST7-2,Ethernet9/19,*** DC-ACS5-1 - Eth 1/4 ***,connected,trunk,full,10G,10Gbase-SR
+123,DC-DIST7-2,Ethernet9/20,CALAX04-EM1DL-01B,connected,trunk,full,10G,10Gbase-SR
+124,DC-DIST7-2,Ethernet9/21,DC-EDGE7-2:Eth3/31,connected,trunk,full,10G,10Gbase-SR
+125,DC-DIST7-2,Ethernet9/22,--,disabled,routed,auto,auto,10Gbase-SR
+126,DC-DIST7-2,Ethernet9/23,To DC-SAS4 Ten1/2 2-25-14 CN,sfpAbsent,trunk,auto,auto,--
+127,DC-DIST7-2,Ethernet9/24,Link to WAL-WWTO-SW1,notconnect,trunk,auto,auto,10Gbase-LR
+128,DC-DIST7-2,Ethernet9/25,PARAMOUNT-ISIS,sfpAbsent,178,auto,auto,--
+129,DC-DIST7-2,Ethernet9/26,UPLINK to NEW-DC-AGG-SW2,connected,trunk,full,10G,10Gbase-SR
+130,DC-DIST7-2,Ethernet9/27,UCS 4-8 Link #2 (Fabric A),connected,trunk,full,10G,10Gbase-SR
+131,DC-DIST7-2,Ethernet9/28,UCS 4-8 Link #2 (Fabric B),connected,trunk,full,10G,10Gbase-SR
+132,DC-DIST7-2,Ethernet9/29,*** DC-ACS5-2 - Eth1/28 ***,connected,trunk,full,10G,10Gbase-SR
+133,DC-DIST7-2,Ethernet9/30,UPLINK to DC-AGG-SW2,notconnect,trunk,auto,auto,10Gbase-SR
+134,DC-DIST7-2,Ethernet9/31,Link to UCS14-9-A,connected,trunk,full,10G,10Gbase-SR
+135,DC-DIST7-2,Ethernet9/32,Link to UCS14-9-B,connected,trunk,full,10G,10Gbase-SR
+136,DC-DIST7-2,Ethernet10/1,--,connected,trunk,full,10G,10Gbase-SR
+137,DC-DIST7-2,Ethernet10/2,--,connected,trunk,full,10G,10Gbase-SR
+138,DC-DIST7-2,Ethernet10/3,--,connected,trunk,full,10G,10Gbase-SR
+139,DC-DIST7-2,Ethernet10/4,--,connected,trunk,full,10G,10Gbase-SR
+140,DC-DIST7-2,Ethernet10/5,--,connected,trunk,full,10G,10Gbase-SR
+141,DC-DIST7-2,Ethernet10/6,--,sfpAbsent,routed,auto,auto,--
+142,DC-DIST7-2,Ethernet10/7,--,connected,trunk,full,10G,10Gbase-SR
+143,DC-DIST7-2,Ethernet10/8,--,sfpAbsent,routed,auto,auto,--
+144,DC-DIST7-2,Ethernet10/9,--,connected,trunk,full,10G,10Gbase-SR
+145,DC-DIST7-2,Ethernet10/10,--,connected,trunk,full,10G,10Gbase-SR
+146,DC-DIST7-2,Ethernet10/11,*CHG01080344: Moved to Eth2/18*,sfpAbsent,routed,auto,auto,--
+147,DC-DIST7-2,Ethernet10/12,*CHG01080344: Moved to Eth2/20*,sfpAbsent,routed,auto,auto,--
+148,DC-DIST7-2,Ethernet10/13,--,connected,trunk,full,10G,10Gbase-SR
+149,DC-DIST7-2,Ethernet10/14,--,connected,trunk,full,10G,10Gbase-SR
+150,DC-DIST7-2,Ethernet10/15,--,connected,trunk,full,10G,10Gbase-SR
+151,DC-DIST7-2,Ethernet10/16,--,connected,trunk,full,10G,10Gbase-SR
+152,DC-DIST7-2,Ethernet10/25,--,sfpAbsent,trunk,auto,auto,--
+153,DC-DIST7-2,Ethernet10/26,--,sfpAbsent,trunk,auto,auto,--
+154,DC-DIST7-2,Ethernet10/27,--,sfpAbsent,trunk,auto,auto,--
+155,DC-DIST7-2,Ethernet10/28,--,sfpAbsent,trunk,auto,auto,--
+156,DC-DIST7-2,Ethernet10/29,us-west-1b-ucs-sap1-a,connected,trunk,full,10G,10Gbase-SR
+157,DC-DIST7-2,Ethernet10/30,us-west-1b-ucs-sap1-a,connected,trunk,full,10G,10Gbase-SR
+158,DC-DIST7-2,Ethernet10/31,us-west-1b-ucs-sap1-b,connected,trunk,full,10G,10Gbase-SR
+159,DC-DIST7-2,Ethernet10/32,us-west-1b-ucs-sap1-b,connected,trunk,full,10G,10Gbase-SR
+160,DC-DIST7-2,port-channel1,vPC Peer Link to DC-Dist7-1,connected,trunk,full,10G,--
+161,DC-DIST7-2,port-channel2,vPC Keep-Alive Link to DC-Dist7-1,connected,routed,full,a-1000,--
+162,DC-DIST7-2,port-channel5,"*** Back-to-back vPC to DC-ACS5-1, DC-ACS5-2 ***",connected,trunk,full,10G,--
+163,DC-DIST7-2,port-channel7,CALAX04-DC1AS-02A&B,connected,trunk,full,10G,--
+164,DC-DIST7-2,port-channel10,VNx 5700 DM2 backup link,disabled,851,auto,auto,--
+165,DC-DIST7-2,port-channel11,VNx 5700 DM3 backup link,disabled,851,auto,auto,--
+166,DC-DIST7-2,port-channel12,VNS 5700 DM4,noOperMembers,851,auto,auto,--
+167,DC-DIST7-2,port-channel15,UPLINK to DC-AGG-SW2,noOperMembers,trunk,auto,auto,--
+168,DC-DIST7-2,port-channel16,--,noOperMembers,routed,auto,auto,--
+169,DC-DIST7-2,port-channel17,UPLINK to DC-AGG-SW2,connected,trunk,full,10G,--
+170,DC-DIST7-2,port-channel20,UCS 14-9 Link #1 (Fabric A),connected,trunk,full,10G,--
+171,DC-DIST7-2,port-channel21,UCS 14-9 Link #2 (Fabric B),connected,trunk,full,10G,--
+172,DC-DIST7-2,port-channel22,HED-SW1,noOperMembers,trunk,auto,auto,--
+173,DC-DIST7-2,port-channel30,UCS 4-14 Link #1 (Fabric A),noOperMembers,trunk,auto,auto,--
+174,DC-DIST7-2,port-channel31,UCS 4-14 Link #2 (Fabric B),noOperMembers,trunk,auto,auto,--
+175,DC-DIST7-2,port-channel32,*** vPC to WAL-WWTO-SW1 ***,noOperMembers,trunk,auto,auto,--
+176,DC-DIST7-2,port-channel40,UCS 4-8 Link #1 (Fabric A),connected,trunk,full,10G,--
+177,DC-DIST7-2,port-channel41,UCS 4-8 Link #1 (Fabric B),connected,trunk,full,10G,--
+178,DC-DIST7-2,port-channel54,DC-SAS4,noOperMembers,trunk,auto,auto,--
+179,DC-DIST7-2,port-channel60,CALA-MOB-NetScaler-Internal-8-13-1,connected,trunk,full,10G,--
+180,DC-DIST7-2,port-channel61,CALA-MOB-NetScaler-Internal-8-13-2,connected,trunk,full,10G,--
+181,DC-DIST7-2,port-channel68,WWTO EDIT,noOperMembers,trunk,auto,auto,--
+182,DC-DIST7-2,port-channel70,UCS 14-9 link #1(Fabric A),connected,trunk,full,10G,--
+183,DC-DIST7-2,port-channel71,UCS 14-9 link #1(Fabric B),connected,trunk,full,10G,--
+184,DC-DIST7-2,port-channel104,--,disabled,trunk,auto,auto,--
+185,DC-DIST7-2,port-channel111,us-west-1b-ucs-esx1-A,connected,trunk,full,10G,--
+186,DC-DIST7-2,port-channel113,--,connected,trunk,full,10G,--
+187,DC-DIST7-2,port-channel115,--,connected,trunk,full,10G,--
+188,DC-DIST7-2,port-channel119,--,connected,trunk,full,10G,--
+189,DC-DIST7-2,port-channel123,--,noOperMembers,1,auto,auto,--
+190,DC-DIST7-2,port-channel128,--,noOperMembers,1,auto,auto,--
+191,DC-DIST7-2,port-channel129,--,connected,trunk,full,10G,--
+192,DC-DIST7-2,port-channel131,--,connected,trunk,full,10G,--
+193,DC-DIST7-2,port-channel206,--,connected,trunk,full,a-1000,--
+194,DC-DIST7-2,port-channel207,--,connected,trunk,full,10G,--
+195,DC-DIST7-2,port-channel208,--,connected,trunk,full,10G,--
+196,DC-DIST7-2,port-channel209,--,connected,trunk,full,10G,--
+197,DC-DIST7-2,port-channel240,downlink to ql-us-laqum02-smb.mtvn.ad.viacom.com,connected,trunk,full,10G,--
+198,DC-DIST7-2,port-channel682,--,connected,trunk,full,10G,--
+199,DC-DIST7-2,port-channel725,--,connected,trunk,full,a-1000,--
+200,DC-DIST7-2,port-channel813,us-west-1b-ucs-mtl1 FI-A,connected,trunk,full,10G,--
+201,DC-DIST7-2,port-channel824,us-west-1b-ucs-mtl1 FI-B,connected,trunk,full,10G,--
+202,DC-DIST7-2,port-channel899,--,noOperMembers,1,auto,auto,--
+203,DC-DIST7-2,port-channel4095,--,connected,trunk,full,10G,--
+204,DC-DIST7-2,loopback0,--,disabled,routed,auto,auto,--
+205,DC-DIST7-2,loopback10,--,connected,routed,auto,auto,--
+206,DC-DIST7-2,Vlan1,--,down,routed,auto,auto,--
+207,DC-DIST7-2,Vlan7,--,connected,routed,auto,auto,--
+208,DC-DIST7-2,Vlan8,--,connected,routed,auto,auto,--
+209,DC-DIST7-2,Vlan15,V10K-MGMT,down,routed,auto,auto,--
+210,DC-DIST7-2,Vlan16,--,connected,routed,auto,auto,--
+211,DC-DIST7-2,Vlan33,--,down,routed,auto,auto,--
+212,DC-DIST7-2,Vlan70,Lot-Prodtech,connected,routed,auto,auto,--
+213,DC-DIST7-2,Vlan178,PARAMOUNT-ISIS,connected,routed,auto,auto,--
+214,DC-DIST7-2,Vlan199,PPC Network management VLAN,connected,routed,auto,auto,--
+215,DC-DIST7-2,Vlan200,--,connected,routed,auto,auto,--
+216,DC-DIST7-2,Vlan201,WIRELESS-ADMIN,down,routed,auto,auto,--
+217,DC-DIST7-2,Vlan205,--,connected,routed,auto,auto,--
+218,DC-DIST7-2,Vlan206,--,connected,routed,auto,auto,--
+219,DC-DIST7-2,Vlan207,--,connected,routed,auto,auto,--
+220,DC-DIST7-2,Vlan232,CALAX04-EM1CL-01A/B,connected,routed,auto,auto,--
+221,DC-DIST7-2,Vlan338,MOB-SW5,down,routed,auto,auto,--
+222,DC-DIST7-2,Vlan361,VSI-Data-Management,down,routed,auto,auto,--
+223,DC-DIST7-2,Vlan362,VSI-NFS-Storage,down,routed,auto,auto,--
+224,DC-DIST7-2,Vlan363,VSI-Zerto,down,routed,auto,auto,--
+225,DC-DIST7-2,Vlan364,VSI-vMotion,down,routed,auto,auto,--
+226,DC-DIST7-2,Vlan365,UCS-KVM-ManagementVSI,down,routed,auto,auto,--
+227,DC-DIST7-2,Vlan366,DRVSI,down,routed,auto,auto,--
+228,DC-DIST7-2,Vlan411,Clear Pass Vlan411,connected,routed,auto,auto,--
+229,DC-DIST7-2,Vlan412,Clear Pass Vlan412,connected,routed,auto,auto,--
+230,DC-DIST7-2,Vlan470,*** Facility-Automation ***,connected,routed,auto,auto,--
+231,DC-DIST7-2,Vlan471,*** Facility-Automation ***,connected,routed,auto,auto,--
+232,DC-DIST7-2,Vlan500,NET-MGMT,connected,routed,auto,auto,--
+233,DC-DIST7-2,Vlan516,Management,connected,routed,auto,auto,--
+234,DC-DIST7-2,Vlan518,NFS Storage,connected,routed,auto,auto,--
+235,DC-DIST7-2,Vlan520,Zerto,connected,routed,auto,auto,--
+236,DC-DIST7-2,Vlan522,vMotion,connected,routed,auto,auto,--
+237,DC-DIST7-2,Vlan524,UCS/KVM Management,connected,routed,auto,auto,--
+238,DC-DIST7-2,Vlan526,ZOLTAN-CAMERAS,connected,routed,auto,auto,--
+239,DC-DIST7-2,Vlan600,netscaler_internal,connected,routed,auto,auto,--
+240,DC-DIST7-2,Vlan682,PROCO-24 - WWTO subnet,down,routed,auto,auto,--
+241,DC-DIST7-2,Vlan705,CSS INTERNAL,connected,routed,auto,auto,--
+242,DC-DIST7-2,Vlan711,"PPC-Farm1, Segment 1",connected,routed,auto,auto,--
+243,DC-DIST7-2,Vlan730,Exchange Heartbeat Segment,down,routed,auto,auto,--
+244,DC-DIST7-2,Vlan733,MOB-2FL-AVID Subnet,down,routed,auto,auto,--
+245,DC-DIST7-2,Vlan741,"PPC-Farm4, Segment 1",connected,routed,auto,auto,--
+246,DC-DIST7-2,Vlan742,PPC-FD741,down,routed,auto,auto,--
+247,DC-DIST7-2,Vlan751,PPC-gFarm5 #1,connected,routed,auto,auto,--
+248,DC-DIST7-2,Vlan752,PPC-gFarm5 #2,connected,routed,auto,auto,--
+249,DC-DIST7-2,Vlan781,DC-SAS1,connected,routed,auto,auto,--
+250,DC-DIST7-2,Vlan791,PPC-gFarm9 (SAP),connected,routed,auto,auto,--
+251,DC-DIST7-2,Vlan799,BMS-servers,connected,routed,auto,auto,--
+252,DC-DIST7-2,Vlan800,BMS-SERVERS-02,connected,routed,auto,auto,--
+253,DC-DIST7-2,Vlan801,PPC-gFarm10,connected,routed,auto,auto,--
+254,DC-DIST7-2,Vlan805,AD Trust,connected,routed,auto,auto,--
+255,DC-DIST7-2,Vlan807,DC's in hosting.ad.viacom.com,connected,routed,auto,auto,--
+256,DC-DIST7-2,Vlan808,NMS_NETFLOW_FTP,connected,routed,auto,auto,--
+257,DC-DIST7-2,Vlan811,PPC-gFarm11,connected,routed,auto,auto,--
+258,DC-DIST7-2,Vlan821,PPC-Farm12,connected,routed,auto,auto,--
+259,DC-DIST7-2,Vlan822,PPC-Farm12,connected,routed,auto,auto,--
+260,DC-DIST7-2,Vlan828,Media Ops,connected,routed,auto,auto,--
+261,DC-DIST7-2,Vlan831,PPC-FD831,connected,routed,auto,auto,--
+262,DC-DIST7-2,Vlan840,--,down,routed,auto,auto,--
+263,DC-DIST7-2,Vlan841,PPC-GFARM14,connected,routed,auto,auto,--
+264,DC-DIST7-2,Vlan842,VMWare QA,connected,routed,auto,auto,--
+265,DC-DIST7-2,Vlan843,PPC-Gfarm15 (room 100),connected,routed,auto,auto,--
+266,DC-DIST7-2,Vlan847,Exchange,connected,routed,auto,auto,--
+267,DC-DIST7-2,Vlan849,PPC-GFARM12,connected,routed,auto,auto,--
+268,DC-DIST7-2,Vlan850,EMC Centera/Celera,connected,routed,auto,auto,--
+269,DC-DIST7-2,Vlan851,EMC-DM1,connected,routed,auto,auto,--
+270,DC-DIST7-2,Vlan852,EMC-DM2,connected,routed,auto,auto,--
+271,DC-DIST7-2,Vlan853,Storage-New,connected,routed,auto,auto,--
+272,DC-DIST7-2,Vlan854,TERADATA,connected,routed,auto,auto,--
+273,DC-DIST7-2,Vlan855,IAM-SERVER,connected,routed,auto,auto,--
+274,DC-DIST7-2,Vlan856,EMS DM2 NS80-02 (CIFS),connected,routed,auto,auto,--
+275,DC-DIST7-2,Vlan857,EMC-ISCSI,connected,routed,auto,auto,--
+276,DC-DIST7-2,Vlan858,EMS DM4 NS80-02 (Standby),connected,routed,auto,auto,--
+277,DC-DIST7-2,Vlan860,ILO-card-subnet,connected,routed,auto,auto,--
+278,DC-DIST7-2,Vlan870,Bladeserver VLAN 870,connected,routed,auto,auto,--
+279,DC-DIST7-2,Vlan871,PPC-BLADE1,connected,routed,auto,auto,--
+280,DC-DIST7-2,Vlan872,PPC-BLADE2,connected,routed,auto,auto,--
+281,DC-DIST7-2,Vlan873,PPC-BLADE3,connected,routed,auto,auto,--
+282,DC-DIST7-2,Vlan874,PPC-BLADE4 (SAP-PROD),connected,routed,auto,auto,--
+283,DC-DIST7-2,Vlan875,Bladeserver VLAN 875,connected,routed,auto,auto,--
+284,DC-DIST7-2,Vlan876,<OFF-SHORE HCL>,connected,routed,auto,auto,--
+285,DC-DIST7-2,Vlan877,VMWare Dev Data,connected,routed,auto,auto,--
+286,DC-DIST7-2,Vlan878,VMWare Dev Vmotion,connected,routed,auto,auto,--
+287,DC-DIST7-2,Vlan879,Bladeserver-PPC-BLADE9,connected,routed,auto,auto,--
+288,DC-DIST7-2,Vlan880,PPC-UC1,connected,routed,auto,auto,--
+289,DC-DIST7-2,Vlan881,DC-SAS1,connected,routed,auto,auto,--
+290,DC-DIST7-2,Vlan882,DC-SAS2,connected,routed,auto,auto,--
+291,DC-DIST7-2,Vlan883,DC-SAS3,connected,routed,auto,auto,--
+292,DC-DIST7-2,Vlan884,Server VLAN,connected,routed,auto,auto,--
+293,DC-DIST7-2,Vlan886,MOB DC MONITORING,connected,routed,auto,auto,--
+294,DC-DIST7-2,Vlan887,Airflow control,connected,routed,auto,auto,--
+295,DC-DIST7-2,Vlan888,ISILON-1,connected,routed,auto,auto,--
+296,DC-DIST7-2,Vlan889,ISILON-2,connected,routed,auto,auto,--
+297,DC-DIST7-2,Vlan890,ISILON-3,connected,routed,auto,auto,--
+298,DC-DIST7-2,Vlan894,<OFF-SHORE HCL TEMP>,connected,routed,auto,auto,--
+299,DC-DIST7-2,Vlan895,<OFF-SHORE LNT>,connected,routed,auto,auto,--
+300,DC-DIST7-2,Vlan896,<OFF-SHORE TCS>,connected,routed,auto,auto,--
+301,DC-DIST7-2,Vlan897,<MISC VLAN>,connected,routed,auto,auto,--
+302,DC-DIST7-2,Vlan898,ALIAS data segment,connected,routed,auto,auto,--
+303,DC-DIST7-2,Vlan899,ALIAS heartbeat segment,connected,routed,auto,auto,--
+304,DC-DIST7-2,Vlan900,UCS 14-9 data segment,connected,routed,auto,auto,--
+305,DC-DIST7-2,Vlan901,Xen Desktop1 data segment,connected,routed,auto,auto,--
+306,DC-DIST7-2,Vlan902,Xen Desktop2 data segment,connected,routed,auto,auto,--
+307,DC-DIST7-2,Vlan903,Xen Desktop3 data segment,connected,routed,auto,auto,--
+308,DC-DIST7-2,Vlan904,XENDESKTOP 2013,connected,routed,auto,auto,--
+309,DC-DIST7-2,Vlan911,Screenlife segment 1,connected,routed,auto,auto,--
+310,DC-DIST7-2,Vlan912,Screenlife segment 2,connected,routed,auto,auto,--
+311,DC-DIST7-2,Vlan913,Screenlife segment 3,connected,routed,auto,auto,--
+312,DC-DIST7-2,Vlan915,XENDESKTOP 2016,connected,routed,auto,auto,--
+313,DC-DIST7-2,Vlan942,OPENSTACK-MULTIPLATFORM,connected,routed,auto,auto,--
+314,DC-DIST7-2,Vlan960,DR_subnet,connected,routed,auto,auto,--
+315,DC-DIST7-2,Vlan989,--,down,routed,auto,auto,--
+316,DC-DIST7-2,Vlan1240,VSI-Data-Management-New,connected,routed,auto,auto,--
+317,DC-DIST7-2,Vlan1242,VSI-NFS-Storage-New,connected,routed,auto,auto,--
+318,DC-DIST7-2,Vlan1244,VSI-Zerto-New,connected,routed,auto,auto,--
+319,DC-DIST7-2,Vlan1246,VSI-vMotion-New,connected,routed,auto,auto,--
+320,DC-DIST7-2,Vlan1248,VSI-UCS-KVM-MGMT-New,connected,routed,auto,auto,--
+321,DC-DIST7-2,Vlan1250,VSI-VCHA-New,connected,routed,auto,auto,--
+322,DC-DIST7-2,Vlan1438,--,connected,routed,auto,auto,--
+323,DC-DIST7-2,Vlan2024,CRESTRON-AV-MOB,down,routed,auto,auto,--
+324,DC-DIST7-2,Vlan2025,CRESTRON-AV-ADMIN,down,routed,auto,auto,--
+325,DC-DIST7-2,Vlan2026,Cube LAN,connected,routed,auto,auto,--
+326,DC-DIST7-2,Vlan2027,Cube Hearbeat,connected,routed,auto,auto,--
+327,DC-DIST7-2,Vlan2028,Cube Management,connected,routed,auto,auto,--
+328,DC-DIST7-2,Vlan2234,HED-SW1 VOIP,down,routed,auto,auto,--
+329,DC-DIST7-2,Vlan2682,AVID-172.19.31.0-24,down,routed,auto,auto,--
+330,DC-DIST7-2,Vlan3000,*** This VLAN is used to create an EIGRP adjacency across the vPC Peer-Link ***,connected,routed,auto,auto,--
+331,DC-DIST7-2,Vlan3234,HED-SW1 DATA,down,routed,auto,auto,--
+332,DC-DIST7-2,Vlan3333,--,connected,routed,auto,auto,--

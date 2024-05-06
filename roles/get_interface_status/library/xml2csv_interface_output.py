@@ -10,6 +10,12 @@ import os
 
 # xmlparse = ET.parse(input_xml)
 # xmlroot = xmlparse.getroot()
+
+def save2json(data,filename):
+  json_data = json.dumps(data, indent=2)
+  with open(filename, 'w') as f:
+      f.write(json_data)
+
 def main():
         
     os.makedirs(path_output_dir, exist_ok=True)
@@ -68,6 +74,7 @@ def main():
 
     df.to_csv(output_csv)
     df.to_excel(output_excel)
+    df.to_json(output_json, orient="records", indent=2)
 
 if __name__ == "__main__":
     stdin_read = sys.stdin.readlines()
