@@ -1,0 +1,1039 @@
+{
+  "CALAX04-DC1AS-01B": {
+    "mgmt0": {
+      "Port": "mgmt0",
+      "Name": "OOB-MGMT",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "full",
+      "Speed": "1000",
+      "Type": "--"
+    },
+    "Ethernet1/1": {
+      "Port": "Ethernet1/1",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/2": {
+      "Port": "Ethernet1/2",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/3": {
+      "Port": "Ethernet1/3",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/4": {
+      "Port": "Ethernet1/4",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/5": {
+      "Port": "Ethernet1/5",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/6": {
+      "Port": "Ethernet1/6",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/7": {
+      "Port": "Ethernet1/7",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/8": {
+      "Port": "Ethernet1/8",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/9": {
+      "Port": "Ethernet1/9",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/10": {
+      "Port": "Ethernet1/10",
+      "Name": "FEX1-1",
+      "Status": "notconnect",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet1/11": {
+      "Port": "Ethernet1/11",
+      "Name": "FEX2-1",
+      "Status": "connected",
+      "Vlan": "1",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet1/12": {
+      "Port": "Ethernet1/12",
+      "Name": "FEX1-2",
+      "Status": "xcvrAbsent",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/13": {
+      "Port": "Ethernet1/13",
+      "Name": "FEX2-2",
+      "Status": "xcvrAbsent",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/14": {
+      "Port": "Ethernet1/14",
+      "Name": "FEX1-3",
+      "Status": "xcvrAbsent",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/15": {
+      "Port": "Ethernet1/15",
+      "Name": "FEX2-3",
+      "Status": "xcvrAbsent",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/16": {
+      "Port": "Ethernet1/16",
+      "Name": "FEX1-4",
+      "Status": "xcvrAbsent",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/17": {
+      "Port": "Ethernet1/17",
+      "Name": "FEX2-4",
+      "Status": "xcvrAbsent",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/18": {
+      "Port": "Ethernet1/18",
+      "Name": "FEX-EDITORIAL-N2KE-1",
+      "Status": "xcvrAbsent",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/19": {
+      "Port": "Ethernet1/19",
+      "Name": "10GFEX1-1",
+      "Status": "xcvrAbsent",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/20": {
+      "Port": "Ethernet1/20",
+      "Name": "10GFEX1-2",
+      "Status": "xcvrAbsent",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/21": {
+      "Port": "Ethernet1/21",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/22": {
+      "Port": "Ethernet1/22",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/23": {
+      "Port": "Ethernet1/23",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/24": {
+      "Port": "Ethernet1/24",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/25": {
+      "Port": "Ethernet1/25",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/26": {
+      "Port": "Ethernet1/26",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/27": {
+      "Port": "Ethernet1/27",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/28": {
+      "Port": "Ethernet1/28",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/29": {
+      "Port": "Ethernet1/29",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/30": {
+      "Port": "Ethernet1/30",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/31": {
+      "Port": "Ethernet1/31",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/32": {
+      "Port": "Ethernet1/32",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/33": {
+      "Port": "Ethernet1/33",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/34": {
+      "Port": "Ethernet1/34",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/35": {
+      "Port": "Ethernet1/35",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/36": {
+      "Port": "Ethernet1/36",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/37": {
+      "Port": "Ethernet1/37",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/38": {
+      "Port": "Ethernet1/38",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/39": {
+      "Port": "Ethernet1/39",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/40": {
+      "Port": "Ethernet1/40",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/41": {
+      "Port": "Ethernet1/41",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/42": {
+      "Port": "Ethernet1/42",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/43": {
+      "Port": "Ethernet1/43",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/44": {
+      "Port": "Ethernet1/44",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/45": {
+      "Port": "Ethernet1/45",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/46": {
+      "Port": "Ethernet1/46",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/47": {
+      "Port": "Ethernet1/47",
+      "Name": "vPC-Peerlink",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet1/48": {
+      "Port": "Ethernet1/48",
+      "Name": "vPC-Peerlink",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet1/49": {
+      "Port": "Ethernet1/49",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/50": {
+      "Port": "Ethernet1/50",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/51": {
+      "Port": "Ethernet1/51",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/52": {
+      "Port": "Ethernet1/52",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/53": {
+      "Port": "Ethernet1/53",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/54": {
+      "Port": "Ethernet1/54",
+      "Name": "--",
+      "Status": "xcvrAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel110": {
+      "Port": "port-channel110",
+      "Name": "FEX1-1",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel111": {
+      "Port": "port-channel111",
+      "Name": "FEX2-1",
+      "Status": "connected",
+      "Vlan": "1",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "--"
+    },
+    "port-channel112": {
+      "Port": "port-channel112",
+      "Name": "FEX1-2",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel113": {
+      "Port": "port-channel113",
+      "Name": "FEX2-2",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel114": {
+      "Port": "port-channel114",
+      "Name": "FEX1-3",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel115": {
+      "Port": "port-channel115",
+      "Name": "FEX2-3",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel116": {
+      "Port": "port-channel116",
+      "Name": "FEX1-4",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel117": {
+      "Port": "port-channel117",
+      "Name": "FEX2-4",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel122": {
+      "Port": "port-channel122",
+      "Name": "\"FEX-EDITORIAL-N2KE-1\"",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel180": {
+      "Port": "port-channel180",
+      "Name": "\"10GFEX1-1\"",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel181": {
+      "Port": "port-channel181",
+      "Name": "\"10GFEX1-2\"",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel4096": {
+      "Port": "port-channel4096",
+      "Name": "vPC-Peerlink",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "--"
+    },
+    "Ethernet111/1/1": {
+      "Port": "Ethernet111/1/1",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/2": {
+      "Port": "Ethernet111/1/2",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/3": {
+      "Port": "Ethernet111/1/3",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/4": {
+      "Port": "Ethernet111/1/4",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/5": {
+      "Port": "Ethernet111/1/5",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/6": {
+      "Port": "Ethernet111/1/6",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/7": {
+      "Port": "Ethernet111/1/7",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/8": {
+      "Port": "Ethernet111/1/8",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/9": {
+      "Port": "Ethernet111/1/9",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/10": {
+      "Port": "Ethernet111/1/10",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/11": {
+      "Port": "Ethernet111/1/11",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/12": {
+      "Port": "Ethernet111/1/12",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/13": {
+      "Port": "Ethernet111/1/13",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/14": {
+      "Port": "Ethernet111/1/14",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/15": {
+      "Port": "Ethernet111/1/15",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/16": {
+      "Port": "Ethernet111/1/16",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/17": {
+      "Port": "Ethernet111/1/17",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/18": {
+      "Port": "Ethernet111/1/18",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/19": {
+      "Port": "Ethernet111/1/19",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/20": {
+      "Port": "Ethernet111/1/20",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/21": {
+      "Port": "Ethernet111/1/21",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/22": {
+      "Port": "Ethernet111/1/22",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/23": {
+      "Port": "Ethernet111/1/23",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/24": {
+      "Port": "Ethernet111/1/24",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/25": {
+      "Port": "Ethernet111/1/25",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/26": {
+      "Port": "Ethernet111/1/26",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/27": {
+      "Port": "Ethernet111/1/27",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/28": {
+      "Port": "Ethernet111/1/28",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/29": {
+      "Port": "Ethernet111/1/29",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/30": {
+      "Port": "Ethernet111/1/30",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/31": {
+      "Port": "Ethernet111/1/31",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/32": {
+      "Port": "Ethernet111/1/32",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/33": {
+      "Port": "Ethernet111/1/33",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/34": {
+      "Port": "Ethernet111/1/34",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/35": {
+      "Port": "Ethernet111/1/35",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/36": {
+      "Port": "Ethernet111/1/36",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/37": {
+      "Port": "Ethernet111/1/37",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/38": {
+      "Port": "Ethernet111/1/38",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/39": {
+      "Port": "Ethernet111/1/39",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/40": {
+      "Port": "Ethernet111/1/40",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/41": {
+      "Port": "Ethernet111/1/41",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/42": {
+      "Port": "Ethernet111/1/42",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/43": {
+      "Port": "Ethernet111/1/43",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/44": {
+      "Port": "Ethernet111/1/44",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/45": {
+      "Port": "Ethernet111/1/45",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/46": {
+      "Port": "Ethernet111/1/46",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/47": {
+      "Port": "Ethernet111/1/47",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    },
+    "Ethernet111/1/48": {
+      "Port": "Ethernet111/1/48",
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "100/1g"
+    }
+  }
+}

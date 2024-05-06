@@ -67,6 +67,29 @@ def main():
             "Type": type
         })
 
+    ### Converting the output_rows list to a dictionay format
+    ### to use it as a data frame to merge with CDP LLDP outputs
+    ### by separate pythons
+
+    # define a structure of the dictionary
+
+    output_dict = { device_hostname: {} }
+
+    for row in output_rows:
+        # for k, v in row.items():
+        output_dict[device_hostname][row["Port"]]= {
+            "Port": row["Port"],
+            "Name": row["Name"],
+            "Status": row["Status"],
+            "Vlan": row["Vlan"],
+            "Duplex": row["Duplex"],
+            "Speed": row["Speed"],
+            "Type": row["Type"]
+        }
+
+    save2json(output_dict, output_dict2json)
+
+
     # output_header = ["Hostname", "Port", "Name", "Status", "Vlan", "Duplex", "Speed", "Type"]
     # df = pd.DataFrame(output_rows, columns=output_header)
     df = pd.DataFrame(output_rows)
@@ -86,6 +109,7 @@ if __name__ == "__main__":
     output_dir = "../../../outputs/" + input_folder + "/xml2csv_outputs/"
 
     output_json = output_dir + device_hostname + ".json"
+    output_dict2json = output_dir + device_hostname + "_dict.json"
     output_csv = output_dir + device_hostname + ".csv"
     output_excel = output_dir + device_hostname + ".xlsx"
 
