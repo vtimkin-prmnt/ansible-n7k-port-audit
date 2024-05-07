@@ -1,0 +1,43 @@
+{
+  "CALAX04-DC1AS-01A": [
+    {
+      "local_port_id": "",
+      "remote_chassis_id": "0026",
+      "remote_port_id": "mgmt0",
+      "remote_port_description": "CALAX04-DC1AS-01A_mgmt0",
+      "remote_system_name": "DC-DIST7-1.paramount.com",
+      "remote_system_description": "Cisco NX-OS(tm) n7000, Software (n7000-s1-dk9), Version 6.2(10), RELEASE SOFTWARE Copyright (c) 2002-2013 by Cisco Systems, Inc. Compiled 10/9/2014 12:00:00",
+      "remote_system_capabilities": "B, R",
+      "remote_enabled_capabilities": "B, R",
+      "remote_mgmt_address": "0026.cb1f.763e",
+      "remote_mgmt_address_ipv6": "not advertised",
+      "remote_vlan_id": "500"
+    },
+    {
+      "local_port_id": "",
+      "remote_chassis_id": "e069",
+      "remote_port_id": "Eth1/47",
+      "remote_port_description": "vPC-Peerlink",
+      "remote_system_name": "CALAX04-DC1AS-01B.paramount.com",
+      "remote_system_description": "Cisco Nexus Operating System (NX-OS) Software 10.2(6)",
+      "remote_system_capabilities": "B, R",
+      "remote_enabled_capabilities": "B, R",
+      "remote_mgmt_address": "10.100.1.110",
+      "remote_mgmt_address_ipv6": "not advertised",
+      "remote_vlan_id": "1"
+    },
+    {
+      "local_port_id": "",
+      "remote_chassis_id": "e069",
+      "remote_port_id": "Eth1/48",
+      "remote_port_description": "vPC-Peerlink",
+      "remote_system_name": "CALAX04-DC1AS-01B.paramount.com",
+      "remote_system_description": "Cisco Nexus Operating System (NX-OS) Software 10.2(6)",
+      "remote_system_capabilities": "B, R",
+      "remote_enabled_capabilities": "B, R",
+      "remote_mgmt_address": "10.100.1.110",
+      "remote_mgmt_address_ipv6": "not advertised",
+      "remote_vlan_id": "1"
+    }
+  ]
+}

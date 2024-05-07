@@ -74,4 +74,30 @@
       {{ tstamp.stdout }},{{ inventory_hostname }}
   delegate_to: localhost
   # register: output_cdp_parser
+
+### Parsing LLDP outputs
+
+- name: Get show lldp enty command outputs
+  cisco.nxos.nxos_command:
+    commands:
+      - show lldp entry
+  register: outputs_lldp_entries
+
+- name: Copy show lldp entry outputs to a file
+  ansible.builtin.lineinfile:
+    path: "{{ folder_name }}/command_outputs/{{ inventory_hostname }}_show_lldp_entry.txt"
+    line: |
+      {{ outputs_lldp_entries.stdout | join('\n') }}
+    state: present
+    create: true
+
+- name: Parsing lldp outputs
+  ansible.builtin.command:
+    cmd: "python3 lldp_parser.py"
+    executable: /Users/timkinv0815/Documents/venv3106/bin/python3
+    chdir: ./roles/get_interface_status/library
+    stdin: |
+      {{ tstamp.stdout }},{{ inventory_hostname }}
+  delegate_to: localhost
+  # register: output_lldp_parser
 ...
