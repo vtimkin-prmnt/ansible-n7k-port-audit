@@ -20,6 +20,18 @@
   delegate_to: localhost
   run_once: true
 
+- name: Create a folder for python parser outputs
+  ansible.builtin.file:
+    path: "{{ folder_name }}/script_outputs/{{ item }}"
+    state: directory
+    # mode: '0755'
+  delegate_to: localhost
+  run_once: true
+  loop:
+    - excel
+    - csv
+    - json
+
 # - name: Test
 #   ansible.builtin.debug:
 #     msg: "{{ tstamp.stdout }}, {{ inventory_hostname }}"

@@ -18,7 +18,7 @@ def save2json(data,filename):
 
 def main():
         
-    os.makedirs(path_output_dir, exist_ok=True)
+    # os.makedirs(path_output_dir, exist_ok=True)
 
     with open(input_xml) as f:
         data_dict = xmltodict.parse(f.read())
@@ -104,11 +104,11 @@ if __name__ == "__main__":
 
     input_xml = "../../../outputs/" + input_folder + "/command_outputs/" + device_hostname + "_show_interface_status.xml"
 
-    path_output_dir = os.path.join("../../../outputs/",input_folder,"xml2csv_interface_outputs")
-    output_json = path_output_dir + "/" + device_hostname + ".json"
-    output_dict2json = path_output_dir + "/" + device_hostname + "_dict.json"
-    output_csv = path_output_dir + "/" + device_hostname + ".csv"
-    output_excel = path_output_dir + "/" + device_hostname + ".xlsx"
+    path_output_dir = os.path.join("../../../outputs/",input_folder,"script_outputs")
+    output_json = path_output_dir + "/json/" + device_hostname + "_ifstatus_list.json"
+    output_dict2json = path_output_dir + "/json/" + device_hostname + "_ifstatus_dict.json"
+    output_csv = path_output_dir + "/csv/" + device_hostname + "_ifstatus_list.csv"
+    output_excel = path_output_dir + "/excel/" + device_hostname + "_ifstatus_list.xlsx"
 
     output_rows = []
     list_if = []

@@ -289,7 +289,7 @@ def main(path):
     #         output_raw = f.read()
     #     parser_lldp_output(output_raw)
 
-    os.makedirs(path, exist_ok=True)
+    # os.makedirs(path, exist_ok=True)
     
     with open(input_data) as f:
         output_raw = f.read()
@@ -336,11 +336,11 @@ if __name__ == "__main__":
 
     input_data = "../../../outputs/" + input_folder + "/command_outputs/" + device_hostname + "_show_lldp_entry.txt"
 
-    path_output_dir = os.path.join("../../../outputs/",input_folder,"lldp_parser_outputs")
-    output_json = path_output_dir + "/" + device_hostname + ".json"
-    output_dict2json = path_output_dir + "/" + device_hostname + "_dict.json"
-    output_csv = path_output_dir + "/" + device_hostname + ".csv"
-    output_excel = path_output_dir + "/" + device_hostname + ".xlsx"
+    path_output_dir = os.path.join("../../../outputs/",input_folder,"script_outputs")
+    output_json = path_output_dir + "/json/" + device_hostname + "_lldp_list.json"
+    output_dict2json = path_output_dir + "/json/" + device_hostname + "_lldp_dict.json"
+    output_csv = path_output_dir + "/csv" + device_hostname + "_lldp_list.csv"
+    output_excel = path_output_dir + "/excel/" + device_hostname + "_lldp_list.xlsx"
 
     ALL_LLDP_DATA_PARSED = []
 
