@@ -69,9 +69,7 @@ def main():
 
     ### Converting the output_rows list to a dictionay format
     ### to use it as a data frame to merge with CDP LLDP outputs
-    ### by separate pythons
-
-    # define a structure of the dictionary
+    ### by separate python sripts
 
     output_dict = { device_hostname: {} }
 
