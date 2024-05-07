@@ -82,11 +82,14 @@ def parser_cdp_output(output_raw):
     # for i in range(len(output_lines)):
     #     line = output_lines[i]
 
-        if ('#' in line) and ('cdp' in line):
-            # Parse a line containing the device hostname
-            # where the show cdp entry command was issued
-            (local_device, junk) = line.split('#')
-            local_device = local_device.strip().strip('\ufeff\ufeff')
+        # if ('#' in line) and ('cdp' in line):
+        #     # Parse a line containing the device hostname
+        #     # where the show cdp entry command was issued
+        #     (local_device, junk) = line.split('#')
+        #     local_device = local_device.strip().strip('\ufeff\ufeff')
+        
+        ### Local_device is taken from STDIN passing as a parameter by Ansible in this case.
+        local_device = device_hostname
 
         if '------------------' in line:
             loop_flag = True
@@ -174,12 +177,31 @@ def main(path):
     #         output_raw = f.read()
     #     parser_cdp_output(output_raw)
 
-    os.makedirs(path_output_dir, exist_ok=True)
+    os.makedirs(path, exist_ok=True)
     
     with open(input_data) as f:
         output_raw = f.read()
 
     parser_cdp_output(output_raw)
+
+    ### Converting the output_rows list to a dictionay format
+    ### to use it as a data frame to merge with CDP LLDP outputs
+    ### by separate python sripts
+
+    output_dict = { device_hostname: [] }
+
+    for row in ALL_CDP_DATA_PARSED:
+        # for k, v in row.items():
+        output_dict[device_hostname].append({
+            "local_int": row["local_int"],
+            "remote_device": row["remote_device"],
+            "remote_int": row["remote_int"],
+            "remote_platform": row["remote_platform"],
+            "remote_capabilities": row["remote_capabilities"],
+            "remote_ip_cdp": row["remote_ip_cdp"]
+        })
+
+    save2json(output_dict, output_dict2json)
 
     ### Create Pandas DataFrame from the ALL_CDP_DATA_PARSED list
     ### To save the parsed cdp data to an excel file

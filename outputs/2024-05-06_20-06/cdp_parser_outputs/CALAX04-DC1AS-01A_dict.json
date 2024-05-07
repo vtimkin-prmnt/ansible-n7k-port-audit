@@ -1,0 +1,10 @@
+{
+  "CALAX04-DC1AS-01A": {
+    "local_int": "Ethernet1/48",
+    "remote_device": "CALAX04-DC1AS-01B",
+    "remote_int": "Ethernet1/48",
+    "remote_platform": "N9K-C93180YC-EX",
+    "remote_capabilities": "Router Switch IGMP Filtering Supports-STP-Dispute",
+    "remote_ip_cdp": "10.100.1.110"
+  }
+}
