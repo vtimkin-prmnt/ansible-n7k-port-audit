@@ -289,6 +289,7 @@ def main(path):
     #         output_raw = f.read()
     #     parser_lldp_output(output_raw)
 
+    ### The folder is being created by Ansible playbook
     # os.makedirs(path, exist_ok=True)
     
     with open(input_data) as f:

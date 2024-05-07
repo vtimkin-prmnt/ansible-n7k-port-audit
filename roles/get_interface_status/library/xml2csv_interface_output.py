@@ -17,7 +17,8 @@ def save2json(data,filename):
       f.write(json_data)
 
 def main():
-        
+
+    ### The folder is being created by Ansible playbook
     # os.makedirs(path_output_dir, exist_ok=True)
 
     with open(input_xml) as f:
