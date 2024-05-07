@@ -22,10 +22,10 @@ def main():
 
     with open(input_xml) as f:
         data_dict = xmltodict.parse(f.read())
-        json_data = json.dumps(data_dict)
+        # json_data = json.dumps(data_dict)
 
-    with open(output_json, "w") as f:
-        f.write(json_data)
+    # with open(output_json, "w") as f:
+    #     f.write(json_data)
 
     # list_temp = data_dict["nf:rpc-reply"]["nf:data"]["show"]["interface"]["status"].values()
 
@@ -106,13 +106,7 @@ if __name__ == "__main__":
 
     input_xml = "../../../outputs/" + input_folder + "/command_outputs/" + device_hostname + "_show_interface_status.xml"
 
-    output_dir = "../../../outputs/" + input_folder + "/xml2csv_outputs/"
     path_output_dir = os.path.join("../../../outputs/",input_folder,"xml2csv_interface_outputs")
-    # output_json = output_dir + device_hostname + ".json"
-    # output_dict2json = output_dir + device_hostname + "_dict.json"
-    # output_csv = output_dir + device_hostname + ".csv"
-    # output_excel = output_dir + device_hostname + ".xlsx"
-
     output_json = path_output_dir + "/" + device_hostname + ".json"
     output_dict2json = path_output_dir + "/" + device_hostname + "_dict.json"
     output_csv = path_output_dir + "/" + device_hostname + ".csv"

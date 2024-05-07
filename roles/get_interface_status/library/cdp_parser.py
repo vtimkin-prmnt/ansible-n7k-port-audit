@@ -166,26 +166,42 @@ def save2json(data,filename):
       f.write(json_data)
 
 def main(path):
-  dirname = os.path.dirname(__file__)
-  path = os.path.join(dirname, path)
-  for filename in os.listdir(path):
-    with open(os.path.join(path,filename), 'r') as f:
-      output_raw = f.read()
-    parser_cdp_output(output_raw)
   
+  # dirname = os.path.dirname(__file__)
+  # path = os.path.join(dirname, path)
+  # for filename in os.listdir(path):
+  #   with open(os.path.join(path,filename), 'r') as f:
+  #     output_raw = f.read()
+  #   parser_cdp_output(output_raw)
+
+  os.makedirs(path_output_dir, exist_ok=True)
+  
+  with open(input_data) as f:
+    output_raw = f.read()
+
+  parser_cdp_output(output_raw)
+
   ### Create Pandas DataFrame from the ALL_CDP_DATA_PARSED list
   ### To save the parsed cdp data to an excel file
-  pd.DataFrame(ALL_CDP_DATA_PARSED).to_excel(file2save)
+  pd.DataFrame(ALL_CDP_DATA_PARSED).to_excel(output_excel)
 
   ### Save parsed CDP data as a JSON file
   DATA2JSON = {"links": ALL_CDP_DATA_PARSED}
-  save2json(DATA2JSON,json2save)
+  save2json(DATA2JSON,output_json)
 
 if __name__ == "__main__":
+  stdin_read = sys.stdin.readlines()
+  input_vars = stdin_read[0].rstrip('\n')
+  input_folder,device_hostname = input_vars.split(',')  
+
+  input_data = "../../../outputs/" + input_folder + "/command_outputs/" + device_hostname + "_show_cdp_entry.txt"
+
+  path_output_dir = os.path.join("../../../outputs/",input_folder,"cdp_parser_outputs")
+  output_json = path_output_dir + "/" + device_hostname + ".json"
+  output_dict2json = path_output_dir + "/" + device_hostname + "_dict.json"
+  output_csv = path_output_dir + "/" + device_hostname + ".csv"
+  output_excel = path_output_dir + "/" + device_hostname + ".xlsx"
+
   ALL_CDP_DATA_PARSED = []
-  path2outputs = "./output2parse"
-  file2save = './results/cdp_output_parsed.xlsx'
-  json2save = './results/cdp_output_parsed.json'
-  print(os.path.dirname(__file__))
-  main(path2outputs)
-  # print(ALL_CDP_DATA_PARSED)
+
+  main(path_output_dir)

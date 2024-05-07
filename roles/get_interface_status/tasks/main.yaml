@@ -47,5 +47,31 @@
     stdin: |
       {{ tstamp.stdout }},{{ inventory_hostname }}
   delegate_to: localhost
-  register: output_xml2csv
+  # register: output_xml2csv
+
+### Parsing CDP outputs
+
+- name: Get show cdp enty command outputs
+  cisco.nxos.nxos_command:
+    commands:
+      - show cdp entry all
+  register: outputs_cdp_entries
+
+- name: Copy show cdp entry all outputs to a file
+  ansible.builtin.lineinfile:
+    path: "{{ folder_name }}/command_outputs/{{ inventory_hostname }}_show_cdp_entry.txt"
+    line: |
+      {{ outputs_cdp_entries.stdout | join('\n') }}
+    state: present
+    create: true
+
+- name: Parsing CDP outputs
+  ansible.builtin.command:
+    cmd: "python3 cdp_parser.py"
+    executable: /Users/timkinv0815/Documents/venv3106/bin/python3
+    chdir: ./roles/get_interface_status/library
+    stdin: |
+      {{ tstamp.stdout }},{{ inventory_hostname }}
+  delegate_to: localhost
+  # register: output_cdp_parser
 ...
