@@ -98,7 +98,30 @@ def parser_lldp_output(output_raw):
         #     # where the show lldp entry command was issued
         #     (local_device, junk) = line.split('#')
         #     local_device = local_device.strip().strip('\ufeff\ufeff')
+    
+
+        ### Interface names are being abbreviated in the LLDP outputs.
+        ### Need to replace a short interface name with the full interface name.
+        ### A dictionary is used to map the short interface names to the full interface names.
         
+        interface_map = {
+            'Eth': 'Ethernet',
+            'Po': 'Port-channel',
+            'Vlan': 'Vlan',
+            'Lo': 'Loopback',
+            'Tu': 'Tunnel',
+            'Fa': 'FastEthernet',
+            'Gig': 'GigabitEthernet',
+            'Gi': 'GigabitEthernet',
+            'Ten': 'TenGigabitEthernet',
+            'Te': 'TenGigabitEthernet',
+            'Twe': 'TwentyFiveGigE',
+            'For': 'FortyGigabitEthernet',
+            'Fo': 'FortyGigabitEthernet',
+            'Hun': ' HundredGigE',
+            'Hu': ' HundredGigE'
+        }
+
         ### Local_device is taken from STDIN passing as a parameter by Ansible in this case.
         local_device = device_hostname
 
@@ -138,7 +161,6 @@ def parser_lldp_output(output_raw):
                 'remote_vlan_id': ''
             }
             net_link['local_device'] = local_device
-            remote_device = ''
 
         ### Use loop_flag to populate lldp data of one link between the following lines:
         ### - the start line contains 'Chassis id:'
@@ -174,7 +196,28 @@ def parser_lldp_output(output_raw):
                 (junk, local_port_id) = line.split('Local Port id:')
                 local_port_id = local_port_id.strip()
                 net_link['local_port_id'] = local_port_id
+
+                for k,v in interface_map.items():
+                    if k in local_port_id:
+                        local_port_id = local_port_id.replace(k,v)
+                        net_link['local_port_id'] = local_port_id
+                        continue
+
                 continue
+            
+            ### It will require to develop a separate script to parse IOS-XE outputs
+            # if 'Local Intf:' in line:
+            #     (junk, local_port_id) = line.split('Local Intf:')
+            #     local_port_id = local_port_id.strip()
+            #     net_link['local_port_id'] = local_port_id
+
+            #     for k,v in interface_map.items():
+            #         if k in local_port_id:
+            #             local_port_id = local_port_id.replace(k,v)
+            #             net_link['local_port_id'] = local_port_id
+            #             continue
+
+            #     continue
 
             if 'Port Description:' in line:
                 (junk, remote_port_description) = line.split('Port Description:')
