@@ -1,0 +1,31 @@
+{
+  "links": [
+    {
+      "local_device": "",
+      "local_int": "mgmt0",
+      "remote_device": "DC-DIST7-2",
+      "remote_int": "Ethernet7/39",
+      "remote_platform": "N7K-C7010",
+      "remote_capabilities": "Router Switch IGMP Filtering Supports-STP-Dispute",
+      "remote_ip_cdp": "10.100.1.2"
+    },
+    {
+      "local_device": "",
+      "local_int": "Ethernet1/47",
+      "remote_device": "CALAX04-DC1AS-01A",
+      "remote_int": "Ethernet1/47",
+      "remote_platform": "N9K-C93180YC-EX",
+      "remote_capabilities": "Router Switch IGMP Filtering Supports-STP-Dispute",
+      "remote_ip_cdp": "10.100.1.109"
+    },
+    {
+      "local_device": "",
+      "local_int": "Ethernet1/48",
+      "remote_device": "CALAX04-DC1AS-01A",
+      "remote_int": "Ethernet1/48",
+      "remote_platform": "N9K-C93180YC-EX",
+      "remote_capabilities": "Router Switch IGMP Filtering Supports-STP-Dispute",
+      "remote_ip_cdp": "10.100.1.109"
+    }
+  ]
+}
