@@ -32,10 +32,7 @@
     - csv
     - json
 
-# - name: Test
-#   ansible.builtin.debug:
-#     msg: "{{ tstamp.stdout }}, {{ inventory_hostname }}"
-#   delegate_to: localhost
+### Collecting and Parsing show interface status outputs
 
 - name: Get show interface status command outputs in XML format
   cisco.nxos.nxos_command:
@@ -61,7 +58,7 @@
   delegate_to: localhost
   # register: output_xml2csv
 
-### Parsing CDP outputs
+### Collecting and Parsing CDP outputs
 
 - name: Get show cdp enty command outputs
   cisco.nxos.nxos_command:
@@ -87,7 +84,7 @@
   delegate_to: localhost
   # register: output_cdp_parser
 
-### Parsing LLDP outputs
+### Collecting and Parsing LLDP outputs
 
 - name: Get show lldp enty command outputs
   cisco.nxos.nxos_command:
