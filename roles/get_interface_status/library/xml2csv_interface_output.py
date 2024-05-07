@@ -78,7 +78,7 @@ def main():
     for row in output_rows:
         # for k, v in row.items():
         output_dict[device_hostname][row["Port"]]= {
-            "Port": row["Port"],
+            # "Port": row["Port"],
             "Name": row["Name"],
             "Status": row["Status"],
             "Vlan": row["Vlan"],
@@ -107,13 +107,18 @@ if __name__ == "__main__":
     input_xml = "../../../outputs/" + input_folder + "/command_outputs/" + device_hostname + "_show_interface_status.xml"
 
     output_dir = "../../../outputs/" + input_folder + "/xml2csv_outputs/"
+    path_output_dir = os.path.join("../../../outputs/",input_folder,"xml2csv_interface_outputs")
+    # output_json = output_dir + device_hostname + ".json"
+    # output_dict2json = output_dir + device_hostname + "_dict.json"
+    # output_csv = output_dir + device_hostname + ".csv"
+    # output_excel = output_dir + device_hostname + ".xlsx"
 
-    output_json = output_dir + device_hostname + ".json"
-    output_dict2json = output_dir + device_hostname + "_dict.json"
-    output_csv = output_dir + device_hostname + ".csv"
-    output_excel = output_dir + device_hostname + ".xlsx"
+    output_json = path_output_dir + "/" + device_hostname + ".json"
+    output_dict2json = path_output_dir + "/" + device_hostname + "_dict.json"
+    output_csv = path_output_dir + "/" + device_hostname + ".csv"
+    output_excel = path_output_dir + "/" + device_hostname + ".xlsx"
 
     output_rows = []
     list_if = []
-    path_output_dir = os.path.join("../../../outputs/",input_folder,"xml2csv_outputs")
+
     main()
