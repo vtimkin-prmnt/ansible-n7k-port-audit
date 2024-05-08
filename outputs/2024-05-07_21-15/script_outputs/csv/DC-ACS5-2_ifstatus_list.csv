@@ -1,0 +1,569 @@
+,Hostname,Port,Name,Status,Vlan,Duplex,Speed,Type
+1,DC-ACS5-2,Ethernet1/1,--,connected,trunk,full,10G,SFP-H10GB-CU5M
+2,DC-ACS5-2,Ethernet1/2,--,connected,trunk,full,10G,SFP-H10GB-CU5M
+3,DC-ACS5-2,Ethernet1/3,--,sfpAbsent,1,full,10G,--
+4,DC-ACS5-2,Ethernet1/4,--,sfpAbsent,1,full,10G,--
+5,DC-ACS5-2,Ethernet1/5,Uplink to N7K,connected,trunk,full,10G,10Gbase-SR
+6,DC-ACS5-2,Ethernet1/6,Uplink to N7K,connected,trunk,full,10G,10Gbase-SR
+7,DC-ACS5-2,Ethernet1/7,--,connected,trunk,full,10G,10Gbase-SR
+8,DC-ACS5-2,Ethernet1/8,BMS MARATHON SUBSTATION CONN #2,notconnect,trunk,full,1000,SFP-1000BASE-LX
+9,DC-ACS5-2,Ethernet1/9,Avere - ReelFX,connected,27,full,10G,10Gbase-SR
+10,DC-ACS5-2,Ethernet1/10,Avere - ReelFX,connected,27,full,10G,10Gbase-SR
+11,DC-ACS5-2,Ethernet1/11,--,connected,trunk,full,10G,10Gbase-SR
+12,DC-ACS5-2,Ethernet1/12,Power House 2 - **dont remove guard root**,sfpAbsent,trunk,full,1000,--
+13,DC-ACS5-2,Ethernet1/13,to FEX1-1 Cab10-1,connected,1,full,10G,Fabric Extender Transceiver
+14,DC-ACS5-2,Ethernet1/14,to FEX1-2 Cab10-1,connected,1,full,10G,Fabric Extender Transceiver
+15,DC-ACS5-2,Ethernet1/15,to FEX1-2 Cab10-6,connected,1,full,10G,Fabric Extender Transceiver
+16,DC-ACS5-2,Ethernet1/16,to FEX2-2 Cab10-6,connected,1,full,10G,Fabric Extender Transceiver
+17,DC-ACS5-2,Ethernet1/17,to FEX1-3 Cab10-8,connected,1,full,10G,Fabric Extender Transceiver
+18,DC-ACS5-2,Ethernet1/18,to FEX2-3 Cab10-8,connected,1,full,10G,Fabric Extender Transceiver
+19,DC-ACS5-2,Ethernet1/19,***Reserved for Pure Storage***,connected,860,full,10G,10Gbase-SR
+20,DC-ACS5-2,Ethernet1/20,to FEX1-4 Rack 10-6,connected,1,full,10G,Fabric Extender Transceiver
+21,DC-ACS5-2,Ethernet1/21,to FEX2-4 Rack 10-6,connected,1,full,10G,Fabric Extender Transceiver
+22,DC-ACS5-2,Ethernet1/22,FEX in Editorial N2KE-1,connected,1,full,10G,10Gbase-LR
+23,DC-ACS5-2,Ethernet1/23,Qumulo-connection,connected,trunk,full,10G,10Gbase-SR
+24,DC-ACS5-2,Ethernet1/24,Qumulo-connection,connected,trunk,full,10G,10Gbase-SR
+25,DC-ACS5-2,Ethernet1/25,--,notconnect,500,full,10G,10Gbase-LR
+26,DC-ACS5-2,Ethernet1/26,--,sfpInvalid,500,full,10G,SFP-1000BASE-LX
+27,DC-ACS5-2,Ethernet1/27,Uplink to N7K,connected,trunk,full,10G,10Gbase-SR
+28,DC-ACS5-2,Ethernet1/28,Uplink to N7K,connected,trunk,full,10G,10Gbase-SR
+29,DC-ACS5-2,Ethernet1/29,to 1GFEX1-1 Cab9-4,connected,1,full,10G,Fabric Extender Transceiver
+30,DC-ACS5-2,Ethernet1/30,to 1GFEX1-1 Cab9-4,connected,1,full,10G,Fabric Extender Transceiver
+31,DC-ACS5-2,Ethernet1/31,to 10GFEX1-2 Cab9-4,connected,1,full,10G,Fabric Extender Transceiver
+32,DC-ACS5-2,Ethernet1/32,to 10GFEX1-2 Cab9-4,connected,1,full,10G,Fabric Extender Transceiver
+33,DC-ACS5-2,port-channel1,Cisco UCS lab ethernet uplinks,noOperMembers,trunk,auto,auto,--
+34,DC-ACS5-2,port-channel5,*** Back-to-back vPC to DC-DIST7-1 & 2 ***,connected,trunk,full,10G,--
+35,DC-ACS5-2,port-channel10,--,connected,trunk,full,10G,--
+36,DC-ACS5-2,port-channel20,*** vPC to Digital Post ***,noOperMembers,trunk,full,auto,--
+37,DC-ACS5-2,port-channel21,Facility Automation Intermediary,noOperMembers,trunk,full,auto,--
+38,DC-ACS5-2,port-channel22,Port-channel 8 x 1G to SAPHVSQL Data,noOperMembers,791,full,auto,--
+39,DC-ACS5-2,port-channel23,FIDELISSENSORPARA2,noOperMembers,500,full,auto,--
+40,DC-ACS5-2,port-channel24,Port-channel 2 x 1G to SAPHVSQL-NEW Data,noOperMembers,821,full,auto,--
+41,DC-ACS5-2,port-channel25,Port-channel nxTSMp03,connected,821,full,10G,--
+42,DC-ACS5-2,port-channel31,Port-channel 4 x 1G backup to MSSQL7,noOperMembers,791,full,auto,--
+43,DC-ACS5-2,port-channel100,--,connected,1,full,10G,--
+44,DC-ACS5-2,port-channel101,--,connected,1,full,10G,--
+45,DC-ACS5-2,port-channel102,--,connected,1,full,10G,--
+46,DC-ACS5-2,port-channel103,--,connected,1,full,10G,--
+47,DC-ACS5-2,port-channel104,--,connected,1,full,10G,--
+48,DC-ACS5-2,port-channel105,--,connected,1,full,10G,--
+49,DC-ACS5-2,port-channel106,FEX1-4,connected,1,full,10G,--
+50,DC-ACS5-2,port-channel107,FEX2-4,connected,1,full,10G,--
+51,DC-ACS5-2,port-channel120,--,noOperMembers,1,full,auto,--
+52,DC-ACS5-2,port-channel122,--,connected,1,full,10G,--
+53,DC-ACS5-2,port-channel123,--,noOperMembers,1,full,auto,--
+54,DC-ACS5-2,port-channel124,--,noOperMembers,1,full,auto,--
+55,DC-ACS5-2,port-channel125,--,noOperMembers,1,full,auto,--
+56,DC-ACS5-2,port-channel180,--,connected,1,full,10G,--
+57,DC-ACS5-2,port-channel181,--,connected,1,full,10G,--
+58,DC-ACS5-2,port-channel190,--,noOperMembers,721,full,auto,--
+59,DC-ACS5-2,port-channel200,Qumulo-connection-LACP,connected,trunk,full,10G,--
+60,DC-ACS5-2,port-channel300,Qumulo-connection-LACP,noOperMembers,trunk,auto,auto,--
+61,DC-ACS5-2,port-channel500,--,noOperMembers,51,full,auto,--
+62,DC-ACS5-2,port-channel501,--,noOperMembers,50,full,auto,--
+63,DC-ACS5-2,port-channel502,--,noOperMembers,50,full,auto,--
+64,DC-ACS5-2,port-channel503,--,noOperMembers,51,full,auto,--
+65,DC-ACS5-2,port-channel504,--,noOperMembers,860,full,auto,--
+66,DC-ACS5-2,port-channel505,--,noOperMembers,821,full,auto,--
+67,DC-ACS5-2,port-channel516,MSBRSTSMPRXPD05,connected,860,full,10G,--
+68,DC-ACS5-2,port-channel517,MSBRSTSMPRXPD06,connected,860,full,10G,--
+69,DC-ACS5-2,port-channel518,MSBRSTSMPRXPD07,connected,860,full,10G,--
+70,DC-ACS5-2,port-channel1111,--,connected,trunk,full,10G,--
+71,DC-ACS5-2,mgmt0,--,connected,routed,full,1000,--
+72,DC-ACS5-2,Ethernet100/1/1,*** For single-homed servers ***,notconnect,682,auto,auto,--
+73,DC-ACS5-2,Ethernet100/1/2,*** For single-homed servers ***,notconnect,682,auto,auto,--
+74,DC-ACS5-2,Ethernet100/1/3,*** For single-homed servers ***,notconnect,682,auto,auto,--
+75,DC-ACS5-2,Ethernet100/1/4,*** For single-homed servers ***,notconnect,682,auto,auto,--
+76,DC-ACS5-2,Ethernet100/1/5,Metadata Array,connected,500,full,1000,--
+77,DC-ACS5-2,Ethernet100/1/6,Metadata Array,connected,500,full,1000,--
+78,DC-ACS5-2,Ethernet100/1/7,msMBLp01 (sec),notconnect,730,auto,auto,--
+79,DC-ACS5-2,Ethernet100/1/8,NXPHRU01,notconnect,831,auto,auto,--
+80,DC-ACS5-2,Ethernet100/1/9,*** For single-homed servers ***,notconnect,898,auto,auto,--
+81,DC-ACS5-2,Ethernet100/1/10,*** For single-homed servers ***,notconnect,898,auto,auto,--
+82,DC-ACS5-2,Ethernet100/1/11,QL-US-LAQUM02 INC06169248,connected,500,full,1000,--
+83,DC-ACS5-2,Ethernet100/1/12,QL-US-LAQUM02 INC06169248,connected,500,full,1000,--
+84,DC-ACS5-2,Ethernet100/1/13,QL-US-LAQUM02 INC06169248,connected,500,full,1000,--
+85,DC-ACS5-2,Ethernet100/1/14,QL-US-LAQUM02 INC06169248,connected,500,full,1000,--
+86,DC-ACS5-2,Ethernet100/1/15,QL-US-LAQUM02 INC06169248,connected,500,full,1000,--
+87,DC-ACS5-2,Ethernet100/1/16,QL-US-LAQUM02 INC06169248,connected,500,full,1000,--
+88,DC-ACS5-2,Ethernet100/1/17,QL-US-LAQUM02 INC06169248,connected,500,full,1000,--
+89,DC-ACS5-2,Ethernet100/1/18,QL-US-LAQUM02 INC06169248,connected,500,full,1000,--
+90,DC-ACS5-2,Ethernet100/1/19,QL-US-LAQUM02 INC06169248,connected,500,full,1000,--
+91,DC-ACS5-2,Ethernet100/1/20,QL-US-LAQUM02 INC06169248,connected,500,full,1000,--
+92,DC-ACS5-2,Ethernet100/1/21,--,connected,205,full,1000,--
+93,DC-ACS5-2,Ethernet100/1/22,PPCDBU1,linkFlapErr,751,auto,auto,--
+94,DC-ACS5-2,Ethernet100/1/23,NXINFP01,notconnect,821,auto,auto,--
+95,DC-ACS5-2,Ethernet100/1/24,DD-ISILON-ACC1 NIC1,notconnect,888,auto,auto,--
+96,DC-ACS5-2,Ethernet100/1/25,DD-ISILON-NODE1 NIC1,connected,500,full,1000,--
+97,DC-ACS5-2,Ethernet100/1/26,DD-ISILON-NODE2 NIC1,connected,500,full,1000,--
+98,DC-ACS5-2,Ethernet100/1/27,DD-ISILON-NODE6 NIC1,notconnect,888,auto,auto,--
+99,DC-ACS5-2,Ethernet100/1/28,DD-ISILON-NODE3 NIC1,notconnect,888,auto,auto,--
+100,DC-ACS5-2,Ethernet100/1/29,DD-ISILON-NODE4 NIC1,notconnect,888,auto,auto,--
+101,DC-ACS5-2,Ethernet100/1/30,DD-ISILON-NODE5 NIC1,notconnect,888,auto,auto,--
+102,DC-ACS5-2,Ethernet100/1/31,hxappd03,notconnect,831,full,100,--
+103,DC-ACS5-2,Ethernet100/1/32,NXDTMP01 NIC-1,notconnect,850,auto,auto,--
+104,DC-ACS5-2,Ethernet100/1/33,NXDTMP01 NIC-2,notconnect,850,auto,auto,--
+105,DC-ACS5-2,Ethernet100/1/34,NXDTMP02 NIC-1,notconnect,850,auto,auto,--
+106,DC-ACS5-2,Ethernet100/1/35,NXDTMP02 NIC-2,linkFlapErr,751,auto,auto,--
+107,DC-ACS5-2,Ethernet100/1/36,PPCDBD1,notconnect,831,full,100,--
+108,DC-ACS5-2,Ethernet100/1/37,NXPHRP01,notconnect,781,auto,auto,--
+109,DC-ACS5-2,Ethernet100/1/38,VNX Mgmt 1,notconnect,850,auto,auto,--
+110,DC-ACS5-2,Ethernet100/1/39,VNX Mgmt 2,notconnect,850,auto,auto,--
+111,DC-ACS5-2,Ethernet100/1/40,BMSIFIXSCADA NIC2,notconnect,882,full,100,--
+112,DC-ACS5-2,Ethernet100/1/41,DD-ISILON-NODE2 NIC2,notconnect,889,auto,auto,--
+113,DC-ACS5-2,Ethernet100/1/42,DD-ISILON-NODE1 NIC2,notconnect,889,auto,auto,--
+114,DC-ACS5-2,Ethernet100/1/43,DD-ISILON-ACC1 NIC2,notconnect,889,auto,auto,--
+115,DC-ACS5-2,Ethernet100/1/44,BMSALCLONSQD NIC2,notconnect,882,full,100,--
+116,DC-ACS5-2,Ethernet100/1/45,EMC-CENT-AN1,notconnect,686,auto,auto,--
+117,DC-ACS5-2,Ethernet100/1/46,EMC-CENT-AN2,notconnect,850,auto,auto,--
+118,DC-ACS5-2,Ethernet100/1/47,EMC-CENT-AN3,notconnect,850,auto,auto,--
+119,DC-ACS5-2,Ethernet100/1/48,EMC-CENT-AN4,notconnect,850,auto,auto,--
+120,DC-ACS5-2,Ethernet101/1/1,*** For single-homed servers ***,notconnect,682,auto,auto,--
+121,DC-ACS5-2,Ethernet101/1/2,*** For single-homed servers ***,notconnect,682,auto,auto,--
+122,DC-ACS5-2,Ethernet101/1/3,*** For single-homed servers ***,notconnect,682,auto,auto,--
+123,DC-ACS5-2,Ethernet101/1/4,*** For single-homed servers ***,notconnect,682,auto,auto,--
+124,DC-ACS5-2,Ethernet101/1/5,PURE-STORAGE,connected,850,full,1000,--
+125,DC-ACS5-2,Ethernet101/1/6,PURE-STORAGE,connected,850,full,1000,--
+126,DC-ACS5-2,Ethernet101/1/7,*** For single-homed servers ***,notconnect,853,auto,auto,--
+127,DC-ACS5-2,Ethernet101/1/8,*** For single-homed servers ***,notconnect,853,auto,auto,--
+128,DC-ACS5-2,Ethernet101/1/9,*** For single-homed servers ***,connected,898,full,1000,--
+129,DC-ACS5-2,Ethernet101/1/10,*** For single-homed servers ***,connected,898,full,1000,--
+130,DC-ACS5-2,Ethernet101/1/11,NXDTMP01 MGMT Port(0),connected,899,full,1000,--
+131,DC-ACS5-2,Ethernet101/1/12,NXDTMP02 MGMT Port(0),notconnect,853,auto,auto,--
+132,DC-ACS5-2,Ethernet101/1/13,DD-ISILON-NODE6 NIC2,notconnect,889,auto,auto,--
+133,DC-ACS5-2,Ethernet101/1/14,BMSIFIXSCADA NIC4,notconnect,800,full,100,--
+134,DC-ACS5-2,Ethernet101/1/15,--,connected,899,full,1000,--
+135,DC-ACS5-2,Ethernet101/1/16,BMSALCLONSQD NIC4,unknown enum:<248>,800,full,100,--
+136,DC-ACS5-2,Ethernet101/1/17,--,connected,899,full,1000,--
+137,DC-ACS5-2,Ethernet101/1/18,PURE-STORAGE,notconnect,850,full,100,--
+138,DC-ACS5-2,Ethernet101/1/19,PURE-STORAGE,notconnect,850,full,100,--
+139,DC-ACS5-2,Ethernet101/1/20,Screenlife CVA2 e1,notconnect,911,full,100,--
+140,DC-ACS5-2,Ethernet101/1/21,DCX8518LAX01 mgmt standby,connected,811,full,1000,--
+141,DC-ACS5-2,Ethernet101/1/22,Port-channel to SAPHVSQL Data,notconnect,791,auto,auto,--
+142,DC-ACS5-2,Ethernet101/1/23,Port-channel to SAPHVSQL Data,notconnect,791,auto,auto,--
+143,DC-ACS5-2,Ethernet101/1/24,Port-channel to SAPHVSQL Data,notconnect,791,auto,auto,--
+144,DC-ACS5-2,Ethernet101/1/25,Port-channel to SAPHVSQL Data,notconnect,791,auto,auto,--
+145,DC-ACS5-2,Ethernet101/1/26,Port-channel to SAPHVSQL Data,notconnect,791,auto,auto,--
+146,DC-ACS5-2,Ethernet101/1/27,Port-channel to SAPHVSQL Data,notconnect,791,auto,auto,--
+147,DC-ACS5-2,Ethernet101/1/28,Port-channel to SAPHVSQL Data,notconnect,791,auto,auto,--
+148,DC-ACS5-2,Ethernet101/1/29,Port-channel to SAPHVSQL Data,notconnect,791,auto,auto,--
+149,DC-ACS5-2,Ethernet101/1/30,Screenlife TapeLibrary e1,notconnect,911,auto,auto,--
+150,DC-ACS5-2,Ethernet101/1/31,Screenlife CVA1 e1,notconnect,911,full,100,--
+151,DC-ACS5-2,Ethernet101/1/32,Screenlife IT-Commvault e1,notconnect,911,auto,auto,--
+152,DC-ACS5-2,Ethernet101/1/33,Port-channel to MSSQL07 Backup/WAN,notconnect,791,auto,auto,--
+153,DC-ACS5-2,Ethernet101/1/34,Port-channel to MSSQL07 Backup/WAN,notconnect,791,auto,auto,--
+154,DC-ACS5-2,Ethernet101/1/35,Port-channel to MSSQL07 Backup/WAN,notconnect,791,auto,auto,--
+155,DC-ACS5-2,Ethernet101/1/36,Port-channel to MSSQL07 Backup/WAN,notconnect,791,auto,auto,--
+156,DC-ACS5-2,Ethernet101/1/37,TERADATA,notconnect,854,auto,auto,--
+157,DC-ACS5-2,Ethernet101/1/38,TERADATA,notconnect,854,auto,auto,--
+158,DC-ACS5-2,Ethernet101/1/39,TERADATA,notconnect,854,auto,auto,--
+159,DC-ACS5-2,Ethernet101/1/40,TERADATA,notconnect,854,auto,auto,--
+160,DC-ACS5-2,Ethernet101/1/41,DCX8518LAX01 mgmt primary,connected,811,full,1000,--
+161,DC-ACS5-2,Ethernet101/1/42,TERADATA,notconnect,854,auto,auto,--
+162,DC-ACS5-2,Ethernet101/1/43,TERADATA,notconnect,854,auto,auto,--
+163,DC-ACS5-2,Ethernet101/1/44,TERADATA,notconnect,854,auto,auto,--
+164,DC-ACS5-2,Ethernet101/1/45,TERADATA,notconnect,854,auto,auto,--
+165,DC-ACS5-2,Ethernet101/1/46,TERADATA,notconnect,854,auto,auto,--
+166,DC-ACS5-2,Ethernet101/1/47,TERADATA,notconnect,854,auto,auto,--
+167,DC-ACS5-2,Ethernet101/1/48,TERADATA,notconnect,854,auto,auto,--
+168,DC-ACS5-2,Ethernet102/1/1,PPC-Corp-Isilon01 #1 em1 TSK NOV26 2013,notconnect,500,auto,auto,--
+169,DC-ACS5-2,Ethernet102/1/2,PPC-Corp-Isilon01 #2 em1 TSK NOV26 2013,notconnect,500,auto,auto,--
+170,DC-ACS5-2,Ethernet102/1/3,PPC-Corp-Isilon01 #3 em1 TSK NOV26 2013,notconnect,500,auto,auto,--
+171,DC-ACS5-2,Ethernet102/1/4,PPC-Corp-Isilon01 #4 em1 TSK NOV26 2013,notconnect,500,auto,auto,--
+172,DC-ACS5-2,Ethernet102/1/5,PPC-Corp-Isilon01 #5 em1 TSK NOV26 2013,notconnect,500,auto,auto,--
+173,DC-ACS5-2,Ethernet102/1/6,DC-WebsenseV10K-02.mtvn.ad.viacom.com Management C1,connected,67,full,1000,--
+174,DC-ACS5-2,Ethernet102/1/7,DC-M8K-02 mgmt,notconnect,200,auto,auto,--
+175,DC-ACS5-2,Ethernet102/1/8,SCreenlife 10.0.21.0 subnet,notconnect,912,auto,auto,--
+176,DC-ACS5-2,Ethernet102/1/9,SCreenlife 10.0.21.0 subnet,notconnect,900,auto,auto,--
+177,DC-ACS5-2,Ethernet102/1/10,SCreenlife 10.0.21.0 subnet,notconnect,900,auto,auto,--
+178,DC-ACS5-2,Ethernet102/1/11,SCreenlife 10.0.21.0 subnet,notconnect,900,auto,auto,--
+179,DC-ACS5-2,Ethernet102/1/12,SCreenlife 10.0.21.0 subnet,notconnect,900,auto,auto,--
+180,DC-ACS5-2,Ethernet102/1/13,PPC-Corp-Isilon01 #1 em0 TSK NOV26 2013,connected,500,full,1000,--
+181,DC-ACS5-2,Ethernet102/1/14,PPC-Corp-Isilon01 #2 em0 TSK NOV26 2013,connected,500,full,1000,--
+182,DC-ACS5-2,Ethernet102/1/15,PPC-Corp-Isilon01 #3 em0 TSK NOV26 2013,connected,500,full,1000,--
+183,DC-ACS5-2,Ethernet102/1/16,PPC-Corp-Isilon01 #4 em0 TSK NOV26 2013,connected,500,full,1000,--
+184,DC-ACS5-2,Ethernet102/1/17,PPC-Corp-Isilon01 #5 em0 TSK NOV26 2013,notconnect,500,auto,auto,--
+185,DC-ACS5-2,Ethernet102/1/18,DC-AIRMSE1,notconnect,900,auto,auto,--
+186,DC-ACS5-2,Ethernet102/1/19,P1 WebSense U6 11-03 TSK JAN 21 2013,notconnect,15,auto,auto,--
+187,DC-ACS5-2,Ethernet102/1/20,C WebSense U6 11-03 TSK JAN 21 2013,notconnect,199,auto,auto,--
+188,DC-ACS5-2,Ethernet102/1/21,ISCLSP01,notconnect,976,auto,auto,--
+189,DC-ACS5-2,Ethernet102/1/22,msEVSp01,notconnect,976,auto,auto,--
+190,DC-ACS5-2,Ethernet102/1/23,msEVSp02,notconnect,976,auto,auto,--
+191,DC-ACS5-2,Ethernet102/1/24,Carbon Server (IAM),connected,976,full,1000,--
+192,DC-ACS5-2,Ethernet102/1/25,P1 WebSense 04 11-03 TSK NOV 11 2013,notconnect,884,auto,auto,--
+193,DC-ACS5-2,Ethernet102/1/26,P1 WebSense 05 11-03 TSK NOV 11 2013,notconnect,884,auto,auto,--
+194,DC-ACS5-2,Ethernet102/1/27,DD-ISILON-NODE4 NIC2,connected,500,full,1000,--
+195,DC-ACS5-2,Ethernet102/1/28,DD-ISILON-NODE3 NIC2,connected,500,full,1000,--
+196,DC-ACS5-2,Ethernet102/1/29,Carbon Coder (IAM),notconnect,855,auto,auto,--
+197,DC-ACS5-2,Ethernet102/1/30,msMBXp01 (sec),notconnect,730,auto,auto,--
+198,DC-ACS5-2,Ethernet102/1/31,msMBXp03 (sec),notconnect,730,auto,auto,--
+199,DC-ACS5-2,Ethernet102/1/32,SAPHVSQL-NEW NIC2,notconnect,821,auto,auto,--
+200,DC-ACS5-2,Ethernet102/1/33,SAPHVSQL-NEW NIC2,notconnect,821,auto,auto,--
+201,DC-ACS5-2,Ethernet102/1/34,Port-channel to MSSQL07 Data,notconnect,500,auto,auto,--
+202,DC-ACS5-2,Ethernet102/1/35,FIDELISSENSORPARA1-ILO,notconnect,500,auto,auto,--
+203,DC-ACS5-2,Ethernet102/1/36,FIDELISSENSORPARA2-ILO,notconnect,500,auto,auto,--
+204,DC-ACS5-2,Ethernet102/1/37,MSALSP43,inactive,850,full,auto,--
+205,DC-ACS5-2,Ethernet102/1/38,MSALSP44,connected,899,full,1000,--
+206,DC-ACS5-2,Ethernet102/1/39,INC05802231,connected,887,full,100,--
+207,DC-ACS5-2,Ethernet102/1/40,INC05802231,connected,887,full,100,--
+208,DC-ACS5-2,Ethernet102/1/41,INC05802231,connected,887,full,100,--
+209,DC-ACS5-2,Ethernet102/1/42,INC05802231,connected,887,full,100,--
+210,DC-ACS5-2,Ethernet102/1/43,INC05802231,connected,887,full,100,--
+211,DC-ACS5-2,Ethernet102/1/44,MSCASP02,connected,847,full,100,--
+212,DC-ACS5-2,Ethernet102/1/45,VMAX mgmt NIC TSK OCT 04 2012,notconnect,900,auto,auto,--
+213,DC-ACS5-2,Ethernet102/1/46,nxELMD02 NIC2 TSK SEP282012,notconnect,899,auto,auto,--
+214,DC-ACS5-2,Ethernet102/1/47,nxELMP02 NIC2 TSK SEP282012,connected,899,full,1000,--
+215,DC-ACS5-2,Ethernet102/1/48,nxELMP01 NIC2 TSK SEP28 2012,notconnect,899,auto,auto,--
+216,DC-ACS5-2,Ethernet103/1/1,nxSPLp02,connected,682,full,1000,--
+217,DC-ACS5-2,Ethernet103/1/2,nxSPLp03,connected,682,full,1000,--
+218,DC-ACS5-2,Ethernet103/1/3,INC05338933,notconnect,924,auto,auto,--
+219,DC-ACS5-2,Ethernet103/1/4,INC05338933,notconnect,924,auto,auto,--
+220,DC-ACS5-2,Ethernet103/1/5,msMBXp02 (sec),notconnect,730,auto,auto,--
+221,DC-ACS5-2,Ethernet103/1/6,msMBXp04 (sec),notconnect,730,auto,auto,--
+222,DC-ACS5-2,Ethernet103/1/7,INC05513328,connected,850,full,100,--
+223,DC-ACS5-2,Ethernet103/1/8,INC05513328,connected,850,full,100,--
+224,DC-ACS5-2,Ethernet103/1/9,INC05802231,notconnect,887,auto,auto,--
+225,DC-ACS5-2,Ethernet103/1/10,--,connected,821,full,1000,--
+226,DC-ACS5-2,Ethernet103/1/11,--,connected,821,full,1000,--
+227,DC-ACS5-2,Ethernet103/1/12,INC05802231,notconnect,887,auto,auto,--
+228,DC-ACS5-2,Ethernet103/1/13,INC05802231,connected,887,full,100,--
+229,DC-ACS5-2,Ethernet103/1/14,INC05802231,connected,887,full,100,--
+230,DC-ACS5-2,Ethernet103/1/15,INC05338933,notconnect,924,auto,auto,--
+231,DC-ACS5-2,Ethernet103/1/16,INC05802231,connected,887,full,100,--
+232,DC-ACS5-2,Ethernet103/1/17,tsNVRp02 nic2,notconnect,976,auto,auto,--
+233,DC-ACS5-2,Ethernet103/1/18,tsNVRp03 nic2,notconnect,976,auto,auto,--
+234,DC-ACS5-2,Ethernet103/1/19,Websense U7 C TSK MAY 20 2013,connected,67,full,100,--
+235,DC-ACS5-2,Ethernet103/1/20,INC05802231,connected,887,full,100,--
+236,DC-ACS5-2,Ethernet103/1/21,INC05338933,notconnect,924,auto,auto,--
+237,DC-ACS5-2,Ethernet103/1/22,INC05802231,connected,887,full,100,--
+238,DC-ACS5-2,Ethernet103/1/23,INC05802231,connected,887,full,100,--
+239,DC-ACS5-2,Ethernet103/1/24,INC05802231,connected,887,full,100,--
+240,DC-ACS5-2,Ethernet103/1/25,INC05802231,connected,887,full,100,--
+241,DC-ACS5-2,Ethernet103/1/26,tsMSTp01 nic2,notconnect,509,auto,auto,--
+242,DC-ACS5-2,Ethernet103/1/27,tsNVRp01 nic2,notconnect,509,auto,auto,--
+243,DC-ACS5-2,Ethernet103/1/28,INC05802231,connected,887,full,100,--
+244,DC-ACS5-2,Ethernet103/1/29,INC05802231,connected,887,full,100,--
+245,DC-ACS5-2,Ethernet103/1/30,INC05802231,connected,887,full,100,--
+246,DC-ACS5-2,Ethernet103/1/31,INC05802231,connected,887,full,100,--
+247,DC-ACS5-2,Ethernet103/1/32,INC05802231,connected,887,full,100,--
+248,DC-ACS5-2,Ethernet103/1/33,INC05802231,connected,887,full,100,--
+249,DC-ACS5-2,Ethernet103/1/34,INC05802231,connected,887,full,100,--
+250,DC-ACS5-2,Ethernet103/1/35,INC05939766,notconnect,860,auto,auto,--
+251,DC-ACS5-2,Ethernet103/1/36,INC05939766,connected,860,full,1000,--
+252,DC-ACS5-2,Ethernet103/1/37,--,notconnect,721,auto,auto,--
+253,DC-ACS5-2,Ethernet103/1/38,nxNETp02,notconnect,721,auto,auto,--
+254,DC-ACS5-2,Ethernet103/1/39,INC05939766,notconnect,860,auto,auto,--
+255,DC-ACS5-2,Ethernet103/1/40,isclsp14-NIC1,notconnect,883,auto,auto,--
+256,DC-ACS5-2,Ethernet103/1/41,nxELMP03,connected,500,full,1000,--
+257,DC-ACS5-2,Ethernet103/1/42,--,connected,500,full,1000,--
+258,DC-ACS5-2,Ethernet103/1/43,msmblp01,connected,298,full,1000,--
+259,DC-ACS5-2,Ethernet103/1/44,MSMBXP03,notconnect,847,auto,auto,--
+260,DC-ACS5-2,Ethernet103/1/45,MSMBXP01,connected,500,full,1000,--
+261,DC-ACS5-2,Ethernet103/1/46,nxELMD02 NIC1 TSK SEP282012,notconnect,682,auto,auto,--
+262,DC-ACS5-2,Ethernet103/1/47,nxELMP02 NIC1 TSK SEP282012,notconnect,682,auto,auto,--
+263,DC-ACS5-2,Ethernet103/1/48,nxELMP01 NIC1 TSK SEP28 2012,connected,898,full,1000,--
+264,DC-ACS5-2,Ethernet104/1/1,***FEX1/3 WWTO Isilon node1 ***,connected,899,full,1000,--
+265,DC-ACS5-2,Ethernet104/1/2,***FEX1/3 WWTO Isilon node1 ***,notconnect,205,auto,auto,--
+266,DC-ACS5-2,Ethernet104/1/3,***FEX1/3 WWTO Isilon node2 ***,connected,899,full,1000,--
+267,DC-ACS5-2,Ethernet104/1/4,***FEX1/3 WWTO Isilon node3 ***,notconnect,682,auto,auto,--
+268,DC-ACS5-2,Ethernet104/1/5,***FEX1/3 WWTO Isilon node3 ***,notconnect,682,auto,auto,--
+269,DC-ACS5-2,Ethernet104/1/6,***FEX1/3 WWTO Isilon node4 ***,notconnect,682,auto,auto,--
+270,DC-ACS5-2,Ethernet104/1/7,***FEX1/3 WWTO Isilon node5 ***,notconnect,682,auto,auto,--
+271,DC-ACS5-2,Ethernet104/1/8,***FEX1/3 WWTO Isilon node5 ***,notconnect,682,auto,auto,--
+272,DC-ACS5-2,Ethernet104/1/9,***FEX1/3 WWTO Isilon Accelerator ***,notconnect,682,auto,auto,--
+273,DC-ACS5-2,Ethernet104/1/10,*** WWTO ISILON ***,notconnect,682,auto,auto,--
+274,DC-ACS5-2,Ethernet104/1/11,*** WWTO ISILON ***,notconnect,509,auto,auto,--
+275,DC-ACS5-2,Ethernet104/1/12,*** WWTO ISILON ***,notconnect,900,auto,auto,--
+276,DC-ACS5-2,Ethernet104/1/13,MSALSP43_NIC3,connected,881,full,1000,--
+277,DC-ACS5-2,Ethernet104/1/14,MSALSP44_NIC3,connected,881,full,1000,--
+278,DC-ACS5-2,Ethernet104/1/15,--,connected,860,full,1000,--
+279,DC-ACS5-2,Ethernet104/1/16,--,connected,860,full,1000,--
+280,DC-ACS5-2,Ethernet104/1/17,--,connected,860,full,1000,--
+281,DC-ACS5-2,Ethernet104/1/18,--,connected,860,full,1000,--
+282,DC-ACS5-2,Ethernet104/1/19,--,connected,860,full,1000,--
+283,DC-ACS5-2,Ethernet104/1/20,--,connected,860,full,1000,--
+284,DC-ACS5-2,Ethernet104/1/21,--,connected,860,full,1000,--
+285,DC-ACS5-2,Ethernet104/1/22,--,connected,860,full,1000,--
+286,DC-ACS5-2,Ethernet104/1/23,INC03957261,connected,860,full,1000,--
+287,DC-ACS5-2,Ethernet104/1/24,--,notconnect,860,auto,auto,--
+288,DC-ACS5-2,Ethernet104/1/25,INC06742610,connected,3165,full,1000,--
+289,DC-ACS5-2,Ethernet104/1/26,INC06742610,connected,3165,full,1000,--
+290,DC-ACS5-2,Ethernet104/1/27,P1 WebSense U7 11-03 TSK JAN 21 2013,notconnect,15,auto,auto,--
+291,DC-ACS5-2,Ethernet104/1/28,Websense-smtp4.mtvn.ad.viacom.com . C1,connected,67,full,1000,--
+292,DC-ACS5-2,Ethernet104/1/29,***FEX1/3 WWTO Isilon node11 ***,unknown enum:<248>,682,auto,auto,--
+293,DC-ACS5-2,Ethernet104/1/30,***FEX1/3 WWTO Isilon node11 ***,connected,860,full,1000,--
+294,DC-ACS5-2,Ethernet104/1/31,MOB Isilon node13 NIC-1,notconnect,890,auto,auto,--
+295,DC-ACS5-2,Ethernet104/1/32,INC05408534,notconnect,976,auto,auto,--
+296,DC-ACS5-2,Ethernet104/1/33,Websense-smtp3.mtvn.ad.viacom.com . P1,connected,871,full,1000,--
+297,DC-ACS5-2,Ethernet104/1/34,INC05605880,notconnect,926,auto,auto,--
+298,DC-ACS5-2,Ethernet104/1/35,isclsp14-NIC2,notconnect,883,auto,auto,--
+299,DC-ACS5-2,Ethernet104/1/36,DC-WebsenseV10K-01.mtvn.ad.viacom.com Management P1,connected,18,full,1000,--
+300,DC-ACS5-2,Ethernet104/1/37,*** EMC Recoverpoint,notconnect,884,auto,auto,--
+301,DC-ACS5-2,Ethernet104/1/38,*** EMC Recoverpoint,notconnect,884,auto,auto,--
+302,DC-ACS5-2,Ethernet104/1/39,*** EMC Recoverpoint,notconnect,884,auto,auto,--
+303,DC-ACS5-2,Ethernet104/1/40,Shotgun GW Server,notconnect,686,auto,auto,--
+304,DC-ACS5-2,Ethernet104/1/41,Shotgun GW Server,notconnect,724,auto,auto,--
+305,DC-ACS5-2,Ethernet104/1/42,*** EMC Recoverpoint,notconnect,884,auto,auto,--
+306,DC-ACS5-2,Ethernet104/1/43,nxMDCp01-1,notconnect,899,auto,auto,--
+307,DC-ACS5-2,Ethernet104/1/44,INC05408534,notconnect,976,auto,auto,--
+308,DC-ACS5-2,Ethernet104/1/45,nxMDCp01,notconnect,898,auto,auto,--
+309,DC-ACS5-2,Ethernet104/1/46,Nexsan Management,notconnect,882,auto,auto,--
+310,DC-ACS5-2,Ethernet104/1/47,INC05605880,notconnect,926,auto,auto,--
+311,DC-ACS5-2,Ethernet104/1/48,MSCASP01,connected,847,full,100,--
+312,DC-ACS5-2,Ethernet105/1/1,***FEX1/4 WWTO Isilon node1 ***,connected,500,full,1000,--
+313,DC-ACS5-2,Ethernet105/1/2,***FEX1/4 WWTO Isilon node2 ***,notconnect,500,auto,auto,--
+314,DC-ACS5-2,Ethernet105/1/3,***FEX1/4 WWTO Isilon node2 ***,connected,500,full,1000,--
+315,DC-ACS5-2,Ethernet105/1/4,***FEX1/4 WWTO Isilon node3 ***,notconnect,682,auto,auto,--
+316,DC-ACS5-2,Ethernet105/1/5,***FEX1/4 WWTO Isilon node4 ***,notconnect,682,auto,auto,--
+317,DC-ACS5-2,Ethernet105/1/6,***FEX1/4 WWTO Isilon node4 ***,notconnect,682,auto,auto,--
+318,DC-ACS5-2,Ethernet105/1/7,***FEX1/4 WWTO Isilon node5 ***,notconnect,682,auto,auto,--
+319,DC-ACS5-2,Ethernet105/1/8,***FEX1/4 WWTO Isilon node5 ***,notconnect,682,auto,auto,--
+320,DC-ACS5-2,Ethernet105/1/9,***FEX1/4 WWTO Isilon Accelerator ***,notconnect,682,auto,auto,--
+321,DC-ACS5-2,Ethernet105/1/10,*** WWTO ISILON ***,notconnect,682,auto,auto,--
+322,DC-ACS5-2,Ethernet105/1/11,Nexsan Management,notconnect,882,auto,auto,--
+323,DC-ACS5-2,Ethernet105/1/12,Nexsan Management,notconnect,882,auto,auto,--
+324,DC-ACS5-2,Ethernet105/1/13,--,connected,890,full,1000,--
+325,DC-ACS5-2,Ethernet105/1/14,--,connected,890,full,1000,--
+326,DC-ACS5-2,Ethernet105/1/15,--,connected,1,full,1000,--
+327,DC-ACS5-2,Ethernet105/1/16,***FEX2/3 WWTO Isilon node11 ***,notconnect,682,auto,auto,--
+328,DC-ACS5-2,Ethernet105/1/17,***FEX2/3 WWTO Isilon node11 ***,notconnect,682,auto,auto,--
+329,DC-ACS5-2,Ethernet105/1/18,AMS Quantum at MOB,connected,500,full,1000,--
+330,DC-ACS5-2,Ethernet105/1/19,AMS Quantum at MOB,connected,500,full,1000,--
+331,DC-ACS5-2,Ethernet105/1/20,API KCAL ISIS mgmt port,notconnect,682,auto,auto,--
+332,DC-ACS5-2,Ethernet105/1/21,nxMDCp02-1,notconnect,899,auto,auto,--
+333,DC-ACS5-2,Ethernet105/1/22,nxMDCp02-2,notconnect,899,auto,auto,--
+334,DC-ACS5-2,Ethernet105/1/23,nxMDCp02,notconnect,898,auto,auto,--
+335,DC-ACS5-2,Ethernet105/1/24,INC03952590,connected,500,full,1000,--
+336,DC-ACS5-2,Ethernet105/1/25,--,connected,500,full,1000,--
+337,DC-ACS5-2,Ethernet105/1/26,P1 WebSense U8 11-03 TSK JAN 21 2013,notconnect,883,auto,auto,--
+338,DC-ACS5-2,Ethernet105/1/27,ibatlp01-NIC1,notconnect,822,half,100,--
+339,DC-ACS5-2,Ethernet105/1/28,ibatlp02-NIC1,notconnect,822,auto,auto,--
+340,DC-ACS5-2,Ethernet105/1/29,--,notconnect,721,auto,auto,--
+341,DC-ACS5-2,Ethernet105/1/30,--,notconnect,821,auto,auto,--
+342,DC-ACS5-2,Ethernet105/1/31,--,connected,821,full,1000,--
+343,DC-ACS5-2,Ethernet105/1/32,Zoltn_Avigilon-NVR-srvr_2018-06-11,notconnect,881,auto,auto,--
+344,DC-ACS5-2,Ethernet105/1/33,Websense-smtp4.mtvn.ad.viacom.com . P1,connected,871,full,1000,--
+345,DC-ACS5-2,Ethernet105/1/34,isclsp17,notconnect,890,auto,auto,--
+346,DC-ACS5-2,Ethernet105/1/35,Websense-smtp3.mtvn.ad.viacom.com . C1,connected,67,full,1000,--
+347,DC-ACS5-2,Ethernet105/1/36,DC-WebsenseV10K-02.mtvn.ad.viacom.com Management P1,connected,18,full,1000,--
+348,DC-ACS5-2,Ethernet105/1/37,3PAR-Server-POC-Temp,connected,927,full,1000,--
+349,DC-ACS5-2,Ethernet105/1/38,3PAR-Server-POC-Temp,connected,927,full,1000,--
+350,DC-ACS5-2,Ethernet105/1/39,3PAR-Server-POC-Temp,notconnect,850,auto,auto,--
+351,DC-ACS5-2,Ethernet105/1/40,3PAR-Server-POC-Temp,connected,883,full,1000,--
+352,DC-ACS5-2,Ethernet105/1/41,DC-WebsenseV10K-01.mtvn.ad.viacom.com Management C1,connected,67,full,1000,--
+353,DC-ACS5-2,Ethernet105/1/42,--,connected,500,full,1000,--
+354,DC-ACS5-2,Ethernet105/1/43,--,connected,881,full,1000,--
+355,DC-ACS5-2,Ethernet105/1/44,--,connected,500,full,1000,--
+356,DC-ACS5-2,Ethernet105/1/45,msALSp45,connected,899,full,1000,--
+357,DC-ACS5-2,Ethernet105/1/46,msSVWp01,notconnect,870,auto,auto,--
+358,DC-ACS5-2,Ethernet105/1/47,msSVWp02,notconnect,870,auto,auto,--
+359,DC-ACS5-2,Ethernet105/1/48,msSVWp03,notconnect,887,auto,auto,--
+360,DC-ACS5-2,Ethernet106/1/1,--,connected,80,full,1000,--
+361,DC-ACS5-2,Ethernet106/1/2,***MOB-ISILON***,connected,80,full,1000,--
+362,DC-ACS5-2,Ethernet106/1/3,***MOB-ISILON***,connected,80,full,1000,--
+363,DC-ACS5-2,Ethernet106/1/4,***MOB-ISILON***,connected,80,full,1000,--
+364,DC-ACS5-2,Ethernet106/1/5,***MOB-ISILON***,connected,80,full,1000,--
+365,DC-ACS5-2,Ethernet106/1/6,--,connected,80,full,1000,--
+366,DC-ACS5-2,Ethernet106/1/7,***SMARTJOG-SERVER-10.40.4.6***,connected,80,full,1000,--
+367,DC-ACS5-2,Ethernet106/1/8,--,connected,67,full,1000,--
+368,DC-ACS5-2,Ethernet106/1/9,--,connected,881,full,1000,--
+369,DC-ACS5-2,Ethernet106/1/10,***msADS02******Please Do Not Modify Ports***,connected,67,full,1000,--
+370,DC-ACS5-2,Ethernet106/1/11,INC06744051,connected,3165,full,1000,--
+371,DC-ACS5-2,Ethernet106/1/12,--,connected,881,full,1000,--
+372,DC-ACS5-2,Ethernet106/1/13,--,connected,881,full,1000,--
+373,DC-ACS5-2,Ethernet106/1/14,--,connected,881,full,1000,--
+374,DC-ACS5-2,Ethernet106/1/15,--,connected,881,full,1000,--
+375,DC-ACS5-2,Ethernet106/1/16,--,connected,881,full,1000,--
+376,DC-ACS5-2,Ethernet106/1/17,***AVID SERVERS******Please Do Not Modify Ports***,notconnect,682,auto,auto,--
+377,DC-ACS5-2,Ethernet106/1/18,***SHVR3PRDAP02******Please Do Not Modify Ports***,notconnect,883,auto,auto,--
+378,DC-ACS5-2,Ethernet106/1/19,FIDELISSENSORPARA2-idrac,notconnect,860,auto,auto,--
+379,DC-ACS5-2,Ethernet106/1/20,ANI-MOB-ISIS,notconnect,682,auto,auto,--
+380,DC-ACS5-2,Ethernet106/1/21,***msISAp01******Please Do Not Modify Ports***,connected,850,full,1000,--
+381,DC-ACS5-2,Ethernet106/1/22,***msISAp01******Please Do Not Modify Ports***,connected,850,full,1000,--
+382,DC-ACS5-2,Ethernet106/1/23,***DL-BL-LINDBERG******Please Do Not Modify Ports***,connected,881,full,1000,--
+383,DC-ACS5-2,Ethernet106/1/24,***tsMSTp01 nic1******Please Do Not Modify Ports***,connected,882,full,1000,--
+384,DC-ACS5-2,Ethernet106/1/25,***nxEAId01 slot3******Please Do Not Modify Ports***,connected,900,full,1000,--
+385,DC-ACS5-2,Ethernet106/1/26,--,connected,900,full,1000,--
+386,DC-ACS5-2,Ethernet106/1/27,ibatlp01-NIC2,notconnect,822,half,100,--
+387,DC-ACS5-2,Ethernet106/1/28,ibatlp02-NIC2,notconnect,822,auto,auto,--
+388,DC-ACS5-2,Ethernet106/1/29,HP-3PAR-STORAGE,notconnect,851,auto,auto,--
+389,DC-ACS5-2,Ethernet106/1/30,HP-3PAR-STORAGE,notconnect,851,auto,auto,--
+390,DC-ACS5-2,Ethernet106/1/31,--,connected,881,full,1000,--
+391,DC-ACS5-2,Ethernet106/1/32,Zoltn_Avigilon-NVR-srvr_2018-06-11,connected,526,full,1000,--
+392,DC-ACS5-2,Ethernet106/1/33,HP-3PAR-STORAGE,notconnect,883,auto,auto,--
+393,DC-ACS5-2,Ethernet106/1/34,--,connected,881,full,1000,--
+394,DC-ACS5-2,Ethernet106/1/35,--,connected,881,full,1000,--
+395,DC-ACS5-2,Ethernet106/1/36,--,connected,881,full,1000,--
+396,DC-ACS5-2,Ethernet106/1/37,--,inactive,1438,full,auto,--
+397,DC-ACS5-2,Ethernet106/1/38,--,notconnect,1,auto,auto,--
+398,DC-ACS5-2,Ethernet106/1/39,--,notconnect,1,auto,auto,--
+399,DC-ACS5-2,Ethernet106/1/40,***nxVMIp01 RIB******Please Do Not Modify Ports***,notconnect,884,auto,auto,--
+400,DC-ACS5-2,Ethernet106/1/41,*** For single-homed servers ***,notconnect,898,auto,auto,--
+401,DC-ACS5-2,Ethernet106/1/42,--,notconnect,898,auto,auto,--
+402,DC-ACS5-2,Ethernet106/1/43,--,notconnect,898,auto,auto,--
+403,DC-ACS5-2,Ethernet106/1/44,*** For single-homed servers ***,notconnect,879,auto,auto,--
+404,DC-ACS5-2,Ethernet106/1/45,--,notconnect,1,auto,auto,--
+405,DC-ACS5-2,Ethernet106/1/46,--,notconnect,881,auto,auto,--
+406,DC-ACS5-2,Ethernet106/1/47,--,connected,881,full,1000,--
+407,DC-ACS5-2,Ethernet106/1/48,--,notconnect,1,auto,auto,--
+408,DC-ACS5-2,Ethernet107/1/1,INC06616871,connected,3165,full,1000,--
+409,DC-ACS5-2,Ethernet107/1/2,INC06616871,notconnect,3165,auto,auto,--
+410,DC-ACS5-2,Ethernet107/1/3,--,notconnect,500,auto,auto,--
+411,DC-ACS5-2,Ethernet107/1/4,"""Half Shell"" ISIS server",notconnect,725,auto,auto,--
+412,DC-ACS5-2,Ethernet107/1/5,--,notconnect,500,auto,auto,--
+413,DC-ACS5-2,Ethernet107/1/6,--,notconnect,500,auto,auto,--
+414,DC-ACS5-2,Ethernet107/1/7,--,connected,1,full,1000,--
+415,DC-ACS5-2,Ethernet107/1/8,msalsp64 port 1,connected,898,full,1000,--
+416,DC-ACS5-2,Ethernet107/1/9,msalsp64 port 2,connected,899,full,1000,--
+417,DC-ACS5-2,Ethernet107/1/10,msalsp65 port 1,connected,898,full,1000,--
+418,DC-ACS5-2,Ethernet107/1/11,msalsp65 port 2,connected,899,full,1000,--
+419,DC-ACS5-2,Ethernet107/1/12,msalsp66 port 1,connected,898,full,1000,--
+420,DC-ACS5-2,Ethernet107/1/13,--,notconnect,883,auto,auto,--
+421,DC-ACS5-2,Ethernet107/1/14,msalsp66 port 2,connected,899,full,1000,--
+422,DC-ACS5-2,Ethernet107/1/15,msalsp67 port 1,connected,898,full,1000,--
+423,DC-ACS5-2,Ethernet107/1/16,msalsp67 port 2,connected,899,full,1000,--
+424,DC-ACS5-2,Ethernet107/1/17,***CPSG-PRD4 websence***Please Do Not Modify Ports***,connected,850,full,1000,--
+425,DC-ACS5-2,Ethernet107/1/18,***CPS-MON-PARA webse***Please Do Not Modify Ports***,connected,850,full,1000,--
+426,DC-ACS5-2,Ethernet107/1/19,***nxldpp01 NIC1***Please Do Not Modify Ports***,connected,850,full,1000,--
+427,DC-ACS5-2,Ethernet107/1/20,***isilonnode1 nic1***Please Do Not Modify Ports***,connected,850,full,1000,--
+428,DC-ACS5-2,Ethernet107/1/21,***isilonnode1 nic2***Please Do Not Modify Ports***,connected,850,full,1000,--
+429,DC-ACS5-2,Ethernet107/1/22,***isilonnode3 nic2***Please Do Not Modify Ports***,connected,850,full,1000,--
+430,DC-ACS5-2,Ethernet107/1/23,***isilonnode3 nic1***Please Do Not Modify Ports***,notconnect,682,auto,auto,--
+431,DC-ACS5-2,Ethernet107/1/24,msalsp68 port 1,connected,898,full,1000,--
+432,DC-ACS5-2,Ethernet107/1/25,INC03941446,connected,860,full,1000,--
+433,DC-ACS5-2,Ethernet107/1/26,INC03941446,notconnect,860,auto,auto,--
+434,DC-ACS5-2,Ethernet107/1/27,INC03941446,connected,860,full,1000,--
+435,DC-ACS5-2,Ethernet107/1/28,INC03941446,connected,860,full,1000,--
+436,DC-ACS5-2,Ethernet107/1/29,******Please Do Not Modify Ports***,notconnect,883,auto,auto,--
+437,DC-ACS5-2,Ethernet107/1/30,INC03941446,connected,860,full,1000,--
+438,DC-ACS5-2,Ethernet107/1/31,--,connected,899,full,1000,--
+439,DC-ACS5-2,Ethernet107/1/32,--,connected,500,full,1000,--
+440,DC-ACS5-2,Ethernet107/1/33,***msENCp01 NIC1***Please Do Not Modify Ports***,connected,500,full,1000,--
+441,DC-ACS5-2,Ethernet107/1/34,***MediuVu***Please Do Not Modify Ports***,connected,500,full,1000,--
+442,DC-ACS5-2,Ethernet107/1/35,--,connected,500,full,1000,--
+443,DC-ACS5-2,Ethernet107/1/36,***msMONp05***Please Do Not Modify Ports***,connected,500,full,1000,--
+444,DC-ACS5-2,Ethernet107/1/37,***JUNKMAN (NIC1)***Please Do Not Modify Ports***,notconnect,884,auto,auto,--
+445,DC-ACS5-2,Ethernet107/1/38,***nxINFp05***Please Do Not Modify Ports***,notconnect,884,auto,auto,--
+446,DC-ACS5-2,Ethernet107/1/39,--,notconnect,1,auto,auto,--
+447,DC-ACS5-2,Ethernet107/1/40,msalsp68 port 2,connected,899,full,1000,--
+448,DC-ACS5-2,Ethernet107/1/41,***nxDAMq02***Please Do Not Modify Ports***,notconnect,898,auto,auto,--
+449,DC-ACS5-2,Ethernet107/1/42,***emRCPp01***Please Do Not Modify Ports***,notconnect,898,auto,auto,--
+450,DC-ACS5-2,Ethernet107/1/43,***emRCPp02***Please Do Not Modify Ports***,notconnect,898,auto,auto,--
+451,DC-ACS5-2,Ethernet107/1/44,*** For single-homed servers ***,notconnect,879,auto,auto,--
+452,DC-ACS5-2,Ethernet107/1/45,***nxDAMp02***Please Do Not Modify Ports***,notconnect,884,auto,auto,--
+453,DC-ACS5-2,Ethernet107/1/46,***isilonnode2 nic1***Please Do Not Modify Ports***,notconnect,682,auto,auto,--
+454,DC-ACS5-2,Ethernet107/1/47,***isilonnode2 nic2***Please Do Not Modify Ports***,notconnect,682,auto,auto,--
+455,DC-ACS5-2,Ethernet107/1/48,***MediuVu***Please Do Not Modify Ports***,notconnect,884,auto,auto,--
+456,DC-ACS5-2,Ethernet122/1/1,Isilon Access in Editorial,connected,899,full,1000,--
+457,DC-ACS5-2,Ethernet122/1/2,Isilon Access in Editorial,connected,899,full,1000,--
+458,DC-ACS5-2,Ethernet122/1/3,Isilon Access in Editorial,connected,899,full,1000,--
+459,DC-ACS5-2,Ethernet122/1/4,Isilon Access in Editorial,connected,899,full,1000,--
+460,DC-ACS5-2,Ethernet122/1/5,Isilon Access in Editorial,notconnect,682,auto,auto,--
+461,DC-ACS5-2,Ethernet122/1/6,Isilon Access in Editorial,notconnect,899,auto,auto,--
+462,DC-ACS5-2,Ethernet122/1/7,Isilon Access in Editorial,connected,682,full,1000,--
+463,DC-ACS5-2,Ethernet122/1/8,Isilon Access in Editorial,connected,682,full,1000,--
+464,DC-ACS5-2,Ethernet122/1/9,Isilon Access in Editorial,notconnect,682,auto,auto,--
+465,DC-ACS5-2,Ethernet122/1/10,Isilon Access in Editorial,connected,899,full,1000,--
+466,DC-ACS5-2,Ethernet122/1/11,Isilon Access in Editorial,connected,682,full,1000,--
+467,DC-ACS5-2,Ethernet122/1/12,Isilon Access in Editorial,connected,899,full,1000,--
+468,DC-ACS5-2,Ethernet122/1/13,PCoIP - INC03957261,connected,724,full,1000,--
+469,DC-ACS5-2,Ethernet122/1/14,Isilon Access in Editorial,connected,682,full,1000,--
+470,DC-ACS5-2,Ethernet122/1/15,Isilon Access in Editorial,connected,899,full,1000,--
+471,DC-ACS5-2,Ethernet122/1/16,Isilon Access in Editorial,notconnect,682,auto,auto,--
+472,DC-ACS5-2,Ethernet122/1/17,Isilon Access in Editorial,connected,682,full,1000,--
+473,DC-ACS5-2,Ethernet122/1/18,Isilon Access in Editorial,notconnect,682,auto,auto,--
+474,DC-ACS5-2,Ethernet122/1/19,Isilon Access in Editorial,connected,682,full,1000,--
+475,DC-ACS5-2,Ethernet122/1/20,INC05605321,connected,66,full,1000,--
+476,DC-ACS5-2,Ethernet122/1/21,Isilon Access in Editorial,connected,682,full,1000,--
+477,DC-ACS5-2,Ethernet122/1/22,Isilon Access in Editorial,connected,682,full,1000,--
+478,DC-ACS5-2,Ethernet122/1/23,Isilon Access in Editorial,connected,682,full,1000,--
+479,DC-ACS5-2,Ethernet122/1/24,Isilon Access in Editorial,connected,682,full,1000,--
+480,DC-ACS5-2,Ethernet122/1/25,Isilon Access in Editorial,notconnect,682,auto,auto,--
+481,DC-ACS5-2,Ethernet122/1/26,Isilon Access in Editorial,notconnect,682,auto,auto,--
+482,DC-ACS5-2,Ethernet122/1/27,Isilon Access in Editorial,notconnect,682,auto,auto,--
+483,DC-ACS5-2,Ethernet122/1/28,Isilon Access in Editorial,connected,682,full,1000,--
+484,DC-ACS5-2,Ethernet122/1/29,Isilon Access in Editorial,connected,682,full,1000,--
+485,DC-ACS5-2,Ethernet122/1/30,Isilon Access in Editorial,connected,682,full,1000,--
+486,DC-ACS5-2,Ethernet122/1/31,Isilon Access in Editorial,notconnect,682,auto,auto,--
+487,DC-ACS5-2,Ethernet122/1/32,Isilon Access in Editorial,notconnect,682,auto,auto,--
+488,DC-ACS5-2,Ethernet122/1/33,Isilon Access in Editorial,notconnect,682,auto,auto,--
+489,DC-ACS5-2,Ethernet122/1/34,Isilon Access in Editorial,connected,682,full,1000,--
+490,DC-ACS5-2,Ethernet122/1/35,Isilon Access in Editorial,connected,682,full,1000,--
+491,DC-ACS5-2,Ethernet122/1/36,Isilon Access in Editorial,notconnect,682,auto,auto,--
+492,DC-ACS5-2,Ethernet122/1/37,Isilon Access in Editorial,notconnect,682,auto,auto,--
+493,DC-ACS5-2,Ethernet122/1/38,Isilon Access in Editorial,connected,899,full,1000,--
+494,DC-ACS5-2,Ethernet122/1/39,Isilon Access in Editorial,connected,682,full,1000,--
+495,DC-ACS5-2,Ethernet122/1/40,Isilon Access in Editorial,notconnect,682,auto,auto,--
+496,DC-ACS5-2,Ethernet122/1/41,Metadata network for  WWTO,notconnect,899,auto,auto,--
+497,DC-ACS5-2,Ethernet122/1/42,Metadata network for  WWTO,connected,899,full,1000,--
+498,DC-ACS5-2,Ethernet122/1/43,Metadata network for  WWTO,connected,899,full,1000,--
+499,DC-ACS5-2,Ethernet122/1/44,Metadata network for  WWTO,notconnect,899,auto,auto,--
+500,DC-ACS5-2,Ethernet122/1/45,Metadata network for  WWTO,connected,899,full,1000,--
+501,DC-ACS5-2,Ethernet122/1/46,Metadata network for  WWTO,connected,899,full,1000,--
+502,DC-ACS5-2,Ethernet122/1/47,Metadata network for  WWTO,connected,899,full,1000,--
+503,DC-ACS5-2,Ethernet122/1/48,Metadata network for  WWTO,connected,899,full,1000,--
+504,DC-ACS5-2,Ethernet180/1/1,INC05513328,connected,860,full,10G,--
+505,DC-ACS5-2,Ethernet180/1/2,INC05513328,connected,860,full,10G,--
+506,DC-ACS5-2,Ethernet180/1/3,msALSp45,connected,898,full,10G,--
+507,DC-ACS5-2,Ethernet180/1/4,INC06499754,notconnect,860,full,10G,--
+508,DC-ACS5-2,Ethernet180/1/5,PPC-Corp-Isilon-01 Acc cxgb1 TSK NOV23 2013,notconnect,852,full,10G,--
+509,DC-ACS5-2,Ethernet180/1/6,SCreenlife 10.0.81.0 subnet,notconnect,913,full,10G,--
+510,DC-ACS5-2,Ethernet180/1/7,MSALSP43,connected,898,full,10G,--
+511,DC-ACS5-2,Ethernet180/1/8,MSALSP44,connected,898,full,10G,--
+512,DC-ACS5-2,Ethernet180/1/9,nxTSMp03,connected,821,full,10G,--
+513,DC-ACS5-2,Ethernet180/1/10,nxTSMp03,sfpAbsent,821,full,10G,--
+514,DC-ACS5-2,Ethernet180/1/11,PPC-Corp-Isilon-01 Acc cxgb0 TSK NOV23 2013,sfpAbsent,851,full,10G,--
+515,DC-ACS5-2,Ethernet180/1/12,NAS-Isilon SN SX200-201351-0107,connected,851,full,10G,--
+516,DC-ACS5-2,Ethernet180/1/13,NAS-Isilon SN SX200-201351-0108,connected,851,full,10G,--
+517,DC-ACS5-2,Ethernet180/1/14,NAS-Isilon SN SX200-201351-0109,connected,851,full,10G,--
+518,DC-ACS5-2,Ethernet180/1/15,msCODp04,notconnect,682,full,10G,--
+519,DC-ACS5-2,Ethernet180/1/16,msCODp05-NIC.10G,sfpAbsent,682,full,10G,--
+520,DC-ACS5-2,Ethernet180/1/17,--,connected,80,full,10G,--
+521,DC-ACS5-2,Ethernet180/1/18,--,connected,80,full,10G,--
+522,DC-ACS5-2,Ethernet180/1/19,--,connected,80,full,10G,--
+523,DC-ACS5-2,Ethernet180/1/20,--,connected,860,full,10G,--
+524,DC-ACS5-2,Ethernet180/1/21,--,connected,860,full,10G,--
+525,DC-ACS5-2,Ethernet180/1/22,--,connected,860,full,10G,--
+526,DC-ACS5-2,Ethernet180/1/23,--,connected,860,full,10G,--
+527,DC-ACS5-2,Ethernet180/1/24,--,connected,881,full,10G,--
+528,DC-ACS5-2,Ethernet180/1/25,--,connected,881,full,10G,--
+529,DC-ACS5-2,Ethernet180/1/26,Purem50-east02 forklift,sfpAbsent,850,full,10G,--
+530,DC-ACS5-2,Ethernet180/1/27,10GFEX1-1,notconnect,821,full,10G,--
+531,DC-ACS5-2,Ethernet180/1/28,--,connected,860,full,10G,--
+532,DC-ACS5-2,Ethernet180/1/29,--,connected,860,full,10G,--
+533,DC-ACS5-2,Ethernet180/1/30,--,connected,860,full,10G,--
+534,DC-ACS5-2,Ethernet180/1/31,--,connected,860,full,10G,--
+535,DC-ACS5-2,Ethernet180/1/32,VNX5300 TSK MAR15 2014,notconnect,trunk,full,10G,--
+536,DC-ACS5-2,Ethernet181/1/1,Temp uplink to LA5-ASR9K-1_te0/0/0/0,notconnect,51,full,10G,--
+537,DC-ACS5-2,Ethernet181/1/2,Temp uplink to LA5-ASR9K-1_te0/0/0/1,notconnect,51,full,10G,--
+538,DC-ACS5-2,Ethernet181/1/3,Temp uplink to LA5-ASR9K-1_te0/0/0/24,notconnect,50,full,10G,--
+539,DC-ACS5-2,Ethernet181/1/4,Temp uplink to LA5-ASR9K-1_te0/0/0/25,notconnect,50,full,10G,--
+540,DC-ACS5-2,Ethernet181/1/5,Temp uplink to LA6-ASR9K-1_te0/0/0/0,notconnect,50,full,10G,--
+541,DC-ACS5-2,Ethernet181/1/6,Temp uplink to LA6-ASR9K-1_te0/0/0/1,notconnect,50,full,10G,--
+542,DC-ACS5-2,Ethernet181/1/7,Temp uplink to LA6-ASR9K-1_te0/0/0/24,notconnect,51,full,10G,--
+543,DC-ACS5-2,Ethernet181/1/8,Temp uplink to LA6-ASR9K-1_te0/0/0/25,notconnect,51,full,10G,--
+544,DC-ACS5-2,Ethernet181/1/9,INC05679858,sfpAbsent,881,full,10G,--
+545,DC-ACS5-2,Ethernet181/1/10,--,connected,860,full,10G,--
+546,DC-ACS5-2,Ethernet181/1/11,--,connected,860,full,10G,--
+547,DC-ACS5-2,Ethernet181/1/12,NAS-Isilon SN SX200-201351-0107 2ndary NIC,inactive,851,full,10G,--
+548,DC-ACS5-2,Ethernet181/1/13,NAS-Isilon SN SX200-201351-0108 2ndary NIC,inactive,851,full,10G,--
+549,DC-ACS5-2,Ethernet181/1/14,NAS-Isilon SN SX200-201351-0109 2ndary NIC,inactive,851,full,10G,--
+550,DC-ACS5-2,Ethernet181/1/15,Temp MGMT uplink to LA5-FPR-01_Eth1/8,notconnect,200,full,10G,--
+551,DC-ACS5-2,Ethernet181/1/16,nxTSMp03,connected,821,full,10G,--
+552,DC-ACS5-2,Ethernet181/1/17,--,connected,80,full,10G,--
+553,DC-ACS5-2,Ethernet181/1/18,--,connected,80,full,10G,--
+554,DC-ACS5-2,Ethernet181/1/19,--,connected,80,full,10G,--
+555,DC-ACS5-2,Ethernet181/1/20,MSBRSTSMPRXPD05,connected,860,full,10G,--
+556,DC-ACS5-2,Ethernet181/1/21,MSBRSTSMPRXPD05,connected,860,full,10G,--
+557,DC-ACS5-2,Ethernet181/1/22,MSBRSTSMPRXPD06,connected,860,full,10G,--
+558,DC-ACS5-2,Ethernet181/1/23,MSBRSTSMPRXPD06,connected,860,full,10G,--
+559,DC-ACS5-2,Ethernet181/1/24,MSBRSTSMPRXPD07,connected,860,full,10G,--
+560,DC-ACS5-2,Ethernet181/1/25,MSBRSTSMPRXPD07,connected,860,full,10G,--
+561,DC-ACS5-2,Ethernet181/1/26,Temp MGMT uplink to LA6-FPR-01_Eth1/8,sfpAbsent,200,full,10G,--
+562,DC-ACS5-2,Ethernet181/1/27,Temp uplink to LA4-NCS-1_te0/0/0/3,connected,725,full,10G,--
+563,DC-ACS5-2,Ethernet181/1/28,Temp uplink to LA4-NCS-1_te0/0/0/4,sfpAbsent,51,full,10G,--
+564,DC-ACS5-2,Ethernet181/1/29,Temp uplink to LA4-NCS-2_te0/0/0/3,sfpAbsent,50,full,10G,--
+565,DC-ACS5-2,Ethernet181/1/30,Temp uplink to LA4-NCS-2_te0/0/0/4,sfpAbsent,51,full,10G,--
+566,DC-ACS5-2,Ethernet181/1/31,INC05679858,sfpAbsent,881,full,10G,--
+567,DC-ACS5-2,Ethernet181/1/32,VNX5300  - BACKUP TSK MAR15 2014,notconnect,trunk,full,10G,--
+568,DC-ACS5-2,loopback0,--,connected,routed,auto,auto,--

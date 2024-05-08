@@ -1,0 +1,55 @@
+----------------------------------------
+Device ID:DC-DIST7-2.paramount.com(TBM14311278)
+System Name: DC-DIST7-2
+
+Interface address(es): 1
+    IPv4 Address: 10.100.1.2
+Platform: N7K-C7010, Capabilities: Router Switch IGMP Filtering Supports-STP-Dispute
+Interface: mgmt0, Port ID (outgoing port): Ethernet7/39
+Holdtime: 166 sec
+
+Version:
+Cisco Nexus Operating System (NX-OS) Software, Version 6.2(10)
+
+Advertisement Version: 2
+Native VLAN: 500
+Duplex: full
+----------------------------------------
+Device ID:CALAX04-DC1AS-01A.paramount.com(FDO25470EJ7)
+System Name: CALAX04-DC1AS-01A
+
+Interface address(es): 1
+    IPv4 Address: 10.100.1.109
+Platform: N9K-C93180YC-EX, Capabilities: Router Switch IGMP Filtering Supports-STP-Dispute
+Interface: Ethernet1/47, Port ID (outgoing port): Ethernet1/47
+Holdtime: 139 sec
+
+Version:
+Cisco Nexus Operating System (NX-OS) Software, Version 10.2(6)
+
+Advertisement Version: 2
+Native VLAN: 1
+Duplex: full
+Physical Location: 
+Mgmt address(es):
+    IPv4 Address: 10.100.1.109
+----------------------------------------
+Device ID:CALAX04-DC1AS-01A.paramount.com(FDO25470EJ7)
+System Name: CALAX04-DC1AS-01A
+
+Interface address(es): 1
+    IPv4 Address: 10.100.1.109
+Platform: N9K-C93180YC-EX, Capabilities: Router Switch IGMP Filtering Supports-STP-Dispute
+Interface: Ethernet1/48, Port ID (outgoing port): Ethernet1/48
+Holdtime: 139 sec
+
+Version:
+Cisco Nexus Operating System (NX-OS) Software, Version 10.2(6)
+
+Advertisement Version: 2
+Native VLAN: 1
+Duplex: full
+Physical Location: 
+Mgmt address(es):
+    IPv4 Address: 10.100.1.109
+

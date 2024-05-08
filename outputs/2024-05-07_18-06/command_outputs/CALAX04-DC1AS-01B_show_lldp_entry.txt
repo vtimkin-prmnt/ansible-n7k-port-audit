@@ -1,0 +1,52 @@
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+
+Chassis id: 30e4.dbd9.a63e
+Port id: Eth7/39
+Local Port id: mgmt0
+Port Description: CALAX04-DC1AS-01B_mgmt0
+System Name: DC-DIST7-2
+System Description: Cisco NX-OS(tm) n7000, Software (n7000-s1-dk9), Version 6.2(10), RELEASE SOFTWARE Copyright (c) 2002-2013 by Cisco Systems, Inc. Compiled 10/9/2014 12:00:00
+Time remaining: 115 seconds
+System Capabilities: B, R
+Enabled Capabilities: B, R
+Management Address: 30e4.dbd9.a63e
+Management Address IPV6: not advertised
+Vlan ID: 500     
+
+
+Chassis id: e069.ba89.1d76
+Port id: Ethernet1/47
+Local Port id: Eth1/47
+Port Description: vPC-Peerlink
+System Name: CALAX04-DC1AS-01A.paramount.com
+System Description: Cisco Nexus Operating System (NX-OS) Software 10.2(6)
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2023, Cisco Systems, Inc. All rights reserved.
+Time remaining: 99 seconds
+System Capabilities: B, R
+Enabled Capabilities: B, R
+Management Address: 10.100.1.109
+Management Address IPV6: not advertised
+Vlan ID: 1     
+
+
+Chassis id: e069.ba89.1d77
+Port id: Ethernet1/48
+Local Port id: Eth1/48
+Port Description: vPC-Peerlink
+System Name: CALAX04-DC1AS-01A.paramount.com
+System Description: Cisco Nexus Operating System (NX-OS) Software 10.2(6)
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2023, Cisco Systems, Inc. All rights reserved.
+Time remaining: 99 seconds
+System Capabilities: B, R
+Enabled Capabilities: B, R
+Management Address: 10.100.1.109
+Management Address IPV6: not advertised
+Vlan ID: 1     
+
+Total entries displayed: 3
+

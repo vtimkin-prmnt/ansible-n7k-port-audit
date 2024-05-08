@@ -1,0 +1,108 @@
+{
+  "DC-ACS5-1": [
+    {
+      "local_int": "mgmt0",
+      "remote_device": "DC-DIST7-1",
+      "remote_int": "Ethernet7/16",
+      "remote_platform": "N7K-C7010",
+      "remote_capabilities": "Router Switch Supports-STP-Dispute",
+      "remote_ip_cdp": "10.40.10.105"
+    },
+    {
+      "local_int": "Ethernet1/1",
+      "remote_device": "DC-ACS5-2",
+      "remote_int": "Ethernet1/1",
+      "remote_platform": "N5K-C5548UP",
+      "remote_capabilities": "Switch IGMP Filtering Supports-STP-Dispute",
+      "remote_ip_cdp": "10.40.10.125"
+    },
+    {
+      "local_int": "Ethernet1/2",
+      "remote_device": "DC-ACS5-2",
+      "remote_int": "Ethernet1/2",
+      "remote_platform": "N5K-C5548UP",
+      "remote_capabilities": "Switch IGMP Filtering Supports-STP-Dispute",
+      "remote_ip_cdp": "10.40.10.125"
+    },
+    {
+      "local_int": "Ethernet1/3",
+      "remote_device": "DC-DIST7-1",
+      "remote_int": "Ethernet9/17",
+      "remote_platform": "N7K-C7010",
+      "remote_capabilities": "Router Switch IGMP Filtering Supports-STP-Dispute",
+      "remote_ip_cdp": "10.40.10.130"
+    },
+    {
+      "local_int": "Ethernet1/4",
+      "remote_device": "DC-DIST7-2",
+      "remote_int": "Ethernet9/19",
+      "remote_platform": "N7K-C7010",
+      "remote_capabilities": "Router Switch IGMP Filtering Supports-STP-Dispute",
+      "remote_ip_cdp": "10.40.10.131"
+    },
+    {
+      "local_int": "Ethernet1/5",
+      "remote_device": "DC-DIST7-1",
+      "remote_int": "Ethernet3/2",
+      "remote_platform": "N7K-C7010",
+      "remote_capabilities": "Router Switch IGMP Filtering Supports-STP-Dispute",
+      "remote_ip_cdp": "10.40.10.130"
+    },
+    {
+      "local_int": "Ethernet1/6",
+      "remote_device": "DC-DIST7-1",
+      "remote_int": "Ethernet3/4",
+      "remote_platform": "N7K-C7010",
+      "remote_capabilities": "Router Switch IGMP Filtering Supports-STP-Dispute",
+      "remote_ip_cdp": "10.40.10.130"
+    },
+    {
+      "local_int": "Ethernet1/7",
+      "remote_device": "BLU-AGG-SW1",
+      "remote_int": "TenGigabitEthernet1/1/1",
+      "remote_platform": "WS-C3750X-24S",
+      "remote_capabilities": "Switch IGMP Filtering ",
+      "remote_ip_cdp": ""
+    },
+    {
+      "local_int": "Ethernet1/11",
+      "remote_device": "ANI-POST-SW1",
+      "remote_int": "Ethernet1/50",
+      "remote_platform": "N9K-C9348GC-F",
+      "remote_capabilities": "Router Switch Supports-STP-Dispute",
+      "remote_ip_cdp": "10.47.254.12"
+    },
+    {
+      "local_int": "Ethernet105/1/1",
+      "remote_device": "mob-ucs-als2-A",
+      "remote_int": "mgmt0",
+      "remote_platform": "UCS-FI-6454",
+      "remote_capabilities": "Router Switch Supports-STP-Dispute",
+      "remote_ip_cdp": "10.100.1.51"
+    },
+    {
+      "local_int": "Ethernet105/1/3",
+      "remote_device": "mob-ucs-als2-B",
+      "remote_int": "mgmt0",
+      "remote_platform": "UCS-FI-6454",
+      "remote_capabilities": "Router Switch Supports-STP-Dispute",
+      "remote_ip_cdp": "10.100.1.52"
+    },
+    {
+      "local_int": "Ethernet105/1/42",
+      "remote_device": "MOB-METRO-MGMT-02",
+      "remote_int": "mgmt0",
+      "remote_platform": "N77-C7702",
+      "remote_capabilities": "Router Switch Supports-STP-Dispute",
+      "remote_ip_cdp": "10.100.1.117"
+    },
+    {
+      "local_int": "Ethernet105/1/44",
+      "remote_device": "MOB-METRO-MGMT-01",
+      "remote_int": "mgmt0",
+      "remote_platform": "N77-C7702",
+      "remote_capabilities": "Router Switch Supports-STP-Dispute",
+      "remote_ip_cdp": "10.100.1.118"
+    }
+  ]
+}

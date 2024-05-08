@@ -92,11 +92,23 @@
       - show lldp entry
   register: outputs_lldp_entries
 
+# - name: Copy show lldp entry outputs to a file
+#   ansible.builtin.lineinfile:
+#     path: "{{ folder_name }}/command_outputs/{{ inventory_hostname }}_show_lldp_entry.txt"
+#     line: |
+#       {{ outputs_lldp_entries.stdout | join('\n') }}
+#     state: present
+#     create: true
+
+  ### Old NXOS verisons (like DC-ACS5-1/2) have '\u0005' and '\u0006' characters in the output
+  ### As a result, the output is not being parsed correctly.
+  ### To avoid this, we are converting the output to JSON format and saving it to a file.
+  ### And then removing the '\u0005' and '\u0006' characters in the python parser (lldp_parser.py).
 - name: Copy show lldp entry outputs to a file
   ansible.builtin.lineinfile:
     path: "{{ folder_name }}/command_outputs/{{ inventory_hostname }}_show_lldp_entry.txt"
     line: |
-      {{ outputs_lldp_entries.stdout | join('\n') }}
+      {{ outputs_lldp_entries.stdout | to_json }}
     state: present
     create: true
 
@@ -109,4 +121,17 @@
       {{ tstamp.stdout }},{{ inventory_hostname }}
   delegate_to: localhost
   # register: output_lldp_parser
+
+### Combining all outputs into a single file
+
+
+- name: Combine all outputs into a single file
+  ansible.builtin.command:
+    cmd: "python3 combine_outputs.py"
+    executable: /Users/timkinv0815/Documents/venv3106/bin/python3
+    chdir: ./roles/get_interface_status/library
+    stdin: |
+      {{ tstamp.stdout }},{{ inventory_hostname }}
+  delegate_to: localhost
+  # register: output_combine
 ...

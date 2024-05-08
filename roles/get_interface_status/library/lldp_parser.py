@@ -86,12 +86,16 @@ def parser_lldp_output(output_raw):
     # Convert the raw output into a list of lines
     output_lines = output_raw.split('\n')
     
+    print(f'output_lines is: {output_lines}')
+
     # Remove empty lines from the list
     output_lines = [i for i in output_lines if i]
 
     for line in output_lines:
-    # for i in range(len(output_lines)):
-    #     line = output_lines[i]
+    
+        line = line.replace('\\x05','')
+        line = line.replace('\u0006','')
+        line = line.replace('�','')
 
         # if ('#' in line) and ('lldp' in line):
         #     # Parse a line containing the device hostname
@@ -232,8 +236,8 @@ def parser_lldp_output(output_raw):
                 continue
 
             if 'System Description:' in line:
-                (junk, remote_system_description) = line.split('System Description:')
-                remote_system_description = remote_system_description.strip()
+                (junk, remote_system_description) = line.split('System Description: ')
+                # remote_system_description = remote_system_description.strip()
                 net_link['remote_system_description'] = remote_system_description
                 continue
 
@@ -294,6 +298,22 @@ def main(path):
     
     with open(input_data) as f:
         output_raw = f.read()
+    
+    ### Old NXOS verisons have '\u0005' and '\u0006' characters in the output
+    ### As a result, the output is not being parsed correctly.
+    ### To fix this issue, the characters are being removed from the output as follows:
+    if output_raw.startswith('"['):
+        output_raw = json.loads(output_raw)
+        output_raw = output_raw.strip('"[').strip(']"')
+        output_raw = output_raw.replace('\\n','\n')
+        output_raw = output_raw.replace('\\x05','')
+        output_raw = output_raw.replace('\\x06','')
+    # output_raw = str(output_raw_list[0])
+    # output_raw
+
+    print(f'output_raw is: {output_raw}')
+    print(f'output_raw type is: {type(output_raw)}')
+    # os._exit(1)
 
     parser_lldp_output(output_raw)
 
@@ -333,7 +353,11 @@ def main(path):
 if __name__ == "__main__":
     stdin_read = sys.stdin.readlines()
     input_vars = stdin_read[0].rstrip('\n')
-    input_folder,device_hostname = input_vars.split(',')    
+    input_folder,device_hostname = input_vars.split(',') 
+     
+    # # Debugging  
+    # input_folder = "2024-05-07_21-45"
+    # device_hostname = "DC-ACS5-2"
 
     input_data = "../../../outputs/" + input_folder + "/command_outputs/" + device_hostname + "_show_lldp_entry.txt"
 
