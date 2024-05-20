@@ -84,16 +84,18 @@ def parser_lldp_output(output_raw):
     # net_link = {}
     loop_flag = False
     # Convert the raw output into a list of lines
-    output_lines = output_raw.split('\n')
-    
+    output_lines = output_raw.split('\\n')
+
     print(f'output_lines is: {output_lines}')
 
     # Remove empty lines from the list
     output_lines = [i for i in output_lines if i]
 
     for line in output_lines:
-    
+
+        line = line.strip('["').strip('"]')
         line = line.replace('\\x05','')
+        line = line.replace('\u0005','')
         line = line.replace('\u0006','')
         line = line.replace('�','')
 
@@ -171,16 +173,24 @@ def parser_lldp_output(output_raw):
         ### - the end line contains "Vlan ID:"
         if loop_flag:
             if 'Chassis id:' in line:
-                (junk, remote_chassis_id) = line.split('Chassis id:')
-                remote_chassis_id = remote_chassis_id.strip()
 
-                ### There might be a MAC address as Chassis ID so it's better to not remove the dots
+                # Option_A: Didn't work for some DC-ACS5-1/2 outputs
+                # (junk, remote_chassis_id) = line.split('Chassis id:')
+                # remote_chassis_id = remote_chassis_id.strip()
+
+                ## There might be a MAC address as Chassis ID so it's better to not remove the dots
                 # if '.' in remote_chassis_id:
                 #     (remote_chassis_id, junk) = re.split('\..*', remote_chassis_id)
 
                 # if '(' in remote_chassis_id:
                 #     (remote_chassis_id, junk) = re.split('\(', remote_chassis_id)
                 
+                # Option_B: Using re.search() to get the remote_chassis_id
+                # pattern_chassis_id = re.compile(r'Chassis id:\s+(\S+)')
+                remote_chassis_id = re.search(r'Chassis id:\s+(\S+)', line).group(1)                
+
+                # print(f'remote_chassis_id is: {remote_chassis_id}')
+
                 net_link['remote_chassis_id'] = remote_chassis_id
                 continue
 
@@ -302,17 +312,19 @@ def main(path):
     ### Old NXOS verisons have '\u0005' and '\u0006' characters in the output
     ### As a result, the output is not being parsed correctly.
     ### To fix this issue, the characters are being removed from the output as follows:
-    if output_raw.startswith('"['):
-        output_raw = json.loads(output_raw)
-        output_raw = output_raw.strip('"[').strip(']"')
-        output_raw = output_raw.replace('\\n','\n')
-        output_raw = output_raw.replace('\\x05','')
-        output_raw = output_raw.replace('\\x06','')
+    # if output_raw.startswith('['):
+    #     output_raw = json.loads(output_raw)
+    #     output_raw = output_raw.strip('"[').strip(']"')
+    #     output_raw = output_raw.replace('\\n','\n')
+    #     output_raw = output_raw.replace('\\x05','')
+    #     output_raw = output_raw.replace('\\x06','')
     # output_raw = str(output_raw_list[0])
     # output_raw
 
-    print(f'output_raw is: {output_raw}')
-    print(f'output_raw type is: {type(output_raw)}')
+    # print(f'output_raw type is: {type(output_raw)}')
+    # print('##' * 25)
+    # print(f'output_raw is: {output_raw}')
+    
     # os._exit(1)
 
     parser_lldp_output(output_raw)
@@ -356,7 +368,7 @@ if __name__ == "__main__":
     input_folder,device_hostname = input_vars.split(',') 
      
     # # Debugging  
-    # input_folder = "2024-05-07_21-45"
+    # input_folder = "2024-05-20_14-12"
     # device_hostname = "DC-ACS5-2"
 
     input_data = "../../../outputs/" + input_folder + "/command_outputs/" + device_hostname + "_show_lldp_entry.txt"
