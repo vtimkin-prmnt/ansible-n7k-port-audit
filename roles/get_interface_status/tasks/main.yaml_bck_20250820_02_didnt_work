@@ -8,12 +8,6 @@
 
 - name: Set a folder name for outputs
   ansible.builtin.set_fact:
-    exec_dir: '/Users/timkinv0815/Documents/github_repos/ansible-n7k-port-audit'
-  delegate_to: localhost
-  run_once: true
-
-- name: Set a folder name for outputs
-  ansible.builtin.set_fact:
     folder_name: "./outputs/{{ tstamp.stdout }}"
   delegate_to: localhost
   run_once: true
@@ -55,8 +49,9 @@
     create: true
 
 - name: Convert XML outputs to CSV
-  ansible.builtin.script:
-    cmd: '{{ exec_dir  }}/roles/get_interface_status/library/xml2csv_interface_output.py'
+  ansible.builtin.shell:
+    cmd: 'python xml2csv_interface_output.py'
+    chdir: ./roles/get_interface_status/library
     executable: /Users/timkinv0815/Documents/venv31011/bin/python3
     stdin: |
       {{ tstamp.stdout }},{{ inventory_hostname }}
@@ -80,8 +75,9 @@
     create: true
 
 - name: Parsing CDP outputs
-  ansible.builtin.script:
-    cmd: '{{ exec_dir  }}/roles/get_interface_status/library/cdp_parser.py'
+  ansible.builtin.shell:
+    cmd: 'python3 cdp_parser.py'
+    chdir: ./roles/get_interface_status/library
     executable: /Users/timkinv0815/Documents/venv31011/bin/python3
     stdin: |
       {{ tstamp.stdout }},{{ inventory_hostname }}
@@ -117,8 +113,9 @@
     create: true
 
 - name: Parsing lldp outputs
-  ansible.builtin.script:
-    cmd: '{{ exec_dir  }}/roles/get_interface_status/library/lldp_parser.py'
+  ansible.builtin.shell:
+    cmd: 'python3 lldp_parser.py'
+    chdir: ./roles/get_interface_status/library
     executable: /Users/timkinv0815/Documents/venv31011/bin/python3
     stdin: |
       {{ tstamp.stdout }},{{ inventory_hostname }}
@@ -126,9 +123,12 @@
   # register: output_lldp_parser
 
 ### Combining all outputs into a single file
+
+
 - name: Combine all outputs into a single file
-  ansible.builtin.script:
-    cmd: '{{ exec_dir  }}/roles/get_interface_status/library/combine_outputs.py'
+  ansible.builtin.shell:
+    cmd: 'python3 combine_outputs.py'
+    chdir: ./roles/get_interface_status/library
     executable: /Users/timkinv0815/Documents/venv31011/bin/python3
     stdin: |
       {{ tstamp.stdout }},{{ inventory_hostname }}

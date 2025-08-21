@@ -8,12 +8,6 @@
 
 - name: Set a folder name for outputs
   ansible.builtin.set_fact:
-    exec_dir: '/Users/timkinv0815/Documents/github_repos/ansible-n7k-port-audit'
-  delegate_to: localhost
-  run_once: true
-
-- name: Set a folder name for outputs
-  ansible.builtin.set_fact:
     folder_name: "./outputs/{{ tstamp.stdout }}"
   delegate_to: localhost
   run_once: true
@@ -55,9 +49,10 @@
     create: true
 
 - name: Convert XML outputs to CSV
-  ansible.builtin.script:
-    cmd: '{{ exec_dir  }}/roles/get_interface_status/library/xml2csv_interface_output.py'
-    executable: /Users/timkinv0815/Documents/venv31011/bin/python3
+  ansible.builtin.command:
+    cmd: "python3 xml2csv_interface_output.py"
+    executable: /Users/timkinv0815/Documents/venv3106/bin/python3
+    chdir: ./roles/get_interface_status/library
     stdin: |
       {{ tstamp.stdout }},{{ inventory_hostname }}
   delegate_to: localhost
@@ -80,9 +75,10 @@
     create: true
 
 - name: Parsing CDP outputs
-  ansible.builtin.script:
-    cmd: '{{ exec_dir  }}/roles/get_interface_status/library/cdp_parser.py'
-    executable: /Users/timkinv0815/Documents/venv31011/bin/python3
+  ansible.builtin.command:
+    cmd: "python3 cdp_parser.py"
+    executable: /Users/timkinv0815/Documents/venv3106/bin/python3
+    chdir: ./roles/get_interface_status/library
     stdin: |
       {{ tstamp.stdout }},{{ inventory_hostname }}
   delegate_to: localhost
@@ -117,19 +113,23 @@
     create: true
 
 - name: Parsing lldp outputs
-  ansible.builtin.script:
-    cmd: '{{ exec_dir  }}/roles/get_interface_status/library/lldp_parser.py'
-    executable: /Users/timkinv0815/Documents/venv31011/bin/python3
+  ansible.builtin.command:
+    cmd: "python3 lldp_parser.py"
+    executable: /Users/timkinv0815/Documents/venv3106/bin/python3
+    chdir: ./roles/get_interface_status/library
     stdin: |
       {{ tstamp.stdout }},{{ inventory_hostname }}
   delegate_to: localhost
   # register: output_lldp_parser
 
 ### Combining all outputs into a single file
+
+
 - name: Combine all outputs into a single file
-  ansible.builtin.script:
-    cmd: '{{ exec_dir  }}/roles/get_interface_status/library/combine_outputs.py'
-    executable: /Users/timkinv0815/Documents/venv31011/bin/python3
+  ansible.builtin.command:
+    cmd: "python3 combine_outputs.py"
+    executable: /Users/timkinv0815/Documents/venv3106/bin/python3
+    chdir: ./roles/get_interface_status/library
     stdin: |
       {{ tstamp.stdout }},{{ inventory_hostname }}
   delegate_to: localhost

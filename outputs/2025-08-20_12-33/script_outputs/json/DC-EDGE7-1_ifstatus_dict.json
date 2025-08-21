@@ -1,0 +1,1164 @@
+{
+  "DC-EDGE7-1": {
+    "Ethernet1/25": {
+      "Name": "DMZ CALAX04-EM1DS-01A Eth1/21",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet1/26": {
+      "Name": "DMZ CALAX04-EM1DS-01B Eth1/21",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet1/27": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/28": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/29": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/30": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/31": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet1/32": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet2/1": {
+      "Name": "INSIDE-CALA-MOB-PPC-CORP-FW2",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet2/3": {
+      "Name": "DO NOT USE",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet2/5": {
+      "Name": "DO NOT USE",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet2/7": {
+      "Name": "DO NOT USE",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet2/9": {
+      "Name": "DC-AIRCTRL01_PORT01",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet2/10": {
+      "Name": "CALA-MOB-NetScaler-DMZ-8-13-1_Eth10/3",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet2/11": {
+      "Name": "DC-AIRCTRL01_PORT02",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet2/12": {
+      "Name": "CALA-MOB-NetScaler-DMZ-8-13-1_Eth10/4",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet2/13": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet2/14": {
+      "Name": "Downlink to TEMP-DREW-SW1 TE1/1/1",
+      "Status": "sfpAbsent",
+      "Vlan": "3340",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet2/15": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet2/16": {
+      "Name": "CALA-MOB-PPC-CORP-FW3-1:INSIDE",
+      "Status": "sfpAbsent",
+      "Vlan": "trunk",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet2/17": {
+      "Name": "CALAX04-EM1DS-01B Eth1/1",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet2/18": {
+      "Name": "DMZ-CALA-MOB-PPC-CORP-FW2",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet2/19": {
+      "Name": "***DO NOT USE - Port group RSRVD***",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet2/20": {
+      "Name": "***Reserved per Greg's request***",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet2/21": {
+      "Name": "***DO NOT USE - Port group RSRVD***",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet2/22": {
+      "Name": "***Reserved per Greg's request***",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet2/23": {
+      "Name": "***DO NOT USE - Port group RSRVD***",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet2/24": {
+      "Name": "***Reserved per Greg's request***",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet2/25": {
+      "Name": "NEW Paramount DMZ WLC Data ports",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet2/27": {
+      "Name": "NEW Paramount DMZ WLC Data ports",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet2/29": {
+      "Name": "Reserved for New Paramount DMZ Wireless Controllers",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet2/31": {
+      "Name": "*** New link to DC-DIST7-1:Eth9/21 - moved from Eth3/31 on 9/30/21 due to oversubscribtion***",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet3/9": {
+      "Name": "*** To TEL-DIST7-1 4/15 ***",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-LR"
+    },
+    "Ethernet3/10": {
+      "Name": "*** MOVED to Eth2/20 on 10/16/17 due to blade failure: To TEL-DIST7-2 4/15 *",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet3/11": {
+      "Name": "10G Link to DC-DIST1",
+      "Status": "sfpAbsent",
+      "Vlan": "trunk",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet3/12": {
+      "Name": "DC-EDGE7-2:Eth2/16",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet3/13": {
+      "Name": "F5-1 PORT 1.3 FOR REVERSE PROXY",
+      "Status": "disabled",
+      "Vlan": "68",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet3/14": {
+      "Name": "F5-1 Port 1.1",
+      "Status": "disabled",
+      "Vlan": "85",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet3/15": {
+      "Name": "F5-1 Port 1.2",
+      "Status": "disabled",
+      "Vlan": "trunk",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet3/16": {
+      "Name": "DC-INTERNET-RTR1 TE0/1/0 INSIDE INT",
+      "Status": "sfpAbsent",
+      "Vlan": "trunk",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet3/18": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet3/20": {
+      "Name": "DC-INTERNET-FW1 Te0/9 OUTSIDE/DMZ IFACE",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet3/22": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet3/24": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet3/25": {
+      "Name": "DC-CORE7-1",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet3/27": {
+      "Name": "***DO NOT USE - Port group RSRVD***",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet3/29": {
+      "Name": "*** MOVED to Eth2/24 on 10/16/17 due to blade failure: Trunk-To-DC-EDGE7-2",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet3/31": {
+      "Name": "*** New link to DC-DIST7-1:Eth9/21 - moved from Eth4/22 on 3/10/18 due to blade failure",
+      "Status": "sfpAbsent",
+      "Vlan": "trunk",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet4/10": {
+      "Name": "DMZ-CALA-MOB-PPC-CORP-FW2",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet4/12": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet4/14": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet4/16": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet4/18": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet4/20": {
+      "Name": "TEL-DIST7-2:Eth4/15",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-LR"
+    },
+    "Ethernet4/22": {
+      "Name": "*** Old link to DC-DIST7-1:Eth9/21 - moved to Eth3/31 on 3/10/18 due to blade failure",
+      "Status": "sfpAbsent",
+      "Vlan": "trunk",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet4/24": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet7/9": {
+      "Name": "SWIFT_VPNDMZ",
+      "Status": "connected",
+      "Vlan": "96",
+      "Duplex": "full",
+      "Speed": "a-1000",
+      "Type": "1000base-T"
+    },
+    "Ethernet7/10": {
+      "Name": "**SWIFT-VPN-A-ISP2**",
+      "Status": "connected",
+      "Vlan": "1151",
+      "Duplex": "full",
+      "Speed": "a-1000",
+      "Type": "1000base-T"
+    },
+    "Ethernet7/11": {
+      "Name": "Fox Egress DC-INTERNET-RTR1/2",
+      "Status": "connected",
+      "Vlan": "3320",
+      "Duplex": "full",
+      "Speed": "a-1000",
+      "Type": "1000base-SX"
+    },
+    "Ethernet7/13": {
+      "Name": "***Handoff to The Rookie - Streaming playback***",
+      "Status": "connected",
+      "Vlan": "3330",
+      "Duplex": "full",
+      "Speed": "a-1000",
+      "Type": "1000base-LH"
+    },
+    "Ethernet7/14": {
+      "Name": "MOB-MARKETING-VIDEO Sw in Transfer Room",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "a-1000",
+      "Type": "1000base-SX"
+    },
+    "Ethernet7/15": {
+      "Name": "Websense proxy",
+      "Status": "connected",
+      "Vlan": "62",
+      "Duplex": "full",
+      "Speed": "a-1000",
+      "Type": "1000base-T"
+    },
+    "Ethernet7/22": {
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "1000base-T"
+    },
+    "Ethernet7/23": {
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "1000base-T"
+    },
+    "Ethernet7/29": {
+      "Name": "SWIFT_VPNOUTSIDE1",
+      "Status": "connected",
+      "Vlan": "1171",
+      "Duplex": "full",
+      "Speed": "a-1000",
+      "Type": "1000base-T"
+    },
+    "Ethernet7/30": {
+      "Name": "VCS-IN",
+      "Status": "connected",
+      "Vlan": "89",
+      "Duplex": "full",
+      "Speed": "a-1000",
+      "Type": "1000base-T"
+    },
+    "Ethernet7/32": {
+      "Name": "***Reserved for Leo Stream Gateway***",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "a-1000",
+      "Type": "1000base-T"
+    },
+    "Ethernet7/33": {
+      "Name": "DC-INTERNET-VPN2 IF OUTSIDE",
+      "Status": "connected",
+      "Vlan": "85",
+      "Duplex": "full",
+      "Speed": "a-1000",
+      "Type": "1000base-T"
+    },
+    "Ethernet7/34": {
+      "Name": "Downlink to TEMP-DREW-SW1 TE1/1/1",
+      "Status": "notconnect",
+      "Vlan": "3340",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "1000base-LH"
+    },
+    "Ethernet7/35": {
+      "Name": "Websense V10K port C",
+      "Status": "notconnect",
+      "Vlan": "67",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "1000base-T"
+    },
+    "Ethernet7/36": {
+      "Name": "DC-DIST7-1:Eth7/26 Marketing VLAN",
+      "Status": "connected",
+      "Vlan": "733",
+      "Duplex": "full",
+      "Speed": "a-1000",
+      "Type": "1000base-SX"
+    },
+    "Ethernet7/37": {
+      "Name": "DC-DIST7-1:Eth7/27 Marketing VLAN",
+      "Status": "connected",
+      "Vlan": "733",
+      "Duplex": "full",
+      "Speed": "a-1000",
+      "Type": "1000base-SX"
+    },
+    "Ethernet7/38": {
+      "Name": "DC-INTERNET-VPN2 IF DMZ",
+      "Status": "connected",
+      "Vlan": "1519",
+      "Duplex": "full",
+      "Speed": "a-1000",
+      "Type": "1000base-T"
+    },
+    "Ethernet7/40": {
+      "Name": "DC-INTERNET-NIPS1 MANAGEMENT",
+      "Status": "notconnect",
+      "Vlan": "200",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "1000base-T"
+    },
+    "Ethernet7/41": {
+      "Name": "--",
+      "Status": "connected",
+      "Vlan": "190",
+      "Duplex": "full",
+      "Speed": "a-1000",
+      "Type": "1000base-T"
+    },
+    "Ethernet7/44": {
+      "Name": "Websense for Guest Wireless - P1 interface - TSK JAN 01 2013",
+      "Status": "notconnect",
+      "Vlan": "62",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "1000base-T"
+    },
+    "Ethernet8/10": {
+      "Name": "CALAX04-EM1DS-01A Eth1/1",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet8/12": {
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet8/14": {
+      "Name": "DO NOT USE",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet8/16": {
+      "Name": "DO NOT USE",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet8/17": {
+      "Name": "X-Connect to CALA-MOB-NCS5501-1 Te0/0/0/22",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet8/19": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet8/21": {
+      "Name": "X-Connect to CALA-MOB-NCS5501-2 Te0/0/0/22",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet8/23": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet8/25": {
+      "Name": "DC-CORE7-2",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet8/26": {
+      "Name": "DC-EDGE7-2:Eth8/26",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet8/27": {
+      "Name": "RESERVED_RATE-MODE_DEDICATED",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet8/28": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet8/29": {
+      "Name": "RESERVED_RATE-MODE_DEDICATED",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet8/30": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet8/31": {
+      "Name": "RESERVED_RATE-MODE_DEDICATED",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet8/32": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet10/18": {
+      "Name": "FP-INSIDE:E10/18-E1/1",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet10/20": {
+      "Name": "FP-OUTSIDE:E10/20:E1/5",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet10/22": {
+      "Name": "DC-INTERNET-FW1 Te0/8 INSIDE IFACE",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet10/24": {
+      "Name": "CALA-MOB-PPC-CORP-FW3-1:OUTSIDE",
+      "Status": "sfpAbsent",
+      "Vlan": "trunk",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel1": {
+      "Name": "uplink to DC-FW1-SUP",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel2": {
+      "Name": "NIPS FO CHANNEL DC-FW1-SUP AND DC-EDGE7-1",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel3": {
+      "Name": "DC-AIRCTRL1",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel4": {
+      "Name": "DC-DMZ-AIRCTRL1",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel5": {
+      "Name": "DC-AIRCTRL3",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel10": {
+      "Name": "*** 2 x 10Gb link to TEL-DIST7 vPC ***",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "--"
+    },
+    "port-channel15": {
+      "Name": "***PO to Leo Stream KVM HOST***",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel20": {
+      "Name": "INSIDE-CALA-MOB-PPC-CORP-FW2",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "--"
+    },
+    "port-channel21": {
+      "Name": "DMZ-CALA-MOB-PPC-CORP-FW2",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "--"
+    },
+    "port-channel22": {
+      "Name": "OUTSIDE-CALA-MOB-PPC-CORP-FW2",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel25": {
+      "Name": "MOB-MARKETING-VIDEO Sw in Transfer Room",
+      "Status": "noOperMembers",
+      "Vlan": "990",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel27": {
+      "Name": "Uplink DC-DIST1",
+      "Status": "disabled",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel30": {
+      "Name": "--",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "--"
+    },
+    "port-channel40": {
+      "Name": "--",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "--"
+    },
+    "port-channel42": {
+      "Name": "--",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "--"
+    },
+    "port-channel44": {
+      "Name": "CALA-MOB-PPC-CORP-FW3-1:INSIDE",
+      "Status": "noOperMembers",
+      "Vlan": "trunk",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel46": {
+      "Name": "CALA-MOB-PPC-CORP-FW3-1:OUTSIDE",
+      "Status": "noOperMembers",
+      "Vlan": "trunk",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel50": {
+      "Name": "DC-EDGE7 Port-Channel",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "--"
+    },
+    "port-channel200": {
+      "Name": "--",
+      "Status": "noOperMembers",
+      "Vlan": "1",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel401": {
+      "Name": "CALAX04-EM1DS-01AB Po401",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "--"
+    },
+    "port-channel404": {
+      "Name": "DMZ CALAX04-EM1DS-01AB Po404",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "--"
+    },
+    "port-channel911": {
+      "Name": "DC-AIRCTRL01_5520",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "--"
+    },
+    "port-channel2527": {
+      "Name": "NEW Paramount DMZ WLC Data ports",
+      "Status": "connected",
+      "Vlan": "trunk",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "--"
+    },
+    "loopback0": {
+      "Name": "--",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "loopback1": {
+      "Name": "--",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "loopback222": {
+      "Name": "Test-Loopback-For-BGP-Redistribution",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "loopback500": {
+      "Name": "BGP_TEST_LOOPBACK",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan1": {
+      "Name": "--",
+      "Status": "down",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan11": {
+      "Name": "P2P VLAN to DC-EDGE7-2",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan12": {
+      "Name": "DC-INTERNET-FW-PPC INSIDE",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan13": {
+      "Name": "DC-INTERNET-FW-WWTO INSIDE",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan14": {
+      "Name": "DC-INTERNET-FW-ADMIN INSIDE",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan16": {
+      "Name": "DC-INTERNET-VPN-CORP INSIDE",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan18": {
+      "Name": "Websense 10k",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan21": {
+      "Name": "PPC Remote VPN",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan22": {
+      "Name": "VIA Remote VPN",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan25": {
+      "Name": "PPC Ironman-New",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan61": {
+      "Name": "CORPORATE WIRELESS",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan84": {
+      "Name": "LEGACY OUTSIDE",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan201": {
+      "Name": "WIRELESS MANAGEMENT",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan413": {
+      "Name": "Prisma PaloAlto VM",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan615": {
+      "Name": "CBS-INTERNAL",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan616": {
+      "Name": "viaNYwirelessWPA",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan721": {
+      "Name": "Animation Isilon",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan750": {
+      "Name": "CORPORATE WIRELESS-2",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan850": {
+      "Name": "ESXi",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan884": {
+      "Name": "--",
+      "Status": "down",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan999": {
+      "Name": "Animation",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan2792": {
+      "Name": "CIENA",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    }
+  }
+}

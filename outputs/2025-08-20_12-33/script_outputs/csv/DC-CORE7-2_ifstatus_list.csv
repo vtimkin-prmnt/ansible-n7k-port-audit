@@ -1,0 +1,27 @@
+,Hostname,Port,Name,Status,Vlan,Duplex,Speed,Type
+1,DC-CORE7-2,mgmt0,--,notconnect,routed,auto,auto,--
+2,DC-CORE7-2,Ethernet2/9,*** Uplink to DC-CORE7-1 port 2/9 ***,connected,routed,full,10G,10Gbase-SR
+3,DC-CORE7-2,Ethernet2/11,*** Uplink to Tel-Dist7-2 port e2/10 ***,connected,routed,full,10G,10Gbase-LR
+4,DC-CORE7-2,Ethernet2/13,*** Routed link to DC-Dist7-2 Port E2/32 ***,connected,routed,full,10G,10Gbase-SR
+5,DC-CORE7-2,Ethernet2/15,DC-EDGE7-2,connected,routed,full,10G,10Gbase-SR
+6,DC-CORE7-2,Ethernet3/18,DC-EDGE7-1,connected,routed,full,10G,10Gbase-SR
+7,DC-CORE7-2,Ethernet3/20,***DO NOT USE - Port group RSRVD***,sfpAbsent,routed,auto,auto,--
+8,DC-CORE7-2,Ethernet3/22,***DO NOT USE - Port group RSRVD***,sfpAbsent,routed,auto,auto,--
+9,DC-CORE7-2,Ethernet3/24,***DO NOT USE - Port group RSRVD***,sfpAbsent,routed,auto,auto,--
+10,DC-CORE7-2,Ethernet7/43,--,sfpAbsent,routed,auto,auto,--
+11,DC-CORE7-2,Ethernet7/44,--,sfpAbsent,routed,auto,auto,--
+12,DC-CORE7-2,Ethernet7/45,--,sfpAbsent,routed,auto,auto,--
+13,DC-CORE7-2,Ethernet7/46,--,sfpAbsent,routed,auto,auto,--
+14,DC-CORE7-2,Ethernet8/18,--,sfpAbsent,routed,auto,auto,--
+15,DC-CORE7-2,Ethernet8/20,--,sfpAbsent,routed,auto,auto,--
+16,DC-CORE7-2,Ethernet8/22,CALAX04-MOBCS-01A,connected,routed,full,10G,10Gbase-SR
+17,DC-CORE7-2,Ethernet8/24,CALAX04-MOBCS-01B,connected,routed,full,10G,10Gbase-SR
+18,DC-CORE7-2,Ethernet9/9,*** Uplink to TEL-N7K-2 Port 2/17 ***,connected,routed,full,10G,10Gbase-LR
+19,DC-CORE7-2,Ethernet9/11,*** Uplink to Tel-Dist7-1 port e2/10 ***,connected,routed,full,10G,10Gbase-LR
+20,DC-CORE7-2,Ethernet9/13,*** Routed Link to DC-Dist7-1 Port E2/30 ***,connected,routed,full,10G,10Gbase-SR
+21,DC-CORE7-2,Ethernet9/15,***DO NOT USE - Port group RSRVD***,sfpAbsent,routed,auto,auto,--
+22,DC-CORE7-2,port-channel6,--,noOperMembers,routed,auto,auto,--
+23,DC-CORE7-2,port-channel53,--,noOperMembers,routed,auto,auto,--
+24,DC-CORE7-2,port-channel70,--,noOperMembers,routed,auto,auto,--
+25,DC-CORE7-2,loopback0,*** Management Interface on Data Center Core VDC ***,connected,routed,auto,auto,--
+26,DC-CORE7-2,Vlan1,--,down,routed,auto,auto,--

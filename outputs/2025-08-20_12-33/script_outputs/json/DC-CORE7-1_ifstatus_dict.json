@@ -1,0 +1,140 @@
+{
+  "DC-CORE7-1": {
+    "mgmt0": {
+      "Name": "--",
+      "Status": "notconnect",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet4/9": {
+      "Name": "*** Uplink to DC-CORE7-2 port 2/9 ***",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet4/11": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet4/13": {
+      "Name": "*** Routed link to DC-Dist7-2 port E2/30 ***",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet4/15": {
+      "Name": "*** Link to DC-EDGE7-2 e4/25 ***",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet8/18": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet8/20": {
+      "Name": "--",
+      "Status": "sfpAbsent",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Ethernet8/22": {
+      "Name": "CALAX04-MOBCS-01A",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet8/24": {
+      "Name": "CALAX04-MOBCS-01B",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet9/9": {
+      "Name": "*** Uplink to TEL-N7K-1 Port 2/17 ***",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-LR"
+    },
+    "Ethernet9/11": {
+      "Name": "*** Uplink to Tel-Dist7-1 Eth9/13 ***",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-LR"
+    },
+    "Ethernet9/13": {
+      "Name": "*** Routed link to DC-Dist7-1 Port E2/32 ***",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "Ethernet9/15": {
+      "Name": "*** Link to DC-EDGE7-1 e9/9 ***",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "full",
+      "Speed": "10G",
+      "Type": "10Gbase-SR"
+    },
+    "port-channel10": {
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "port-channel11": {
+      "Name": "--",
+      "Status": "disabled",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "loopback0": {
+      "Name": "*** Management Interface on Data Center Core VDC ***",
+      "Status": "connected",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    },
+    "Vlan1": {
+      "Name": "--",
+      "Status": "down",
+      "Vlan": "routed",
+      "Duplex": "auto",
+      "Speed": "auto",
+      "Type": "--"
+    }
+  }
+}

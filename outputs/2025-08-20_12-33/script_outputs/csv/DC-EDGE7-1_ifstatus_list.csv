@@ -1,0 +1,146 @@
+,Hostname,Port,Name,Status,Vlan,Duplex,Speed,Type
+1,DC-EDGE7-1,Ethernet1/25,DMZ CALAX04-EM1DS-01A Eth1/21,connected,trunk,full,10G,10Gbase-SR
+2,DC-EDGE7-1,Ethernet1/26,DMZ CALAX04-EM1DS-01B Eth1/21,connected,trunk,full,10G,10Gbase-SR
+3,DC-EDGE7-1,Ethernet1/27,--,sfpAbsent,routed,auto,auto,--
+4,DC-EDGE7-1,Ethernet1/28,--,sfpAbsent,routed,auto,auto,--
+5,DC-EDGE7-1,Ethernet1/29,--,sfpAbsent,routed,auto,auto,--
+6,DC-EDGE7-1,Ethernet1/30,--,sfpAbsent,routed,auto,auto,--
+7,DC-EDGE7-1,Ethernet1/31,--,sfpAbsent,routed,auto,auto,--
+8,DC-EDGE7-1,Ethernet1/32,--,sfpAbsent,routed,auto,auto,--
+9,DC-EDGE7-1,Ethernet2/1,INSIDE-CALA-MOB-PPC-CORP-FW2,connected,trunk,full,10G,10Gbase-SR
+10,DC-EDGE7-1,Ethernet2/3,DO NOT USE,sfpAbsent,routed,auto,auto,--
+11,DC-EDGE7-1,Ethernet2/5,DO NOT USE,sfpAbsent,routed,auto,auto,--
+12,DC-EDGE7-1,Ethernet2/7,DO NOT USE,sfpAbsent,routed,auto,auto,--
+13,DC-EDGE7-1,Ethernet2/9,DC-AIRCTRL01_PORT01,connected,trunk,full,10G,10Gbase-SR
+14,DC-EDGE7-1,Ethernet2/10,CALA-MOB-NetScaler-DMZ-8-13-1_Eth10/3,connected,trunk,full,10G,10Gbase-SR
+15,DC-EDGE7-1,Ethernet2/11,DC-AIRCTRL01_PORT02,connected,trunk,full,10G,10Gbase-SR
+16,DC-EDGE7-1,Ethernet2/12,CALA-MOB-NetScaler-DMZ-8-13-1_Eth10/4,connected,trunk,full,10G,10Gbase-SR
+17,DC-EDGE7-1,Ethernet2/13,--,sfpAbsent,routed,auto,auto,--
+18,DC-EDGE7-1,Ethernet2/14,Downlink to TEMP-DREW-SW1 TE1/1/1,sfpAbsent,3340,auto,auto,--
+19,DC-EDGE7-1,Ethernet2/15,--,sfpAbsent,routed,auto,auto,--
+20,DC-EDGE7-1,Ethernet2/16,CALA-MOB-PPC-CORP-FW3-1:INSIDE,sfpAbsent,trunk,auto,auto,--
+21,DC-EDGE7-1,Ethernet2/17,CALAX04-EM1DS-01B Eth1/1,connected,trunk,full,10G,10Gbase-SR
+22,DC-EDGE7-1,Ethernet2/18,DMZ-CALA-MOB-PPC-CORP-FW2,connected,trunk,full,10G,10Gbase-SR
+23,DC-EDGE7-1,Ethernet2/19,***DO NOT USE - Port group RSRVD***,sfpAbsent,routed,auto,auto,--
+24,DC-EDGE7-1,Ethernet2/20,***Reserved per Greg's request***,sfpAbsent,routed,auto,auto,--
+25,DC-EDGE7-1,Ethernet2/21,***DO NOT USE - Port group RSRVD***,sfpAbsent,routed,auto,auto,--
+26,DC-EDGE7-1,Ethernet2/22,***Reserved per Greg's request***,sfpAbsent,routed,auto,auto,--
+27,DC-EDGE7-1,Ethernet2/23,***DO NOT USE - Port group RSRVD***,sfpAbsent,routed,auto,auto,--
+28,DC-EDGE7-1,Ethernet2/24,***Reserved per Greg's request***,sfpAbsent,routed,auto,auto,--
+29,DC-EDGE7-1,Ethernet2/25,NEW Paramount DMZ WLC Data ports,connected,trunk,full,10G,10Gbase-SR
+30,DC-EDGE7-1,Ethernet2/27,NEW Paramount DMZ WLC Data ports,connected,trunk,full,10G,10Gbase-SR
+31,DC-EDGE7-1,Ethernet2/29,Reserved for New Paramount DMZ Wireless Controllers,sfpAbsent,routed,auto,auto,--
+32,DC-EDGE7-1,Ethernet2/31,*** New link to DC-DIST7-1:Eth9/21 - moved from Eth3/31 on 9/30/21 due to oversubscribtion***,connected,trunk,full,10G,10Gbase-SR
+33,DC-EDGE7-1,Ethernet3/9,*** To TEL-DIST7-1 4/15 ***,connected,trunk,full,10G,10Gbase-LR
+34,DC-EDGE7-1,Ethernet3/10,*** MOVED to Eth2/20 on 10/16/17 due to blade failure: To TEL-DIST7-2 4/15 *,connected,trunk,full,10G,10Gbase-SR
+35,DC-EDGE7-1,Ethernet3/11,10G Link to DC-DIST1,sfpAbsent,trunk,auto,auto,--
+36,DC-EDGE7-1,Ethernet3/12,DC-EDGE7-2:Eth2/16,connected,trunk,full,10G,10Gbase-SR
+37,DC-EDGE7-1,Ethernet3/13,F5-1 PORT 1.3 FOR REVERSE PROXY,disabled,68,auto,auto,10Gbase-SR
+38,DC-EDGE7-1,Ethernet3/14,F5-1 Port 1.1,disabled,85,auto,auto,10Gbase-SR
+39,DC-EDGE7-1,Ethernet3/15,F5-1 Port 1.2,disabled,trunk,auto,auto,10Gbase-SR
+40,DC-EDGE7-1,Ethernet3/16,DC-INTERNET-RTR1 TE0/1/0 INSIDE INT,sfpAbsent,trunk,auto,auto,--
+41,DC-EDGE7-1,Ethernet3/18,--,sfpAbsent,routed,auto,auto,--
+42,DC-EDGE7-1,Ethernet3/20,DC-INTERNET-FW1 Te0/9 OUTSIDE/DMZ IFACE,connected,trunk,full,10G,10Gbase-SR
+43,DC-EDGE7-1,Ethernet3/22,--,sfpAbsent,routed,auto,auto,--
+44,DC-EDGE7-1,Ethernet3/24,--,sfpAbsent,routed,auto,auto,--
+45,DC-EDGE7-1,Ethernet3/25,DC-CORE7-1,connected,routed,full,10G,10Gbase-SR
+46,DC-EDGE7-1,Ethernet3/27,***DO NOT USE - Port group RSRVD***,sfpAbsent,routed,auto,auto,--
+47,DC-EDGE7-1,Ethernet3/29,*** MOVED to Eth2/24 on 10/16/17 due to blade failure: Trunk-To-DC-EDGE7-2,connected,trunk,full,10G,10Gbase-SR
+48,DC-EDGE7-1,Ethernet3/31,*** New link to DC-DIST7-1:Eth9/21 - moved from Eth4/22 on 3/10/18 due to blade failure,sfpAbsent,trunk,auto,auto,--
+49,DC-EDGE7-1,Ethernet4/10,DMZ-CALA-MOB-PPC-CORP-FW2,connected,trunk,full,10G,10Gbase-SR
+50,DC-EDGE7-1,Ethernet4/12,--,sfpAbsent,routed,auto,auto,--
+51,DC-EDGE7-1,Ethernet4/14,--,sfpAbsent,routed,auto,auto,--
+52,DC-EDGE7-1,Ethernet4/16,--,sfpAbsent,routed,auto,auto,--
+53,DC-EDGE7-1,Ethernet4/18,--,sfpAbsent,routed,auto,auto,--
+54,DC-EDGE7-1,Ethernet4/20,TEL-DIST7-2:Eth4/15,connected,trunk,full,10G,10Gbase-LR
+55,DC-EDGE7-1,Ethernet4/22,*** Old link to DC-DIST7-1:Eth9/21 - moved to Eth3/31 on 3/10/18 due to blade failure,sfpAbsent,trunk,auto,auto,--
+56,DC-EDGE7-1,Ethernet4/24,--,sfpAbsent,routed,auto,auto,--
+57,DC-EDGE7-1,Ethernet7/9,SWIFT_VPNDMZ,connected,96,full,a-1000,1000base-T
+58,DC-EDGE7-1,Ethernet7/10,**SWIFT-VPN-A-ISP2**,connected,1151,full,a-1000,1000base-T
+59,DC-EDGE7-1,Ethernet7/11,Fox Egress DC-INTERNET-RTR1/2,connected,3320,full,a-1000,1000base-SX
+60,DC-EDGE7-1,Ethernet7/13,***Handoff to The Rookie - Streaming playback***,connected,3330,full,a-1000,1000base-LH
+61,DC-EDGE7-1,Ethernet7/14,MOB-MARKETING-VIDEO Sw in Transfer Room,connected,trunk,full,a-1000,1000base-SX
+62,DC-EDGE7-1,Ethernet7/15,Websense proxy,connected,62,full,a-1000,1000base-T
+63,DC-EDGE7-1,Ethernet7/22,--,disabled,routed,auto,auto,1000base-T
+64,DC-EDGE7-1,Ethernet7/23,--,disabled,routed,auto,auto,1000base-T
+65,DC-EDGE7-1,Ethernet7/29,SWIFT_VPNOUTSIDE1,connected,1171,full,a-1000,1000base-T
+66,DC-EDGE7-1,Ethernet7/30,VCS-IN,connected,89,full,a-1000,1000base-T
+67,DC-EDGE7-1,Ethernet7/32,***Reserved for Leo Stream Gateway***,connected,trunk,full,a-1000,1000base-T
+68,DC-EDGE7-1,Ethernet7/33,DC-INTERNET-VPN2 IF OUTSIDE,connected,85,full,a-1000,1000base-T
+69,DC-EDGE7-1,Ethernet7/34,Downlink to TEMP-DREW-SW1 TE1/1/1,notconnect,3340,auto,auto,1000base-LH
+70,DC-EDGE7-1,Ethernet7/35,Websense V10K port C,notconnect,67,auto,auto,1000base-T
+71,DC-EDGE7-1,Ethernet7/36,DC-DIST7-1:Eth7/26 Marketing VLAN,connected,733,full,a-1000,1000base-SX
+72,DC-EDGE7-1,Ethernet7/37,DC-DIST7-1:Eth7/27 Marketing VLAN,connected,733,full,a-1000,1000base-SX
+73,DC-EDGE7-1,Ethernet7/38,DC-INTERNET-VPN2 IF DMZ,connected,1519,full,a-1000,1000base-T
+74,DC-EDGE7-1,Ethernet7/40,DC-INTERNET-NIPS1 MANAGEMENT,notconnect,200,auto,auto,1000base-T
+75,DC-EDGE7-1,Ethernet7/41,--,connected,190,full,a-1000,1000base-T
+76,DC-EDGE7-1,Ethernet7/44,Websense for Guest Wireless - P1 interface - TSK JAN 01 2013,notconnect,62,auto,auto,1000base-T
+77,DC-EDGE7-1,Ethernet8/10,CALAX04-EM1DS-01A Eth1/1,connected,trunk,full,10G,10Gbase-SR
+78,DC-EDGE7-1,Ethernet8/12,--,disabled,routed,auto,auto,10Gbase-SR
+79,DC-EDGE7-1,Ethernet8/14,DO NOT USE,sfpAbsent,routed,auto,auto,--
+80,DC-EDGE7-1,Ethernet8/16,DO NOT USE,sfpAbsent,routed,auto,auto,--
+81,DC-EDGE7-1,Ethernet8/17,X-Connect to CALA-MOB-NCS5501-1 Te0/0/0/22,connected,routed,full,10G,10Gbase-SR
+82,DC-EDGE7-1,Ethernet8/19,--,sfpAbsent,routed,auto,auto,--
+83,DC-EDGE7-1,Ethernet8/21,X-Connect to CALA-MOB-NCS5501-2 Te0/0/0/22,connected,routed,full,10G,10Gbase-SR
+84,DC-EDGE7-1,Ethernet8/23,--,sfpAbsent,routed,auto,auto,--
+85,DC-EDGE7-1,Ethernet8/25,DC-CORE7-2,connected,routed,full,10G,10Gbase-SR
+86,DC-EDGE7-1,Ethernet8/26,DC-EDGE7-2:Eth8/26,connected,trunk,full,10G,10Gbase-SR
+87,DC-EDGE7-1,Ethernet8/27,RESERVED_RATE-MODE_DEDICATED,sfpAbsent,routed,auto,auto,--
+88,DC-EDGE7-1,Ethernet8/28,--,sfpAbsent,routed,auto,auto,--
+89,DC-EDGE7-1,Ethernet8/29,RESERVED_RATE-MODE_DEDICATED,sfpAbsent,routed,auto,auto,--
+90,DC-EDGE7-1,Ethernet8/30,--,sfpAbsent,routed,auto,auto,--
+91,DC-EDGE7-1,Ethernet8/31,RESERVED_RATE-MODE_DEDICATED,sfpAbsent,routed,auto,auto,--
+92,DC-EDGE7-1,Ethernet8/32,--,sfpAbsent,routed,auto,auto,--
+93,DC-EDGE7-1,Ethernet10/18,FP-INSIDE:E10/18-E1/1,connected,trunk,full,10G,10Gbase-SR
+94,DC-EDGE7-1,Ethernet10/20,FP-OUTSIDE:E10/20:E1/5,connected,trunk,full,10G,10Gbase-SR
+95,DC-EDGE7-1,Ethernet10/22,DC-INTERNET-FW1 Te0/8 INSIDE IFACE,connected,trunk,full,10G,10Gbase-SR
+96,DC-EDGE7-1,Ethernet10/24,CALA-MOB-PPC-CORP-FW3-1:OUTSIDE,sfpAbsent,trunk,auto,auto,--
+97,DC-EDGE7-1,port-channel1,uplink to DC-FW1-SUP,noOperMembers,1,auto,auto,--
+98,DC-EDGE7-1,port-channel2,NIPS FO CHANNEL DC-FW1-SUP AND DC-EDGE7-1,noOperMembers,1,auto,auto,--
+99,DC-EDGE7-1,port-channel3,DC-AIRCTRL1,noOperMembers,1,auto,auto,--
+100,DC-EDGE7-1,port-channel4,DC-DMZ-AIRCTRL1,noOperMembers,1,auto,auto,--
+101,DC-EDGE7-1,port-channel5,DC-AIRCTRL3,noOperMembers,1,auto,auto,--
+102,DC-EDGE7-1,port-channel10,*** 2 x 10Gb link to TEL-DIST7 vPC ***,connected,trunk,full,10G,--
+103,DC-EDGE7-1,port-channel15,***PO to Leo Stream KVM HOST***,noOperMembers,1,auto,auto,--
+104,DC-EDGE7-1,port-channel20,INSIDE-CALA-MOB-PPC-CORP-FW2,connected,trunk,full,10G,--
+105,DC-EDGE7-1,port-channel21,DMZ-CALA-MOB-PPC-CORP-FW2,connected,trunk,full,10G,--
+106,DC-EDGE7-1,port-channel22,OUTSIDE-CALA-MOB-PPC-CORP-FW2,noOperMembers,1,auto,auto,--
+107,DC-EDGE7-1,port-channel25,MOB-MARKETING-VIDEO Sw in Transfer Room,noOperMembers,990,auto,auto,--
+108,DC-EDGE7-1,port-channel27,Uplink DC-DIST1,disabled,1,auto,auto,--
+109,DC-EDGE7-1,port-channel30,--,connected,trunk,full,10G,--
+110,DC-EDGE7-1,port-channel40,--,connected,trunk,full,10G,--
+111,DC-EDGE7-1,port-channel42,--,connected,trunk,full,10G,--
+112,DC-EDGE7-1,port-channel44,CALA-MOB-PPC-CORP-FW3-1:INSIDE,noOperMembers,trunk,auto,auto,--
+113,DC-EDGE7-1,port-channel46,CALA-MOB-PPC-CORP-FW3-1:OUTSIDE,noOperMembers,trunk,auto,auto,--
+114,DC-EDGE7-1,port-channel50,DC-EDGE7 Port-Channel,connected,trunk,full,10G,--
+115,DC-EDGE7-1,port-channel200,--,noOperMembers,1,auto,auto,--
+116,DC-EDGE7-1,port-channel401,CALAX04-EM1DS-01AB Po401,connected,trunk,full,10G,--
+117,DC-EDGE7-1,port-channel404,DMZ CALAX04-EM1DS-01AB Po404,connected,trunk,full,10G,--
+118,DC-EDGE7-1,port-channel911,DC-AIRCTRL01_5520,connected,trunk,full,10G,--
+119,DC-EDGE7-1,port-channel2527,NEW Paramount DMZ WLC Data ports,connected,trunk,full,10G,--
+120,DC-EDGE7-1,loopback0,--,connected,routed,auto,auto,--
+121,DC-EDGE7-1,loopback1,--,connected,routed,auto,auto,--
+122,DC-EDGE7-1,loopback222,Test-Loopback-For-BGP-Redistribution,connected,routed,auto,auto,--
+123,DC-EDGE7-1,loopback500,BGP_TEST_LOOPBACK,connected,routed,auto,auto,--
+124,DC-EDGE7-1,Vlan1,--,down,routed,auto,auto,--
+125,DC-EDGE7-1,Vlan11,P2P VLAN to DC-EDGE7-2,connected,routed,auto,auto,--
+126,DC-EDGE7-1,Vlan12,DC-INTERNET-FW-PPC INSIDE,connected,routed,auto,auto,--
+127,DC-EDGE7-1,Vlan13,DC-INTERNET-FW-WWTO INSIDE,connected,routed,auto,auto,--
+128,DC-EDGE7-1,Vlan14,DC-INTERNET-FW-ADMIN INSIDE,connected,routed,auto,auto,--
+129,DC-EDGE7-1,Vlan16,DC-INTERNET-VPN-CORP INSIDE,connected,routed,auto,auto,--
+130,DC-EDGE7-1,Vlan18,Websense 10k,connected,routed,auto,auto,--
+131,DC-EDGE7-1,Vlan21,PPC Remote VPN,connected,routed,auto,auto,--
+132,DC-EDGE7-1,Vlan22,VIA Remote VPN,connected,routed,auto,auto,--
+133,DC-EDGE7-1,Vlan25,PPC Ironman-New,connected,routed,auto,auto,--
+134,DC-EDGE7-1,Vlan61,CORPORATE WIRELESS,connected,routed,auto,auto,--
+135,DC-EDGE7-1,Vlan84,LEGACY OUTSIDE,connected,routed,auto,auto,--
+136,DC-EDGE7-1,Vlan201,WIRELESS MANAGEMENT,connected,routed,auto,auto,--
+137,DC-EDGE7-1,Vlan413,Prisma PaloAlto VM,connected,routed,auto,auto,--
+138,DC-EDGE7-1,Vlan615,CBS-INTERNAL,connected,routed,auto,auto,--
+139,DC-EDGE7-1,Vlan616,viaNYwirelessWPA,connected,routed,auto,auto,--
+140,DC-EDGE7-1,Vlan721,Animation Isilon,connected,routed,auto,auto,--
+141,DC-EDGE7-1,Vlan750,CORPORATE WIRELESS-2,connected,routed,auto,auto,--
+142,DC-EDGE7-1,Vlan850,ESXi,connected,routed,auto,auto,--
+143,DC-EDGE7-1,Vlan884,--,down,routed,auto,auto,--
+144,DC-EDGE7-1,Vlan999,Animation,connected,routed,auto,auto,--
+145,DC-EDGE7-1,Vlan2792,CIENA,connected,routed,auto,auto,--
